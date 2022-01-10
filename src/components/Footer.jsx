@@ -1,22 +1,15 @@
 import React from "react";
 import logofooter from "../images/logo.png";
-// import LocationOnIcon from '@material-ui/icons/LocationOn';
-// import PhoneIcon from '@material-ui/icons/Phone';
-// import MailIcon from '@material-ui/icons/Mail';
-// import WhatsAppIcon from '@material-ui/icons/WhatsApp';
-// import FacebookIcon from '@material-ui/icons/Facebook';
-// import InstagramIcon from '@material-ui/icons/Instagram';
-// import TwitterIcon from '@material-ui/icons/Twitter';
-// import LinkedInIcon from '@material-ui/icons/LinkedIn';
-// import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import StoreIcon from '@mui/icons-material/Store';
 
+import Button from '@mui/material/Button';
 
 
 
@@ -25,24 +18,24 @@ function Footer() {
     <div className="footer">
       <div className="container">
         <div className="row py-3">
-          <div className="col-lg-4 col-md-6 col-sm-12 text-center">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <img src={logofooter} alt="logo-madasafaritour" className="logofooter" />
             <p className="description-footer">MADA SAFARI TOUR Bespoke & Luxury holidays throughout Madagascar. Book it now for your dream holiday</p>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 text-center">
-            <h5 className="mx-lg-4">Contact</h5>
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <h5 className="contacts">Contact</h5>
             <div className="contact-footer">
 
-              <div className="contact-list ">
-                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> Mada Safari Tours S.A, N7 PK2 en façe JADIDA </a> <br />
-                <a href="tel:+261 33 63 811"> +261 33 63 811</a> <br />
+              <div className="contact-list">
+                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <StoreIcon/>Mada Safari Tours S.A</a> <br />
+                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> <br />
                 <a href="mailto:cs@qerozia.io"> <MailIcon /> cs@madasaritours.com </a> <br />
-                <a href="tel:+261 33 63 811"> <WhatsAppIcon /> +261 33 63 811</a> <br />
+                <a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> <br />
               </div>
-
+              
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 text-center">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <h5>Retrouvez-nous sur:</h5>
             <div className="social-footer">
               <a href="https://web.facebook.com/qeroziadigital" className="mx-2"><FacebookIcon /></a>
@@ -56,6 +49,11 @@ function Footer() {
               <a href="#terms">Disclaimer</a>
             </div>
 
+            <div className="newsletter">
+              <input type="email" name="newsletter" className="mailInput" placeholder="example@email.com"/> <a href="#subs"><Button className='subscribe' variant="contained">Subscribe</Button></a>
+                        
+            </div>
+
 
 
 
@@ -64,8 +62,8 @@ function Footer() {
 
         </div>
       </div>
-      <div className="copyright text-center">
-        <p>Copyright © MadaSafariTour 2022 - All rights reserved</p>
+      <div className="copyright text-center py-1">
+        <p className="my-1">Copyright © <a className="copyrightText" href="#Home">MadaSafariTour</a> 2022 - All rights reserved</p>
       </div>
     </div>
   );

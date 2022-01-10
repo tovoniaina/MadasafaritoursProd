@@ -82,6 +82,10 @@ nav ul{
   color: var(--primary-white) !important;
 }
 
+.social{
+  text-align: right;
+}
+
 .contact > a{
   color: var(--primary-white) !important;
 }
@@ -126,16 +130,24 @@ html, body {
 }
 
 .contact-list > a {
-  margin: 0px 2rem !important;
   color: var(--primary-white);
   text-decoration: none !important;
   cursor: pointer !important;
+}
+
+.contact-list > a:hover{
+  color: var(--primary-orange);
 }
 
 .social-footer > a{
   color: var(--primary-white);
   cursor: pointer !important;
 }
+
+.social-footer > a:hover{
+  color: var(--primary-orange);
+}
+
 
 .legacy > a{
   color: var(--primary-white) !important;
@@ -148,4 +160,119 @@ html, body {
 .copyright{
   background-color: var(--primary-orange);
   color: var(--primary-grey);
+}
+
+.copyrightText> a{
+  color: var(--primary-grey);
+}
+
+.copyrightText> a:hover{
+  color: var(--primary-brown);
+}
+
+.subscribe{
+  background-color: var(--primary-orange) !important;
+  color: var(--primary-grey) !important;
+  text-transform:none !important;
+  margin-bottom: 4px !important;
+  text-decoration: none !important;
+}
+
+.mailInput{
+  height: 40px;
+  margin-top: 2px;
+  border-radius: 5px;
+  padding: 10px !important;
+}
+/**************PROPOS SECTION1*************/
+/*
+#AproposSection1{   
+        
+}
+*/
+#AproposSection1>h4{   
+  text-align: center;   
+}
+#AproposSection1>p{   
+  text-align: justify;    
+}
+
+/*Commentaire test branch*/
+h3{
+  text-emphasis: none;
+}
+
+/*******************TEAM****************/
+
+
+.img1{
+  width: 200px;
+  height: 200px;
+  
+}
+.team-photo{
+  justify-content: center;
+  display: block !important;
+  margin-left: auto;
+margin-right: auto;
+}
+
+
+.team-section{
+  color: var(--primary-grey) !important;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  
+}
+
+/* #bg-conf{
+  background-image: url("../images/qerozia-photo.png") !important;
+  background-repeat: repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
+.card-team-each{
+  background-color: transparent;
+  color: var(--primary-orange);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  box-shadow: 0 4px 8px 0 var(--primary-grey), 0 6px 20px 0 var(--primary-grey) !important;
+  text-align: center;
+}
+
+.espacement{
+  margin-right: 80px !important;
+  margin-left: 80px !important;
+}
+
+.nom-team{
+  border: 2px solid var(--primary-orange) !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  background-color: var(--primary-orange);
+  color: var(--primary-grey);
+  text-align: center;
+}
+
+.social-icon{
+  color: var(--primary-orange) !important;
+}
+
+.nom-poste{
+  color: var(--primary-orange) !important;
+}
+
+.card-body{
+  justify-content: center !important;
+}
+
+.card-text{
+  color: var(--primary-orange);
+}
+
+.card-group{
+  background-color: var(--primary-grey) !important;
 }

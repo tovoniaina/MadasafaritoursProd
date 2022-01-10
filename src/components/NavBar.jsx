@@ -39,7 +39,7 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Team" className="nav-link"><GroupsIcon />Team</Link>
+                            <Link to="/Team" className="nav-link"><GroupsIcon />Itinerary</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/Tour" className="nav-link"><TravelExploreIcon />Tour</Link>
@@ -52,6 +52,8 @@ function NavBar() {
                         <li className="nav-item">
                             <a className='booknow' href="#navtop"><Button className='BtnBookNow' variant="contained"><EventAvailableIcon /> Book Now</Button></a>
                         </li>
+
+                        
 
 
 

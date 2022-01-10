@@ -1,41 +1,70 @@
 import React from 'react'
+import ImageSection1 from '../images/marojejy.png'
 
 function AboutUs() {
     return (
         <div className='container'>
-            <h1>my name is About us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
+            <section id="AproposSection1" className="my-3">
+        <div className="row my-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
+                <h4 className="text-center">Titre</h4>
+                <p className="text-center">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a odit autem repellendus doloribus minus excepturi eos ut placeat blanditiis non reprehenderit quo dicta, porro laborum. Hic rem a corrupti.
+                    Commodi dolore molestias quibusdam laudantium suscipit sed autem fugiat error pariatur voluptates necessitatibus excepturi maiores sint aliquam, id placeat obcaecati, expedita officiis laborum ipsam. Odit cupiditate accusantium aperiam sed eius.
+                    Officiis, aperiam provident dolor numquam dicta placeat adipisci earum praesentium saepe facere vel, libero sed quisquam ea doloribus repellendus, pariatur optio? Dolore, modi! Obcaecati quasi consectetur, autem quam illum earum.</p>
+                </p>
+            </div>
+        </div> 
+        <div className="row">
+            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="hovereffect">
+        <img className="img-responsive img-fluid" src={ImageSection1} alt=""/>
+        
+    </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-sm-12">
+                <div className="row">
+                    <div className="col-12">
+                        <h4 className="AproposSection">Titre</h4>
+                        <p className="text-justify">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        </p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <h4 className="AproposSection">Titre</h4>
+                        <p className="text-justify">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        </p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <h4 className="AproposSection">Titre</h4>
+                        <p className="text-justify">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. 
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        </p>                            
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
         </div>
     )
 }
