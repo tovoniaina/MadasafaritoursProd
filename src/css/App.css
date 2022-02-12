@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+
 :root{
   /****************BODY FONT****************/
   --bodyFont: "Ubuntu";
@@ -69,15 +70,8 @@ nav ul{
 }
 
 /****************SLIDER****************/
-.Slider{
 
-}
 
 /****************FOOTER****************/
 .footer{
-  /* background-image: url('../images/curve-bg-footer.svg'); */
-  background-repeat: no-repeat;
-  width: 800px;
-  height: 1200px;
-  display: flex;
 }

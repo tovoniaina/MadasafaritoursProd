@@ -7,7 +7,7 @@ function Home() {
 
         <main id='Home'>
             <Slider />
-            <Flickly />
+            {/* <Flickly /> */}
         </main>
     )
 }
