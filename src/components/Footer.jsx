@@ -1,31 +1,18 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import backgroundImg from '../images/curve-bg-footer.svg'
+import Wave from 'react-wavify'
 
-function Footer() {
-    return (
-
-        <div className='row footer'>
-            <img className='d-flex' src={backgroundImg} alt="img"/> 
-            <div className="col-lg-4 col-md-6 col-sm-12 tongotra">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis quisquam sequi nisi praesentium ad dolores non, ullam perspiciatis ratione provident maxime corrupti obcaecati quae aperiam inventore unde impedit id!</p>
-            </div>
-
-            <div className="col-lg-4  col-md-6 col-sm-12 tongotra">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis quisquam sequi nisi praesentium ad dolores non, ullam perspiciatis ratione provident maxime corrupti obcaecati quae aperiam inventore unde impedit id!</p>
-            </div>
-
-            <div className="col-lg-4  col-md-6 col-sm-12 tongotra">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis quisquam sequi nisi praesentium ad dolores non, ullam perspiciatis ratione provident maxime corrupti obcaecati quae aperiam inventore unde impedit id!</p>
-            </div>
-        </div>
-        
-
-    
-
-
-    )
-}
+const Footer = () => (
+  <div className="wave">
+<Wave fill="url(#gradient)">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="10%"  stopColor="#296c99" />
+      <stop offset="90%" stopColor="#6ebff5" />
+    </linearGradient>
+  </defs>
+</Wave>
+  </div>
+  
+)
 
 export default Footer
-

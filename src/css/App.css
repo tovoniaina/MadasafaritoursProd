@@ -72,6 +72,16 @@ nav ul{
 /****************SLIDER****************/
 
 
-/****************FOOTER****************/
-.footer{
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+
+/****************FOOTER****************/
+
+.footer{
+  background-image: url('../images/curve-bg-footer.png') !important;
+}
+
