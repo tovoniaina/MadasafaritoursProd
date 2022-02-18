@@ -1,94 +1,76 @@
 import React from 'react'
-import { Carousel } from 'react-carousel-minimal';
+import caroussel1 from '../images/Caroussel1.jpg'
+import caroussel2 from '../images/Caroussel2.jpg'
+import caroussel3 from '../images/Caroussel3.jpg'
 
 function Slider() {
-    const data = [
-        {
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
-            caption: "San Francisco"
-        },
-        {
-            image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
-            caption: "Scotland"
-        },
-        {
-            image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
-            caption: "Darjeeling"
-        },
-        {
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-            caption: "San Francisco"
-        },
-        {
-            image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
-            caption: "Scotland"
-        },
-        {
-            image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
-            caption: "Darjeeling"
-        },
-        {
-            image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
-            caption: "San Francisco"
-        },
-        {
-            image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
-            caption: "Scotland"
-        },
-        {
-            image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
-            caption: "Darjeeling"
-        }
-    ];
+  return (
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol className="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img className="d-block w-100" src={caroussel1} alt="First slide"/>
+        <div class="carousel-caption d-none d-md-block">
+    <h5>Hola</h5>
+    <p>Test</p>
+  </div>
+      </div>
+      <div className="carousel-item">
+        <img className="d-block w-100" src={caroussel2} alt="Second slide"/>
+      </div>
+      <div className="carousel-item">
+        <img className="d-block w-100" src={caroussel3} alt="Third slide"/>
+      </div>
+    </div>
+    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="sr-only">Previous</span>
+    </a>
+    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="sr-only">Next</span>
+    </a>
 
-    const captionStyle = {
-        fontSize: '2em',
-        fontWeight: 'bold',
-    }
-    const slideNumberStyle = {
-        fontSize: '20px',
-        fontWeight: 'bold',
-    }
-    return (
-        <div className='container-fluid'>
-            <div className="Slider">
-                <div style={{ textAlign: "center" }}>
-                    <h2>React Carousel Minimal</h2>
-                    <p>Easy to use, responsive and customizable carousel component for React Projects.</p>
-                    <div style={{
-                        padding: "0 20px"
-                    }}>
-                        <Carousel
-                            data={data}
-                            time={2000}
-                            width="850px"
-                            height="500px"
-                            captionStyle={captionStyle}
-                            radius="10px"
-                            slideNumber={true}
-                            slideNumberStyle={slideNumberStyle}
-                            captionPosition="bottom"
-                            automatic={true}
-                            dots={true}
-                            pauseIconColor="white"
-                            pauseIconSize="40px"
-                            slideBackgroundColor="darkgrey"
-                            slideImageFit="cover"
-                            thumbnails={true}
-                            thumbnailWidth="100px"
-                            style={{
-                                textAlign: "center",
-                                maxWidth: "850px",
-                                maxHeight: "500px",
-                                margin: "40px auto",
-                            }}
-                        />
-                    </div>
-                </div>
+    <div className="container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
+            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
+            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
+            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
+            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
+            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
+            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
+            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
+            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
+            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
+            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
+            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
+            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
+            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
+            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
+            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
+            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
+            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
+            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
+            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
+            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
+            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
+            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
+            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
+            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
+            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
+            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
+            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
+            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
             </div>
-        </div>
-
-    );
+  </div>
+  )
 }
 
 export default Slider

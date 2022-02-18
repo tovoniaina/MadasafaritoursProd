@@ -9,18 +9,18 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Navtop() {
     return (
-        <div className="navbar-top">
+        <div className="navbar-top navtop">
             <div className="container">
-                <div className="row">
+                <div className="row text-center">
                     <div className="col-6 contact">
-                        <a href="tel:+261336381135"><WhatsAppIcon />+261336381135</a>
-                        <a href="mailto:cs@qerozia.io"><MailIcon />customer@madasafaritours.com</a>
+                        <a href="tel:+261336381135" className="mx-2"><WhatsAppIcon />+261336381135</a>
+                        <a href="mailto:cs@qerozia.io" className="mx-2"><MailIcon />customer@madasafaritours.com</a>
                     </div>
                     <div className="col-6 social">
-                        <a href="https://web.facebook.com/qeroziadigital"><FacebookIcon /></a>
-                        <a href="https://twitter.com/QeroziaD"><TwitterIcon /></a>
-                        <a href="https://www.linkedin.com/company/79306496"><LinkedInIcon /></a>
-                        <a href="https://www.instagram.com/qeroziadigital/"><InstagramIcon /></a>
+                        <a href="https://web.facebook.com/qeroziadigital" className="mx-2"><FacebookIcon /></a>
+                        <a href="https://twitter.com/QeroziaD" className="mx-2"><TwitterIcon /></a>
+                        <a href="https://www.linkedin.com/company/79306496" className="mx-2"><LinkedInIcon /></a>
+                        <a href="https://www.instagram.com/qeroziadigital/" className="mx-2"><InstagramIcon /></a>
 
                     </div>
                 </div>

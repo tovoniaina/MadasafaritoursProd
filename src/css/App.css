@@ -7,10 +7,12 @@
 
   /****************COLOR****************/
   --primary-white:#fefefe;
-  --primary-blue: #094c9c;
+  --primary-blue: #2e79c8;
   --primary-brown: #68303e;
-  --primary-orange: #fea100;
+  --primary-orange: #ff834f;
   --primary-black: #010103;
+  --primary-grey: #282c34;
+  --primary-green: #5FA423;
 }
 
 
@@ -42,7 +44,7 @@ nav ul{
   font-size: 1rem;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-black) !important;
+  color: var(--primary-grey) !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
@@ -64,11 +66,33 @@ nav ul{
   background-color: var(--primary-orange);
 }
 
-.booknow > a{
-  color: var(--primary-black) !important;
-  outline: none !important;
+
+.BtnBookNow{
+  background-color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
 }
 
+
+/****************NAVTOP****************/
+.navtop{
+  background-color: var(--primary-grey);
+}
+
+.social > a{
+  color: var(--primary-white) !important;
+}
+
+.contact > a{
+  color: var(--primary-white) !important;
+}
+
+.contact> a:hover{
+  color: var(--primary-orange) !important;
+}
+
+.social> a:hover{
+  color: var(--primary-orange) !important;
+}
 /****************SLIDER****************/
 
 
@@ -79,9 +103,49 @@ html, body {
 }
 
 
-/****************FOOTER****************/
-
+/********************FOOTER********************/
 .footer{
-  background-image: url('../images/curve-bg-footer.png') !important;
+  background-color: var(--primary-grey);
+  color: var(--primary-white) !important;
+  
 }
 
+.contact-footer{
+  padding-bottom: 20px;
+  text-emphasis: none;
+}
+
+.logofooter{
+  height: 100px;
+  width: 100px;
+  
+}
+
+.description-footer{
+  text-align: justify;
+}
+
+.contact-list > a {
+  margin: 0px 2rem !important;
+  color: var(--primary-white);
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.social-footer > a{
+  color: var(--primary-white);
+  cursor: pointer !important;
+}
+
+.legacy > a{
+  color: var(--primary-white) !important;
+}
+
+.legacy > a:hover{
+  color: var(--primary-orange) !important;
+}
+
+.copyright{
+  background-color: var(--primary-orange);
+  color: var(--primary-grey);
+}

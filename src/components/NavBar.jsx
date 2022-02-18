@@ -50,7 +50,7 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <a className='booknow' href="https://dev-client-front.smartpredict.cloud/u/tovoniaina-s-team/settings/team/billing"><Button variant="contained"><EventAvailableIcon /> Book Now</Button></a>
+                            <a className='booknow' href="#navtop"><Button className='BtnBookNow' variant="contained"><EventAvailableIcon /> Book Now</Button></a>
                         </li>
 
 
