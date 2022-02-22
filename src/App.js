@@ -10,9 +10,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from '../src/pages/Home';
 import AboutUs from '../src/pages/AboutUs';
 import Faqs from '../src/pages/Faqs';
-import Team from '../src/pages/Team';
+import Itinerary from '../src/pages/Itinerary';
 import Tour from '../src/pages/Tour';
 import Contact from './pages/Contact';
+import Product from "./pages/Product";
 
 function App() {
   return (
@@ -25,9 +26,10 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="AboutUs" element={<AboutUs />} />
           <Route exact path="Faqs" element={<Faqs />} />
-          <Route exact path="Team" element={<Team />} />
+          <Route exact path="Itinerary" element={<Itinerary />} />
           <Route exact path="Tour" element={<Tour />} />
           <Route exact path="Contact" element={<Contact />} />
+          <Route exact path="Product" element={<Product />} />
 
         </Routes>
 

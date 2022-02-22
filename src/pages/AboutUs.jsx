@@ -9,10 +9,10 @@ export class AboutUs extends Component {
                 <Aboutus />
                 <AboutUsTeam />
                 
+                
             </main>
         )
     }
 }
 
 export default AboutUs
-

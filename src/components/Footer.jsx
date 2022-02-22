@@ -8,9 +8,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
-
 import Button from '@mui/material/Button';
-
 
 
 function Footer() {
@@ -45,7 +43,7 @@ function Footer() {
             </div>
 
             <div className="legacy mt-4">
-              <a href="#term">Term of Condition</a> <br />
+              <a href="#ok">Term of Condition</a> <br />
               <a href="#terms">Disclaimer</a>
             </div>
 

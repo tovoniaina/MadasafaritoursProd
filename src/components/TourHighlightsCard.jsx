@@ -1,41 +1,64 @@
 import React from 'react'
+import { Send } from '@mui/icons-material';
+import ImageSection1 from '../images/marojejy.png'
+
+
+
 
 function TourHighlightsCard() {
     return (
-        <div className='container'>
-            <h1>Hello, my name is Tour highlights Cards</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum quis voluptatum esse quaerat voluptates animi cumque, tempora excepturi labore aspernatur eligendi ducimus laboriosam. Tempora et vel optio quibusdam illo.
-            Debitis repudiandae nobis, placeat laborum perferendis est accusantium ipsam cumque, dignissimos adipisci non illum, culpa iure beatae quo ipsa? Velit odio perferendis praesentium earum omnis enim explicabo tempora dolore. Quam!
-            Sequi, nobis dolorum. Molestiae perferendis nulla aliquid. Consequatur inventore et voluptate nisi corrupti odio nobis mollitia recusandae beatae excepturi! Amet distinctio quae saepe optio voluptatibus ratione quo quos, nesciunt delectus?
-            Dolore ducimus praesentium adipisci deserunt nesciunt odit minus repellat distinctio quibusdam atque vero illum voluptates maiores nam velit eaque, recusandae culpa deleniti necessitatibus facere ut corporis magni esse quo? Quaerat.
-            Expedita, error culpa aspernatur soluta quisquam, asperiores labore architecto accusantium magni vel ducimus excepturi quos voluptatibus sed sequi autem. Atque inventore assumenda ex? Magnam rem veniam perspiciatis quae quas eligendi!
-            Inventore aut deleniti numquam adipisci. Mollitia odit sit soluta reiciendis beatae illo quidem quibusdam magnam inventore voluptas ratione, a facilis impedit rerum corrupti deserunt quaerat velit dolorem enim saepe ducimus.
-            Ut, eveniet aliquid aut dolore aperiam id distinctio ab debitis praesentium veritatis, quae commodi ad sed recusandae, adipisci ducimus dolorem quibusdam corporis hic. Expedita, quasi omnis accusantium distinctio sequi atque!
-            Tempora, reiciendis soluta. Natus neque porro sunt enim quod quibusdam odio ratione assumenda, ducimus dolorum voluptate iusto beatae error incidunt unde minima provident voluptatem quasi nulla nihil magni perspiciatis illo.</p>
+        <div className="Services my-5">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4 col-md-6 col-sm-12 my-2" >
+                        <div class="card">
+                            <div class="card-body">
+                                <div className="card-icons text-center my-3">
+
+                                </div>
+                                <h3 className="card-title text-center">Devéloppement web</h3>
+                                <img src={ImageSection1} alt="" className='imageCard' />
+                                <p className="card-text">With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content.
+
+                                </p>
+                                <div className="text-center">
+                                    <button type="button" class="bouton-expertise"><a href="ok">En Savoir Plus <Send /></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12 my-2">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="card-icons text-center my-3">
+
+                                </div>
+
+                                <h3 className="card-title text-center">SEO</h3>
+                                <p className="card-text">With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content.</p>
+                                <div className="text-center">
+                                    <button type="button" class="bouton-expertise"><a href="ok">En Savoir Plus <Send /></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12 my-2">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="card-icons text-center my-3">
+
+                                </div>
+                                <h3 className="card-title text-center">Advertising</h3>
+                                <p className="card-text">With to additional content. supporting text below as a natural to additional content. lead-in to additional content text below as a.</p>
+                                <div className="text-center">
+                                    <button type="button" class="bouton-expertise"><a href="ok">En Savoir Plus <Send /></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     )
 }

@@ -5,7 +5,9 @@ function Home() {
     return (
 
         <main id='Home'>
+            
             <Slider />
+            
         </main>
     )
 }

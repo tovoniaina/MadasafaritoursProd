@@ -30,6 +30,15 @@ function NavBar() {
 
                             <Link to="/" className="nav-link"> <HomeRoundedIcon />Home</Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Link to="/Tour" className="nav-link"><TravelExploreIcon />Tour</Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link to="/Itinerary" className="nav-link"><GroupsIcon />Itinerary</Link>
+                        </li>
+
                         <li className="nav-item">
                             <Link to="/AboutUs" className="nav-link"><InfoIcon />About Us</Link>
                         </li>
@@ -39,11 +48,11 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Team" className="nav-link"><GroupsIcon />Itinerary</Link>
+                            <Link to="/Product" className="nav-link"><QuizIcon />Product</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/Tour" className="nav-link"><TravelExploreIcon />Tour</Link>
-                        </li>
+
+                       
+                        
 
                         <li className="nav-item">
                             <Link to="/Contact" className="nav-link"><ContactMailIcon />Contact</Link>
@@ -54,23 +63,13 @@ function NavBar() {
                         </li>
 
                         
-
-
-
-
                     </ul>
                 </div>
             </div>
 
         </nav >
+        
 
-        // <div className="list container">
-        //     <Link to="/">Home</Link>
-        //     <Link to="AboutUs">AboutUs</Link>
-        //     <Link to="Faqs">Faqs</Link>
-        //     <Link to="Team">Team</Link>
-        //     <Link to="Tour">Tour</Link>
-        // </div>
     )
 }
 

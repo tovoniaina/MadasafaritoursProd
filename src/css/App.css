@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
+
 :root{
   /****************BODY FONT****************/
   --bodyFont: "Ubuntu";
@@ -110,8 +111,7 @@ html, body {
 /********************FOOTER********************/
 .footer{
   background-color: var(--primary-grey);
-  color: var(--primary-white) !important;
-  
+  color: var(--primary-white) !important;  
 }
 
 .contact-footer{
@@ -258,6 +258,10 @@ margin-right: auto;
 }
 
 .social-icon{
+  color: var(--primary-white) !important;
+}
+
+.social-icon:hover{
   color: var(--primary-orange) !important;
 }
 
@@ -275,4 +279,62 @@ margin-right: auto;
 
 .card-group{
   background-color: var(--primary-grey) !important;
+}
+
+/*******************TOUR****************/
+
+.bouton-expertise{
+  background-color: var(--primary-white) !important;
+  color: var(--primary-grey) !important;
+  border-radius: 5px !important;
+  border-color: var(--primary-grey) !important;
+  height: 45px !important;
+  width: 100%;
+  
+}
+
+.bouton-expertise:hover{
+  background-color: var(--primary-orange) !important;
+  color: var(--chocolat) !important;
+  
+}
+
+.bouton-expertise >a {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: inherit !important;
+
+}
+
+.card-title{
+  color: var(--primary-white) !important;
+}
+/****************CARD**********************/
+.card{
+  background-color: var(--primary-grey) !important;
+}
+.card-icons svg{
+  display: block;
+  margin: auto;
+  font-size: 50px;
+  color: var(--chocolat);
+
+}
+
+
+.selectpicker{
+  background-color: transparent !important;
+  display: inline-block;
+  border: none;
+  color: var(--primary-background);
+}
+
+.selectpicker svg {
+  color: var(--primary-background);
+}
+
+.imageCard{
+  height: 300px;
+  width: 385px;
+  display: flex !important;
 }
