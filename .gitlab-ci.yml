@@ -5,6 +5,10 @@ stages:
 
 pages:
   stage: deploy
+  script:
+    - cd public
+    - echo "Start build"
+    - echo path
 
 artifacts:
   paths:
