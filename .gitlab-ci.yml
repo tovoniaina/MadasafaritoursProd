@@ -6,12 +6,12 @@ stages:
 pages:
   stage: deploy
   script:
-    - cd public
     - echo "Start build"
-    - echo path
+    - mkdir pages
+    - mv public/index.html ./pages
 
-# artifacts:
-#   paths:
-#     - public
+artifacts:
+  paths:
+    - pages
 
   
