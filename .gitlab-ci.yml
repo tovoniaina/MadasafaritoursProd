@@ -1,4 +1,4 @@
-images: ubuntu:latest
+image: ubuntu:latest
 
 stages:
 - deploy
