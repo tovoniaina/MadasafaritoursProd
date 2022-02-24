@@ -10,8 +10,8 @@ pages:
     - echo "Start build"
     - echo path
 
-artifacts:
-  paths:
-    - public
+# artifacts:
+#   paths:
+#     - public
 
   
