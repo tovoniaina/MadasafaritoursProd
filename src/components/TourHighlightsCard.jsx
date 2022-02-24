@@ -17,7 +17,7 @@ function TourHighlightsCard() {
 
                                 </div>
                                 <h3 className="card-title text-center">Devéloppement web</h3>
-                                <img src={ImageSection1} alt="" className='imageCard' />
+                                <div className='imageCard'><img src={ImageSection1} alt="" className='' /></div>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content.
 
                                 </p>
