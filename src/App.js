@@ -13,7 +13,6 @@ import Faqs from '../src/pages/Faqs';
 import Itinerary from '../src/pages/Itinerary';
 import Tour from '../src/pages/Tour';
 import Contact from './pages/Contact';
-import Product from "./pages/Product";
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
           <Route exact path="Itinerary" element={<Itinerary />} />
           <Route exact path="Tour" element={<Tour />} />
           <Route exact path="Contact" element={<Contact />} />
-          <Route exact path="Product" element={<Product />} />
 
         </Routes>
 

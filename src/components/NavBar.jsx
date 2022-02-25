@@ -46,14 +46,7 @@ function NavBar() {
                         <li className="nav-item">
                             <Link to="/Faqs" className="nav-link"><QuizIcon />Faqs</Link>
                         </li>
-
-                        <li className="nav-item">
-                            <Link to="/Product" className="nav-link"><QuizIcon />Product</Link>
-                        </li>
-
                        
-                        
-
                         <li className="nav-item">
                             <Link to="/Contact" className="nav-link"><ContactMailIcon />Contact</Link>
                         </li>

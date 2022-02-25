@@ -495,3 +495,9 @@ a{text-decoration:none;}
     50%{transform:rotate(-5deg);}
     100%{transform:rotate(5deg);}
 }
+
+
+/****************ITINERARY*****************/
+.itineraries{
+  background-color: var(--primary-green);
+}
