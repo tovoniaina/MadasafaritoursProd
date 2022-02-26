@@ -300,7 +300,7 @@ function TourHighlightsCard() {
                                 </div>
                                 <h3 className="card-title text-center">Post Wedding Safari</h3>
                                 <div><img className='card-img-top' src={MarvellousHoneymoonSafari} alt="MarvellousHoneymoonSafari" /></div>
-                                <p className="card-text">With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content </p>
+                                <p className="card-text">With supporting text below as a naturales lead-in to additional content text below as a natural lead-in to additional content </p>
 
                                 <div className='row infoPratique'>
                                     <div className="col"><span class="badge badge-info place"> <MyLocationIcon />NorthWest</span></div>
