@@ -1,6 +1,6 @@
 import React from 'react'
 import { Send } from '@mui/icons-material';
-import Indri from '../images/imagesMst/indri.JPG';
+import Indri from 'src/images/imagesMst/indri.JPG';
 import EasternWonder from '../images/imagesMst/EasternWonder.png';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import DivingTour from '../images/imagesMst/DivingTour.jpg'
