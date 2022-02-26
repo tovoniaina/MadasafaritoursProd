@@ -25,7 +25,7 @@ function Footer() {
             <div className="contact-footer">
 
               <div className="contact-list">
-                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <StoreIcon/>Mada Safari Tours S.A</a> <br />
+                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <StoreIcon/>Mada Safari Tours S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
                 <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> <br />
                 <a href="mailto:cs@qerozia.io"> <MailIcon /> cs@madasaritours.com </a> <br />
                 <a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> <br />
@@ -41,6 +41,7 @@ function Footer() {
               <a href="https://www.linkedin.com/company/79306496" className="mx-2"><LinkedInIcon /></a>
               <a href="https://www.instagram.com/qeroziadigital/" className="mx-2"><InstagramIcon /></a>
             </div>
+
 
             <div className="legacy mt-4">
               <a href="#ok">Term of Condition</a> <br />

@@ -7,11 +7,9 @@ function AboutUs() {
             <section id="AproposSection1" className="my-3">
         <div className="row my-2">
             <div className="col-lg-12 col-md-12 col-sm-12">
-                <h4 className="text-center">Titre</h4>
-                <p className="text-center">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a odit autem repellendus doloribus minus excepturi eos ut placeat blanditiis non reprehenderit quo dicta, porro laborum. Hic rem a corrupti.
-                    Commodi dolore molestias quibusdam laudantium suscipit sed autem fugiat error pariatur voluptates necessitatibus excepturi maiores sint aliquam, id placeat obcaecati, expedita officiis laborum ipsam. Odit cupiditate accusantium aperiam sed eius.
-                    Officiis, aperiam provident dolor numquam dicta placeat adipisci earum praesentium saepe facere vel, libero sed quisquam ea doloribus repellendus, pariatur optio? Dolore, modi! Obcaecati quasi consectetur, autem quam illum earum.</p>
+                <h4 className="text-center">Why Choose Us</h4>
+                <p className="text-justify">
+                    <p>Madagascar Safari Tours is more than just a tour company. Our passion is to providing lasting memories in Madagascar through extraordinary trips and vivid experiences.</p>
                 </p>
             </div>
         </div> 
@@ -25,40 +23,25 @@ function AboutUs() {
             <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="row">
                     <div className="col-12">
-                        <h4 className="AproposSection">Titre</h4>
+                        <h4 className="AproposSection">Perfect knowledge of Madagascar</h4>
                         <p className="text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        Our teams are 100% Malagasy locally-born tour guides, having solid knowledge and sound expertise in all destinations, creating tailor-made itineraries suitable to your demand/wish that offer unique opportunities to connect with a local culture and people. 
                         </p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
-                        <h4 className="AproposSection">Titre</h4>
+                        <h4 className="AproposSection">Sustainability Tourism</h4>
                         <p className="text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        We pursue sustainable tourism respecting the environment, preserving and sustaining the local communities’ way of life. Our trips are all thoughtfully designed to guide you in your own unique discovery of Madagascar exotics.
                         </p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
-                        <h4 className="AproposSection">Titre</h4>
+                        <h4 className="AproposSection">Flexible offer</h4>
                         <p className="text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. 
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                        Wherever place you want to find in Madagascar, we can help you find it; whatever trip you have in mind, we can help you shape it.
                         </p>                            
                     </div>
                 </div>

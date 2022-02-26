@@ -303,17 +303,17 @@ margin-right: auto;
 /*******************TOUR****************/
 
 .bouton-expertise{
-  background-color: var(--primary-white) !important;
+  background-color: var(--primary-orange) !important;
   color: var(--primary-grey) !important;
   border-radius: 5px !important;
   border-color: var(--primary-grey) !important;
   height: 45px !important;
-  width: 100%;
+  width: 48%;
   
 }
 
 .bouton-expertise:hover{
-  background-color: var(--primary-orange) !important;
+  background-color: var(--primary-white) !important;
   color: var(--chocolat) !important;
   
 }
@@ -340,7 +340,6 @@ margin-right: auto;
 
 }
 
-
 .selectpicker{
   background-color: transparent !important;
   display: inline-block;
@@ -352,151 +351,31 @@ margin-right: auto;
   color: var(--primary-background);
 }
 
-.imageCard{
-  display: flex !important;
-  position: relative !important;
+.droite-btn{
+  float: right;
+  background-color: var(--primary-white) !important;
 }
+
+.droite-btn:hover{
+  background-color: var(--primary-orange) !important;
+}
+
 
 /************TOUR*************/
-/* .badgeCard{
-  position: absolute;
-  transform: rotate(-45deg);
-  margin-top: 28px;
-  margin-right: 10px;
-  border-radius: none !important;
+
+/* .place{
   background-color: var(--primary-green);
-  width: 20px !important;
 }
 
-.cardBody{
-  position: relative;
+.price{
+  background-color: var(--primary-white);
+  float: right;
+  color: var(--primary-grey) !important;
 } */
 
-
-body{background:#ecf0f1;}
-a{text-decoration:none;}
-.firstLine {
-    font-size: 17px;
-    font-weight: 100;
-}.secondLine {
-    font-size: 40px;
-    line-height: 36px;
-    font-weight: 400;
-} .thirdLine {
-    font-size: 17px;
-    line-height: 32px;
-    font-weight: 300;
+.infoPratique{
+  color: var(--primary-white);
 }
-
-.badges {
-    position:absolute;
-    margin:70px auto;
-    width:200px;
-    height:200px;
-    background: var(--primary-orange);
-    border-radius:100%;
-    color: var(--primary-grey);
-    line-height: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    -webkit-animation: 3s ease-in-out 0s normal none infinite running swing;
-    -moz-animation: 3s ease-in-out 0s normal none infinite running swing;
-    -o-animation: 3s ease-in-out 0s normal none infinite running swing;
-    animation: 3s ease-in-out 0s normal none infinite running swing;
-    
-    -webkit-transform-origin: 100px -71px;
-    -moz-transform-origin: 100px -71px;
-    -o-transform-origin: 100px -71px;
-    transform-origin: 100px -71px;
-}
-.badges:before{
-    content:'';
-    position:absolute;
-    top:90px;left:90px;
-    width:20px;height:20px;
-    border-radius:100%;
-    -webkit-box-shadow: 0px -82px 0px -2px #fff, 0px -100px #552F87,20px -98px #552F87,39px -94px #552F87,56px -85px #552F87,71px -72px #552F87,
-                83px -57px #552F87,93px -40px #552F87,98px -20px #552F87,100px 0px #552F87,
-                
-                -20px -98px #552F87,-39px -94px #552F87,-71px -72px #552F87,
-                -56px -85px #552F87,-83px -57px #552F87,-93px -40px #552F87,-98px -20px #552F87,-100px 0px #552F87,
-                
-                0px 100px #552F87,-20px 98px #552F87,-39px 94px #552F87,-56px 85px #552F87,
-                -71px 72px #552F87,-83px 57px #552F87,-93px -40px #552F87,-98px 20px #552F87,-93px 40px #552F87,
-                
-                20px 98px #552F87,39px 94px #552F87,56px 85px #552F87,
-                71px 72px #552F87,83px 57px #552F87,93px 40px #552F87,98px 20px #552F87;
-                
-    
-    -moz-box-shadow: 0px -82px 0px -2px #fff, 0px -100px #552F87,20px -98px #552F87,39px -94px #552F87,56px -85px #552F87,71px -72px #552F87,
-                83px -57px #552F87,93px -40px #552F87,98px -20px #552F87,100px 0px #552F87,
-                
-                -20px -98px #552F87,-39px -94px #552F87,-71px -72px #552F87,
-                -56px -85px #552F87,-83px -57px #552F87,-93px -40px #552F87,-98px -20px #552F87,-100px 0px #552F87,
-                
-                0px 100px #552F87,-20px 98px #552F87,-39px 94px #552F87,-56px 85px #552F87,
-                -71px 72px #552F87,-83px 57px #552F87,-93px -40px #552F87,-98px 20px #552F87,-93px 40px #552F87,
-                
-                20px 98px #552F87,39px 94px #552F87,56px 85px #552F87,
-                71px 72px #552F87,83px 57px #552F87,93px 40px #552F87,98px 20px #552F87;
-                
-    
-    -o-box-shadow: 0px -82px 0px -2px #fff, 0px -100px #552F87,20px -98px #552F87,39px -94px #552F87,56px -85px #552F87,71px -72px #552F87,
-                83px -57px #552F87,93px -40px #552F87,98px -20px #552F87,100px 0px #552F87,
-                
-                -20px -98px #552F87,-39px -94px #552F87,-71px -72px #552F87,
-                -56px -85px #552F87,-83px -57px #552F87,-93px -40px #552F87,-98px -20px #552F87,-100px 0px #552F87,
-                
-                0px 100px #552F87,-20px 98px #552F87,-39px 94px #552F87,-56px 85px #552F87,
-                -71px 72px #552F87,-83px 57px #552F87,-93px -40px #552F87,-98px 20px #552F87,-93px 40px #552F87,
-                
-                20px 98px var(--primary-white),39px 94px var(--primary-white),56px 85px var(--primary-white),
-                71px 72px var(--primary-white),83px 57px var(--primary-white),93px 40px var(--primary-white);
-                
-    
-    box-shadow: 0px -82px 0px -2px var(--primary-grey), 0px -100px var(--primary-white),20px -98px var(--primary-white),39px -94px var(--primary-white),56px -85px var(--primary-white),71px -72px var(--primary-white),
-                83px -57px var(--primary-white),93px -40px var(--primary-white),98px -20px var(--primary-white),100px 0px var(--primary-white),
-                
-                -20px -98px var(--primary-white),-39px -94px var(--primary-white),-71px -72px var(--primary-white),
-                -56px -85px var(--primary-white),-83px -57px var(--primary-white),-93px -40px var(--primary-white),-98px -20px var(--primary-white),-100px 0px var(--primary-white),
-                
-                0px 100px var(--primary-white),-20px 98px var(--primary-white),-39px 94px var(--primary-white),-56px 85px var(--primary-white),
-                -71px 72px var(--primary-white),-83px 57px var(--primary-white),-93px -40px var(--primary-white),-98px 20px var(--primary-white),-93px 40px var(--primary-white),
-                
-                20px 98px var(--primary-white),39px 94px var(--primary-white),56px 85px var(--primary-white),
-                71px 72px var(--primary-white),83px 57px var(--primary-white),93px 40px var(--primary-white),98px 20px var(--primary-white);
-}
-.badges:after{
-    content:'';
-    position:absolute;
-    top:-70px;left:99px;
-    width:3px;height:81px;
-    border-radius:0%;
-    background:var(--primary-orange);
-}
-
-@-webkit-keyframes swing{
-    0%{-webkit-transform:rotate(5deg);}
-    50%{-webkit-transform:rotate(-5deg);}
-    100%{-webkit-transform:rotate(5deg);}
-}
-@-moz-keyframes swing{
-    0%{-moz-transform:rotate(5deg);}
-    50%{-moz-transform:rotate(-5deg);}
-    100%{-moz-transform:rotate(5deg);}
-}
-@-o-keyframes swing{
-    0%{-o-transform:rotate(5deg);}
-    50%{-o-transform:rotate(-5deg);}
-    100%{-o-transform:rotate(5deg);}
-}
-@keyframes swing{
-    0%{transform:rotate(5deg);}
-    50%{transform:rotate(-5deg);}
-    100%{transform:rotate(5deg);}
-}
-
-
 /****************ITINERARY*****************/
 .itineraries{
   background-color: var(--primary-green);
