@@ -88,6 +88,8 @@ function ItineraryList() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<KeyboardDoubleArrowDownIcon />}
         />
+
+        
       </VerticalTimeline>
 
       <div className="row">
@@ -117,6 +119,10 @@ function ItineraryList() {
           </div>
         </div>
 
+      </div>
+      <div className="row mb-3">
+        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
+        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
       </div>
 
     </div>
