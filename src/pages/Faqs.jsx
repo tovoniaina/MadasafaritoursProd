@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import QA from "../components/Qa"
 import GalleryPhoto from '../components/GalleryPhoto'
-import TestFooter from '../components/testFooter'
-export class Faqs extends Component {
+import Faqs from '../components/Faq'
+export class Faq extends Component {
     render() {
         return (
-            <main id='Qa'>
-                <TestFooter />
-                <QA />
+            <main id='Faq'>
+                <Faqs />
                 <GalleryPhoto />
                 
                 
@@ -17,4 +15,4 @@ export class Faqs extends Component {
     }
 }
 
-export default Faqs
+export default Faq
