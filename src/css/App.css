@@ -376,7 +376,19 @@ margin-right: auto;
 .infoPratique{
   color: var(--primary-white);
 }
+
+
 /****************ITINERARY*****************/
-.itineraries{
-  background-color: var(--primary-green);
+.vertical-timeline::before{
+  background: var(--primary-grey) !important;
+  
+}
+
+.excluded{
+  background-color: var(--primary-orange) !important;
+  color: var(--primary-grey) !important;
+}
+
+.price-itinerary{
+  text-align: right !important;
 }

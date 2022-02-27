@@ -1,6 +1,7 @@
 import React from 'react'
 import { Send } from '@mui/icons-material';
-import Indri from 'src/images/imagesMst/indri.JPG';
+import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
+import Indri from '../images/imagesMst/indri.JPG';
 import EasternWonder from '../images/imagesMst/EasternWonder.png';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import DivingTour from '../images/imagesMst/DivingTour.jpg'
@@ -17,8 +18,6 @@ import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscove
 import RiverTrip from '../images/imagesMst/RiverTrip.jpg'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-
 
 
 
@@ -45,7 +44,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote<RequestQuoteIcon /> </a></button>
                                 </div>
                                 
                             </div>
@@ -70,7 +69,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +93,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +117,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +141,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +165,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +189,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +213,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +237,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -262,7 +261,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +285,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -310,7 +309,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -334,7 +333,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>
@@ -358,7 +357,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise gauche-btn"><a href="ok">Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Book Now <EventAvailableIcon /> </a></button>
+                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote <RequestQuoteIcon /> </a></button>
                                 </div>
                             </div>
                         </div>

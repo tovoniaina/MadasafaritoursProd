@@ -1,112 +1,123 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from '@mui/icons-material/Work';
-import SchoolIcon from '@mui/icons-material/School';
-import StarIcon from '@mui/icons-material/Star';
+import FlightLandIcon from '@mui/icons-material/FlightLand';
+import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import DoNotDisturbOnTotalSilenceIcon from '@mui/icons-material/DoNotDisturbOnTotalSilence';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import Button from '@mui/material/Button';
+
 
 function ItineraryList() {
   return (
     <div className='container itineraries'>
-      <h1>Itinerary</h1>
+      <h1 className='text-center'>Indri encouter itinerary</h1>
+      <div className="row">
+        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
+        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+      </div>
+      
+
 
 
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 1"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)' }}
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<WorkIcon />}
+          iconStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', borderBlockColor: '#000' }}
+          icon={<FlightLandIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Tana - Antsirabe</h3>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+          <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
+          <p className='text-justify'>
+            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
           </p>
 
-         
+
         </VerticalTimelineElement>
 
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<WorkIcon />}
+          date="Day 2"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+          <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
+          <p className='text-justify'>
+            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<WorkIcon />}
+          date="Day 3"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>
-            User Experience, Visual Design
+          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <p className='text-justify'>
+            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<WorkIcon />}
+          date="Day 4"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<FlightTakeoffIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-          <p>
-            User Experience, Visual Design
+          <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
+          <p className='text-justify'>
+            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>
-            Strategy, Social Media
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-          <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-          <p>
-            Creative Direction, Visual Design
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-          icon={<StarIcon />}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<KeyboardDoubleArrowDownIcon />}
         />
       </VerticalTimeline>
 
+      <div className="row">
+        <div className="col col-lg-6 col-md-6 col-sm-12">
+          <div className="card text-white mb-3 included incluD">
+            <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
+            <div class="card-body">
+              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet. <br />
+              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
+              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
+              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
+              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+
+        <div className="col col-lg-6 col-md-6 col-sm-12">
+          <div className="card text-white mb-3 excluded">
+            <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
+            <div class="card-body text-dark">
+              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet. <br />
+              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
+              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
+              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
+              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </div>
   )
