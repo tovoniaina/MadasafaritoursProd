@@ -1,11 +1,21 @@
 import React from 'react'
-import TourHighlightsCard from '../components/TourHighlightsCard'
+import { BrowserRouter as  Route, Routes, Outlet, BrowserRouter } from "react-router-dom"
+
 function Tour() {
-    return (
-        <main id='Tour'>
-            <TourHighlightsCard />
-        </main>
-    )
+    return  <Outlet />
+    
 }
+
+const routes = (
+    <BrowserRouter>
+        <div>
+            <Routes>
+                <Route path='' />
+            </Routes>
+        </div>
+
+    </BrowserRouter>
+
+)
 
 export default Tour

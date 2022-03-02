@@ -1,4 +1,5 @@
 import React from 'react'
+import QuizIcon from '@mui/icons-material/Quiz';
 
 function Faq() {
     return (
@@ -9,7 +10,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                            <h5>Is it safe to travel to Madagascar?</h5>
+                            <h5> <QuizIcon /> Is it safe to travel to Madagascar?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -23,7 +24,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            <h5>Traveling in Madagascar looks like what?</h5>
+                            <h5> <QuizIcon /> Traveling in Madagascar looks like what?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
@@ -39,7 +40,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            <h5>What do Malagasy people eat as their main food staple?</h5>
+                            <h5><QuizIcon />What do Malagasy people eat as their main food staple?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
@@ -55,7 +56,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                            <h5>Is tap water safe to drink?</h5>
+                            <h5><QuizIcon />Is tap water safe to drink?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
@@ -68,7 +69,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                            <h5>What do Malagasy people drink?</h5>
+                            <h5><QuizIcon />What do Malagasy people drink?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
@@ -82,7 +83,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                            <h5>What language do the Malagasy people use in their everyday life?</h5>
+                            <h5><QuizIcon />What language do the Malagasy people use in their everyday life?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
@@ -95,7 +96,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-                            <h5>What souvenirs should I bring home?</h5>
+                            <h5><QuizIcon />What souvenirs should I bring home?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
@@ -108,7 +109,7 @@ function Faq() {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingEight">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
-                            <h5>Is Visa obligatory when traveling to Madagascar?</h5>
+                            <h5><QuizIcon />Is Visa obligatory when traveling to Madagascar?</h5>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">

@@ -9,9 +9,11 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
 import Button from '@mui/material/Button';
+import { Link } from "react-router-dom";
 
 
 function Footer() {
+
   return (
     <div className="footer">
       <div className="container">
@@ -25,12 +27,12 @@ function Footer() {
             <div className="contact-footer">
 
               <div className="contact-list">
-                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <StoreIcon/>Mada Safari Tours S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
+                <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <StoreIcon />Mada Safari Tours S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
                 <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> <br />
                 <a href="mailto:cs@qerozia.io"> <MailIcon /> cs@madasaritours.com </a> <br />
                 <a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> <br />
               </div>
-              
+
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
@@ -44,13 +46,13 @@ function Footer() {
 
 
             <div className="legacy mt-4">
-              <a href="#ok">Term of Condition</a> <br />
-              <a href="#terms">Disclaimer</a>
+              <Link to="/term-of-condition">Term of Condition</Link> <br />
+              <Link to="/disclaimer">Disclaimer</Link>
             </div>
 
             <div className="newsletter">
-              <input type="email" name="newsletter" className="mailInput" placeholder="example@email.com"/> <a href="#subs"><Button className='subscribe' variant="contained">Subscribe</Button></a>
-                        
+              <input type="email" name="newsletter" className="mailInput" placeholder="example@email.com" /> <a href="#subs"><Button className='subscribe' variant="contained">Subscribe</Button></a>
+
             </div>
 
 

@@ -1,76 +1,209 @@
-import React from 'react'
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import IconButton from '@mui/material/IconButton';
+import Input from '@mui/material/Input';
+import FilledInput from '@mui/material/FilledInput';
+import OutlinedInput from '@mui/material/OutlinedInput';
+import InputLabel from '@mui/material/InputLabel';
+import InputAdornment from '@mui/material/InputAdornment';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
+import TextField from '@mui/material/TextField';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
-function Contacts() {
+export default function InputAdornments() {
+  const [values, setValues] = React.useState({
+    amount: '',
+    password: '',
+    weight: '',
+    weightRange: '',
+    showPassword: false,
+  });
+
+  const handleChange = (prop) => (event) => {
+    setValues({ ...values, [prop]: event.target.value });
+  };
+
+  const handleClickShowPassword = () => {
+    setValues({
+      ...values,
+      showPassword: !values.showPassword,
+    });
+  };
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
+
   return (
-   
-        <form class="needs-validation container" novalidate>
-  <div className="form-row">
-    <div className="col-md-4 mb-3">
-      <label for="validationCustom01">First name</label>
-      <input type="text" className="form-control" id="validationCustom01" placeholder="First name" value="Mark" required />
-      <div className="valid-feedback">
-        Looks good!
+    <div className='container'>
+<Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div>
+        <TextField
+          label="With normal TextField"
+          id="outlined-start-adornment"
+          sx={{ m: 1, width: '25ch' }}
+          InputProps={{
+            startAdornment: <InputAdornment position="start">kg</InputAdornment>,
+          }}
+        />
+        <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+          <OutlinedInput
+            id="outlined-adornment-weight"
+            value={values.weight}
+            onChange={handleChange('weight')}
+            endAdornment={<InputAdornment position="end">kg</InputAdornment>}
+            aria-describedby="outlined-weight-helper-text"
+            inputProps={{
+              'aria-label': 'weight',
+            }}
+          />
+          <FormHelperText id="outlined-weight-helper-text">Weight</FormHelperText>
+        </FormControl>
+        <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+          <InputLabel htmlFor="outlined-adornment-password">Password</InputLabel>
+          <OutlinedInput
+            id="outlined-adornment-password"
+            type={values.showPassword ? 'text' : 'password'}
+            value={values.password}
+            onChange={handleChange('password')}
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  edge="end"
+                >
+                  {values.showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
+            label="Password"
+          />
+        </FormControl>
+        <FormControl fullWidth sx={{ m: 1 }}>
+          <InputLabel htmlFor="outlined-adornment-amount">Amount</InputLabel>
+          <OutlinedInput
+            id="outlined-adornment-amount"
+            value={values.amount}
+            onChange={handleChange('amount')}
+            startAdornment={<InputAdornment position="start">$</InputAdornment>}
+            label="Amount"
+          />
+        </FormControl>
       </div>
-    </div>
-    <div className="col-md-4 mb-3">
-      <label for="validationCustom02">Last name</label>
-      <input type="text" className="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required/>
-      <div className="valid-feedback">
-        Looks good!
+      <div>
+        <TextField
+          label="With normal TextField"
+          id="filled-start-adornment"
+          sx={{ m: 1, width: '25ch' }}
+          InputProps={{
+            startAdornment: <InputAdornment position="start">kg</InputAdornment>,
+          }}
+          variant="filled"
+        />
+        <FormControl sx={{ m: 1, width: '25ch' }} variant="filled">
+          <FilledInput
+            id="filled-adornment-weight"
+            value={values.weight}
+            onChange={handleChange('weight')}
+            endAdornment={<InputAdornment position="end">kg</InputAdornment>}
+            aria-describedby="filled-weight-helper-text"
+            inputProps={{
+              'aria-label': 'weight',
+            }}
+          />
+          <FormHelperText id="filled-weight-helper-text">Weight</FormHelperText>
+        </FormControl>
+        <FormControl sx={{ m: 1, width: '25ch' }} variant="filled">
+          <InputLabel htmlFor="filled-adornment-password">Password</InputLabel>
+          <FilledInput
+            id="filled-adornment-password"
+            type={values.showPassword ? 'text' : 'password'}
+            value={values.password}
+            onChange={handleChange('password')}
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  edge="end"
+                >
+                  {values.showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
+          />
+        </FormControl>
+        <FormControl fullWidth sx={{ m: 1 }} variant="filled">
+          <InputLabel htmlFor="filled-adornment-amount">Amount</InputLabel>
+          <FilledInput
+            id="filled-adornment-amount"
+            value={values.amount}
+            onChange={handleChange('amount')}
+            startAdornment={<InputAdornment position="start">$</InputAdornment>}
+          />
+        </FormControl>
       </div>
-    </div>
-    <div className="col-md-4 mb-3">
-      <label for="validationCustomUsername">Username</label>
-      <div className="input-group">
-        <div className="input-group-prepend">
-          <span className="input-group-text" id="inputGroupPrepend">@</span>
-        </div>
-        <input type="text" className="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required/>
-        <div className="invalid-feedback">
-          Please choose a username.
-        </div>
+      <div>
+        <TextField
+          label="With normal TextField"
+          id="standard-start-adornment"
+          sx={{ m: 1, width: '25ch' }}
+          InputProps={{
+            startAdornment: <InputAdornment position="start">kg</InputAdornment>,
+          }}
+          variant="standard"
+        />
+        <FormControl variant="standard" sx={{ m: 1, mt: 3, width: '25ch' }}>
+          <Input
+            id="standard-adornment-weight"
+            value={values.weight}
+            onChange={handleChange('weight')}
+            endAdornment={<InputAdornment position="end">kg</InputAdornment>}
+            aria-describedby="standard-weight-helper-text"
+            inputProps={{
+              'aria-label': 'weight',
+            }}
+          />
+          <FormHelperText id="standard-weight-helper-text">Weight</FormHelperText>
+        </FormControl>
+        <FormControl sx={{ m: 1, width: '25ch' }} variant="standard">
+          <InputLabel htmlFor="standard-adornment-password">Password</InputLabel>
+          <Input
+            id="standard-adornment-password"
+            type={values.showPassword ? 'text' : 'password'}
+            value={values.password}
+            onChange={handleChange('password')}
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                >
+                  {values.showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
+          />
+        </FormControl>
+        <FormControl fullWidth sx={{ m: 1 }} variant="standard">
+          <InputLabel htmlFor="standard-adornment-amount">Amount</InputLabel>
+          <Input
+            id="standard-adornment-amount"
+            value={values.amount}
+            onChange={handleChange('amount')}
+            startAdornment={<InputAdornment position="start">$</InputAdornment>}
+          />
+        </FormControl>
       </div>
-    </div>
-  </div>
+    </Box>
 
-  <div className="form-row">
-    <div className="col-md-6 mb-3">
-      <label for="validationCustom03">City</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required/>
-      <div className="invalid-feedback">
-        Please provide a valid city.
-      </div>
     </div>
-    <div className="col-md-3 mb-3">
-      <label for="validationCustom04">State</label>
-      <input type="text" className="form-control" id="validationCustom04" placeholder="State" required/>
-      <div className="invalid-feedback">
-        Please provide a valid state.
-      </div>
-    </div>
-    <div className="col-md-3 mb-3">
-      <label for="validationCustom05">Zip</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required/>
-      <div className="invalid-feedback">
-        Please provide a valid zip.
-      </div>
-    </div>
-  </div>
-
-  <div className="form-group">
-    <div className="form-check">
-      <input className="form-check-input" type="checkbox" value="" id="invalidCheck" required/>
-      <label className="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div className="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
-  <button className="btn btn-primary" type="submit">Submit form</button>
-</form>
-  )
+    
+  );
 }
-
-export default Contacts
