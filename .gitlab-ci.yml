@@ -1,17 +1,28 @@
-image: ubuntu:latest
-
 stages:
-- deploy
+  - build
+  - deploy
+
+build:
+  image: node:14.15.3-buster-slim
+  stage: build
+  script:
+    - yarn install
+    - yarn build
+  artifacts:
+    paths:
+      - build/
 
 pages:
+  image: alpine:latest
   stage: deploy
+  variables:
+    GIT_STRATEGY: none # Do not clone git repo
+    NODE_ENV: production
+    PUBLIC_URL: http://gitlab-react-page.garrick.monster
   script:
-    - echo "Start build"
-    - mkdir pages
-    - mv public/index.html ./pages
-
-artifacts:
-  paths:
-    - pages
-
-  
+    # Rename the CRA `build` folder to `public`
+    - mv build public
+    - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public
