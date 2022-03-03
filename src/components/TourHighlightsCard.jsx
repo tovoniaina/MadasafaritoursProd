@@ -32,13 +32,13 @@ function TourHighlightsCard() {
             quote:""
         }, 
         {
-            title: 'Western wonder',
+            title: 'Eastern wonder',
             img: EasternWonder,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €280",
             location: 'East',
             timer: "7 Days",
-            learnMore:'/western-wonder',
+            learnMore:'/eastern-wonder',
             quote:""
         },
         {
@@ -68,7 +68,7 @@ function TourHighlightsCard() {
             price: "From €680",
             location: 'Southeast',
             timer: "10 Days",
-            learnMore:'/rain-forest-birding',
+            learnMore:'/rainforest-birding',
             quote:""
         },
         {

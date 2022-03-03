@@ -16,12 +16,12 @@ import Button from '@mui/material/Button';
 function BaobabSafari() {
   return (
     <div className='container itineraries'>
-      <h1 className='text-center'>Indri encouter itinerary</h1>
+      <h1 className='text-center'>Baobab Safari itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
+        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
         <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
       </div>
-      
+
 
 
 
@@ -36,7 +36,7 @@ function BaobabSafari() {
         >
           <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
           <p className='text-justify'>
-            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
+            A member of our team will meet and welcome you at Ivato international airport. Then, you will be transferred to your hotel to relax after a long flight. <br /> Overnight: Tsara Guest House
           </p>
 
 
@@ -49,11 +49,11 @@ function BaobabSafari() {
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
-          icon={<DirectionsCarIcon />}
+          icon={<FlightTakeoffIcon />}
         >
-          <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
+          <h3 className="vertical-timeline-element-title">TANA – KIRINDY</h3>
           <p className='text-justify'>
-            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
+            You will be transferred to the airport for your flight to Morondava. Upon arrival, a member of our team will pick you up and transfer you in your private 4x4 vehicle going to Kirindy Forest. Settle in and then night safari walk in search of tiny mouse lemur, chameleons and other animals endemic in this forest. <br /> Overnight: Relais du Kirindy
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -64,9 +64,9 @@ function BaobabSafari() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <h3 className="vertical-timeline-element-title">KIRINDY – TSINGY</h3>
           <p className='text-justify'>
-            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
+            In the morning, we visit the reserve of Kirindy, a dry deciduous forest home of the Fosa (the biggest lemurs’ predator), the jumping rat and harboring seven species of lemur including the dancing Verreaux's sifakas, the tiny mouse lemur of Madame Berthe, and common brown lemurs. Besides, 50 species of reptiles, 15 amphibian species and 40 species of birds are also found in this magnificent forest without forgetting several bats, tenrecs, mongooses and rodents completing the mammal population. After the visit, drive to Bekopaka crossing the Tsiribihina river on a ferry to reach the town of Belo sur Tsirbihina, the cultural capital of the Sakalava tribe. <br /> Overnight: Orchidée de Bemaraha
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -75,11 +75,53 @@ function BaobabSafari() {
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">TSINGY VISIT</h3>
+          <p className='text-justify'>
+          Explore both the Petit Tsingy and Grand Tsingy. The whole protected area, comprising a surface of 1.575 km square was designated a UNESCO World Heritage Site in 1990. While hiking in the park, you will observe the beauty of these limestone pinnacles, a hike leading you through narrow gauge, climbing on top (harness is a must), walking on a suspended bridge, and toward the cathedral where you may spot lemurs, the Giant rat, the Giant coua, Madagascar green pigeon, and many more. <br /> Overnight: Orchidée de Bemaraha
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 5"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">TSINGY – MORONDAVA</h3>
+          <p className='text-justify'>
+          After breakfast, we depart back to Morondava. There will be stops en-route including the ‘amorous baobab’, the Baobab Alley where you can have a nice photo at sunset time. Baobabs are distinctive trees adapted to thrive in harsh conditions. <br /> Overnight: Chez Maggie
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 6"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<FlightTakeoffIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MORONDAVA – TANA</h3>
+          <p className='text-justify'>
+          Transfer to the airport for flight back to Tana. On arrival you will be met and transferred to your hotel. <br /> Overnight: Le Grand Urban Hotel
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 7"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<FlightTakeoffIcon />}
         >
           <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
           <p className='text-justify'>
-            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
+          Check out of your hotel and transfer to the airport for flight back home. End of our service.
           </p>
         </VerticalTimelineElement>
 
@@ -88,7 +130,7 @@ function BaobabSafari() {
           icon={<KeyboardDoubleArrowDownIcon />}
         />
 
-        
+
       </VerticalTimeline>
 
       <div className="row">
@@ -120,7 +162,7 @@ function BaobabSafari() {
 
       </div>
       <div className="row mb-3">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
+        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
         <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
       </div>
 
