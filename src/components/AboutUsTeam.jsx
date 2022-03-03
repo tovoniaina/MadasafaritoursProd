@@ -16,7 +16,7 @@ function AboutUsTeam() {
                 <div className="col-lg-12 col-md-12 col-sm-12">
                     <h3 className="text-center">Our amazing Team</h3>
                     <p className="text-center">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam. Ducimus soluta officia iste eaque!
+                        Lorem ipsum dolor sit amet consfectetur, adipisicing elit. Vel, quibusdam. Ducimus soluta officia iste eaque!
                  </p>
                 </div>
             </div>
