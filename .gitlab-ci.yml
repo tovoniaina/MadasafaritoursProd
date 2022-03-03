@@ -6,8 +6,8 @@ build:
   image: node:14.15.3-buster-slim
   stage: build
   script:
-    - npm install
-    - npm build
+    - yarn install
+    - yarn build
   artifacts:
     paths:
       - build/
@@ -18,7 +18,7 @@ pages:
   variables:
     GIT_STRATEGY: none # Do not clone git repo
     NODE_ENV: production
-    PUBLIC_URL: https://aristide_tovo.gitlab.io/madasafaritours
+    PUBLIC_URL: https://aristide_tovo.gitlab.io/madasafaritours/
   script:
     # Rename the CRA `build` folder to `public`
     - mv build public
