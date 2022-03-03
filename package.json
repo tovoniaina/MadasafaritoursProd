@@ -1,6 +1,6 @@
 {
-  "name": "madasafaritour",
-  "homepage": "https://aristide_tovo.gitlab.io/",
+  "name": "madasafaritours",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
