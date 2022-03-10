@@ -5,6 +5,9 @@ import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import { Send } from '@mui/icons-material';
+import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
 
 const style = {
   position: 'absolute',
@@ -24,8 +27,8 @@ export default function TransitionsModal() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+    <div className=''>
+      <Button variant="contained" className='BtnBookNow' onClick={handleOpen}><EventAvailableIcon /> BOOK NOW</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -38,13 +41,21 @@ export default function TransitionsModal() {
         }}
       >
         <Fade in={open}>
-          <Box sx={style}>
-            <Typography id="transition-modal-title" variant="h4" component="h2">
-              Text in a modal
+          <Box sx={style} className='modalBookNow'>
+            <Typography className='text-center' id="transition-modal-title" variant="h4" component="h2">
+              Booking form
             </Typography>
             <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+              Please, fill all the form below so that we could build your travel ...
             </Typography>
+
+            <Typography>
+              <div className="button-action">
+                <button type="button" className="bouton-expertise"><a href="ok"> <DoNotDisturbOnIcon /> Cancel </a></button>
+                <button type="button" className="bouton-expertise droite-btn"><a href="ok">Send my request<Send /> </a></button>
+              </div>
+            </Typography>
+
           </Box>
         </Fade>
       </Modal>

@@ -9,9 +9,9 @@ import DoNotDisturbOnTotalSilenceIcon from '@mui/icons-material/DoNotDisturbOnTo
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import Button from '@mui/material/Button';
+import TransitionsModal from '../TransitionsModal';
 
 function MalagasyCultureDiscovery() {
   return (
@@ -19,7 +19,8 @@ function MalagasyCultureDiscovery() {
       <h1 className='text-center'>Malagasy Culture Discovery itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"><TransitionsModal/></div>
+
       </div>
       
       <VerticalTimeline>
@@ -33,7 +34,7 @@ function MalagasyCultureDiscovery() {
         >
           <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
           <p className='text-justify'>
-            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
+          Upon arrival at Ivato international airport, you will be met by a member of our team and then you will be transferred in a private car taking you to your hotel settled in downtown. <br /> Overnight: Chalet des Roses.
           </p>
 
 
@@ -48,9 +49,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
+          <h3 className="vertical-timeline-element-title">TANA – MANANDONA</h3>
           <p className='text-justify'>
-            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
+          Set off southwards heading to Antsirabe passing by the capital Tana, and with an optional stop at Ambatolampy to see aluminum pot casting. When arriving in Antsirabe, drive southwards where you shall start the hike trekking to the rural village of Manandona visiting some workshops, the old palace while contemplating magnificent landscape. <br /> Overnight: Gite Manandona
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -61,11 +62,152 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
           <p className='text-justify'>
-            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
           </p>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 4"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 5"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 6"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 7"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 8"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 9"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 10"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 11"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 12"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 13"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <p className='text-justify'>
+          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          </p>
+        </VerticalTimelineElement>
+
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
@@ -89,7 +231,7 @@ function MalagasyCultureDiscovery() {
       </VerticalTimeline>
 
       <div className="row">
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 included incluD">
             <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
             <div class="card-body">
@@ -102,7 +244,7 @@ function MalagasyCultureDiscovery() {
           </div>
         </div>
 
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 excluded">
             <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
@@ -116,9 +258,11 @@ function MalagasyCultureDiscovery() {
         </div>
 
       </div>
+
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"><TransitionsModal/></div>
+
       </div>
 
     </div>

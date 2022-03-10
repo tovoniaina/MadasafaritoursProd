@@ -61,6 +61,7 @@ function App() {
             <Route path='southern-trekking' element={<SouthernTrekking />} />
             <Route path='tana-surrounding' element={<TanaSurrounding />} />
             <Route path='vanilla-cruise' element={<VanillaCruise />} />
+
           </Route>
           <Route exact path="Contact" element={<Contact />} />
           <Route exact path="term-of-condition" element={<TermOfCondition />} />

@@ -130,7 +130,7 @@ function EasternWonder() {
       </VerticalTimeline>
 
       <div className="row">
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 included incluD">
             <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
             <div class="card-body">
@@ -143,7 +143,7 @@ function EasternWonder() {
           </div>
         </div>
 
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 excluded">
             <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
@@ -157,6 +157,7 @@ function EasternWonder() {
         </div>
 
       </div>
+
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
         <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>

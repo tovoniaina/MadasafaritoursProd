@@ -19,6 +19,7 @@ import RiverTrip from '../images/imagesMst/RiverTrip.jpg'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 
+
 function TourHighlightsCard() {
     const tours = [
         {
@@ -29,7 +30,6 @@ function TourHighlightsCard() {
             location: 'East',
             timer: "4 Days",
             learnMore:'/indri-encouter',
-            quote:""
         }, 
         {
             title: 'Eastern wonder',
@@ -39,7 +39,6 @@ function TourHighlightsCard() {
             location: 'East',
             timer: "7 Days",
             learnMore:'/eastern-wonder',
-            quote:""
         },
         {
             title: 'Diving Tour',
@@ -49,7 +48,6 @@ function TourHighlightsCard() {
             location: 'Northwest',
             timer: "9 Days",
             learnMore:'/diving-tour',
-            quote:""
         },
         {
             title: 'Dry Deciduous Birding',
@@ -69,7 +67,6 @@ function TourHighlightsCard() {
             location: 'Southeast',
             timer: "10 Days",
             learnMore:'/rainforest-birding',
-            quote:""
         },
         {
             title: 'Vanilla Cruise',
@@ -79,7 +76,6 @@ function TourHighlightsCard() {
             location: 'Northeast',
             timer: "10 Days",
             learnMore:'/vanilla-cruise',
-            quote:""
         },
         {
             title: 'Baobab Safari',
@@ -89,7 +85,6 @@ function TourHighlightsCard() {
             location: 'West',
             timer: "7 Days",
             learnMore:'/safari',
-            quote:""
         },
         {
             title: 'Mada Northern Safari',
@@ -99,7 +94,6 @@ function TourHighlightsCard() {
             location: 'North',
             timer: "9 Days",
             learnMore:'/mada-northern-safari',
-            quote:""
         },
         {
             title: 'Tana Surrounding',
@@ -109,7 +103,6 @@ function TourHighlightsCard() {
             location: 'Highland',
             timer: "4 Days",
             learnMore:'/tana-surrounding',
-            quote:""
         },
         {
             title: 'Southern Trekking',
@@ -119,7 +112,6 @@ function TourHighlightsCard() {
             location: 'Southern',
             timer: "17 Days",
             learnMore:'/southern-trekking',
-            quote:""
         },
         {
             title: 'Mada Southern Safari',
@@ -129,7 +121,6 @@ function TourHighlightsCard() {
             location: 'Southern',
             timer: "12 Days",
             learnMore:'/mada-southern-safari',
-            quote:""
         },
         {
             title: 'Post Wedding Safari',
@@ -139,7 +130,6 @@ function TourHighlightsCard() {
             location: 'NorthWest',
             timer: "10 Days",
             learnMore:'/post-wedding-safari',
-            quote:""
         },
         {
             title: 'Malagasy Culture Discovery',
@@ -149,7 +139,6 @@ function TourHighlightsCard() {
             location: 'Southeast',
             timer: "10 Days",
             learnMore:'/malagasy-culture-discovery',
-            quote:""
         },
         {
             title: 'River Trip',
@@ -159,17 +148,25 @@ function TourHighlightsCard() {
             location: 'Southeast',
             timer: "10 Days",
             learnMore:'/river-trip',
-            quote:""
         }
 
     ]
     return (
         <div className="Services my-5">
             <div className="container">
+                <div>
+                    <h1>Feel free to select your tour modality</h1>
+                </div>
+
+                <div>
+                We have 14 tours modalities, so you can choose wisely the one suits you <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed saepe explicabo iste ad, quibusdam beatae neque officia dignissimos necessitatibus sapiente voluptate rem nemo repellendus accusantium, a doloremque exercitationem minus.
+                Maxime asperiores placeat sunt laudantium inventore, quaerat dolore assumenda facilis deserunt quos soluta! Voluptates dolore accusamus fugit saepe quod repellendus eum. Iure, autem blanditiis? Repellendus maxime laudantium sed minus qui?
+                </div>
                 <div className="row">
-                    {tours.map((tour, i) => <div key={i} className="col-lg-4 col-md-6 col-sm-12 my-2" >
-                        <div class="card">
-                            <div class="card-body">
+                    {tours.map((tour, i) => <div key={i} className="col-lg-4 col-md-12 col-sm-12 my-2" >
+                        <div className="card">
+                            <div className="card-body">
                                 <div className="card-icons text-center">
 
                                 </div>
@@ -185,7 +182,7 @@ function TourHighlightsCard() {
 
                                 <div className="button-action">
                                     <button type="button" className="bouton-expertise"><a href={`/Tour${tour.learnMore}`}>Learn more <Send /></a></button>
-                                    <button type="button" className="bouton-expertise droite-btn"><a href="ok">Ask a quote<RequestQuoteIcon /> </a></button>
+                                    <button className="bouton-expertise droite-btn" variant="contained" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <RequestQuoteIcon />  Ask a quote </button>
                                 </div>
 
                             </div>

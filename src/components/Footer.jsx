@@ -1,4 +1,9 @@
-import React from "react";
+import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { ToastContainer, toast } from 'react-toastify';
+import emailjs from 'emailjs-com';
+import 'react-toastify/dist/ReactToastify.min.css';
+import '../css/ContactForm.css'
 import logofooter from "../images/logo.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,11 +13,103 @@ import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
-import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
+import cb from '../images/paymentMethod/cb.jpg'
+import masterCard from '../images/paymentMethod/masterCard.jpg'
+import paypal from '../images/paymentMethod/paypal.jpg'
+import visa from '../images/paymentMethod/visa.png'
+import { Send } from "@mui/icons-material";
+
+//Copy data from newsletter input to the airtable
 
 
-function Footer() {
+const Footer = () => {
+
+  //Copy data from newsletter input to the airtable
+
+  const [formData, setFormData] = useState({});
+  const [message, setMessage] = useState("");
+
+  const handleInput = e => {
+    const copyFormData = { ...formData };
+    copyFormData[e.target.name] = e.target.value;
+    setFormData(copyFormData);
+  };
+
+  const sendData = async e => {
+    e.preventDefault();
+    try {
+      const response = await fetch(
+        "https://v1.nocodeapi.com/aristide371/airtable/VsMXtNPpivfewLbi?tableName=Newsletter",
+        {
+          method: "post",
+          body: JSON.stringify([formData]),
+          headers: {
+            "Content-Type": "application/json"
+          }
+        }
+      );
+      const json = await response.json();
+      console.log("Success:", JSON.stringify(json));
+      setMessage(json.message);
+    } catch (error) {
+      console.error("Error:", error);
+      setMessage("Error");
+    }
+
+  };
+
+  //Newsletter toastify setting
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors }
+  } = useForm();
+  const [disabled, setDisabled] = useState(false);
+
+  // Function that displays a success toast on bottom right of the page when form submission is successful
+  const toastifySuccess = () => {
+    toast('Great! You have been subscribed', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      className: 'submit-feedback success',
+      toastId: 'notifyToast'
+    });
+  };
+
+  // Function called on submit that uses emailjs to send email of valid contact form
+  const onSubmit = async (data) => {
+    // Destrcture data object
+    const { email } = data;
+    try {
+      // Disable form while processing submission
+      setDisabled(true);
+
+      // Define template params
+      const templateParams = { email };
+
+      emailjs.send('service_wbcqhdh', 'template_copj82l', templateParams, 'GwFaGFV-0KNwOLU8T')
+        .then(function (response) {
+          console.log('SUCCESS!', response.status, response.text);
+        }, function (error) {
+          console.log('FAILED...', error);
+        });
+
+      // Reset contact form fields after submission
+      reset();
+      // Display success toast
+      toastifySuccess();
+      // Re-enable form submission
+      setDisabled(false);
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   return (
     <div className="footer">
@@ -23,20 +120,20 @@ function Footer() {
             <p className="description-footer">MADA SAFARI TOUR Bespoke & Luxury holidays throughout Madagascar. Book it now for your dream holiday</p>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <h5 className="contacts">Contact</h5>
+            <h5 className="contacts">Address & Contact</h5>
             <div className="contact-footer">
 
               <div className="contact-list">
                 <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <StoreIcon />Mada Safari Tours S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
                 <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> <br />
-                <a href="mailto:cs@qerozia.io"> <MailIcon /> cs@madasaritours.com </a> <br />
+                <a href="mailto:*cs@madasaritours.com"> <MailIcon /> cs@madasaritours.com </a> <br />
                 <a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> <br />
               </div>
 
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <h5>Retrouvez-nous sur:</h5>
+            <h5>Follow us on:</h5>
             <div className="social-footer">
               <a href="https://web.facebook.com/qeroziadigital" className="mx-2"><FacebookIcon /></a>
               <a href="https://twitter.com/QeroziaD" className="mx-2"><TwitterIcon /></a>
@@ -50,24 +147,57 @@ function Footer() {
               <Link to="/disclaimer">Disclaimer</Link>
             </div>
 
-            <div className="newsletter">
-              <input type="email" name="newsletter" className="mailInput" placeholder="example@email.com" /> <a href="#subs"><Button className='subscribe' variant="contained">Subscribe</Button></a>
 
-            </div>
+            <form id='contact-form' onSubmit= {handleSubmit(onSubmit)} noValidate>
+              <div className="newsletter">
+                Subscribe to our newsletter be informed continuously <br />
+                <input
+                  type="email"
+                  {...register('email', {
+                    required: true,
+                    pattern:
+                      /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                  })}
+                  name="email"
+                  className="mailInput"
+                  placeholder="example@email.com"
+                  onChange={handleInput}
+                />
 
+                <button type="submit"  disabled={disabled} className="subscribe"> Send <Send />  </button>
 
-
+              </div>
+              {errors.email && (
+                <span className='errorMessage'>Please enter a valid email address</span>
+              )}
+              <div>{message}</div>
+            </form>
 
           </div>
+          <ToastContainer />
+        </div>
+
+        <div className="text-center">
+          We accept these payment method <br />
+
+          <img src={visa} alt="visa" className="mx-1 my-1 payment-method" />
+          <img src={masterCard} alt="mastercard" className="mx-1 my-1 payment-method" />
+
+          <img src={paypal} alt="paypal" className="mx-1 my-1 payment-method" />
+
+          <img src={cb} alt="cb" className="mx-1 my-1 payment-method" />
+
+
 
 
         </div>
+
       </div>
       <div className="copyright text-center py-1">
-        <p className="my-1">Copyright © <a className="copyrightText" href="#Home">MadaSafariTour</a> 2022 - All rights reserved</p>
+        <p className="my-1">Copyright © <a className="copyrightText" href="#Home">MadaSafariTour</a> {new Date().getFullYear()} - All rights reserved</p>
       </div>
     </div>
   );
-}
 
+}
 export default Footer;

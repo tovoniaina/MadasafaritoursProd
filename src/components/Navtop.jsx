@@ -13,14 +13,14 @@ function Navtop() {
             <div className="container">
                 <div className="row">
                     <div className="col-7 contact">
-                        <a href="tel:+261347020820" className="mx-2"><WhatsAppIcon />Phone us</a>
-                        <a href="mailto:customer@madasafaritours.com" className="mx-2"><MailIcon />Mail us</a>
+                        <a href="tel:+261347020820" className="mx-1"><WhatsAppIcon />Phone us</a>
+                        <a href="mailto:customer@madasafaritours.com" className="mx-1"><MailIcon />Mail us</a>
                     </div>
                     <div className="col-5 social">
-                        <a href="https://web.facebook.com/qeroziadigital" className="mx-2"><FacebookIcon /></a>
-                        <a href="https://twitter.com/QeroziaD" className="mx-2"><TwitterIcon /></a>
-                        <a href="https://www.linkedin.com/company/79306496" className="mx-2"><LinkedInIcon /></a>
-                        <a href="https://www.instagram.com/qeroziadigital/" className="mx-2"><InstagramIcon /></a>
+                        <a href="https://web.facebook.com/qeroziadigital" className="mx-1"><FacebookIcon /></a>
+                        <a href="https://twitter.com/QeroziaD" className="mx-1"><TwitterIcon /></a>
+                        <a href="https://www.linkedin.com/company/79306496" className="mx-1"><LinkedInIcon /></a>
+                        <a href="https://www.instagram.com/qeroziadigital/" className="mx-1"><InstagramIcon /></a>
 
                     </div>
                 </div>

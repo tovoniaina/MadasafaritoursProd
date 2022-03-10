@@ -1,10 +1,16 @@
 import React from 'react'
-import Contacts from "../components/Contacts";
+// import Contacts from "../components/Contacts";
+import Slider from '../components/Slider';
+import ContactForms from '../components/ContactForms'
+
 
 function Contact() {
-    return (
+    return(
         <main id='Qa'>
-        <Contacts />
+            <Slider />
+        {/* <Contacts /> */}
+        <ContactForms />
+
     </main>
     )
 }

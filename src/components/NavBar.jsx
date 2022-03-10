@@ -10,8 +10,7 @@ import QuizIcon from '@mui/icons-material/Quiz';
 import GroupsIcon from '@mui/icons-material/Groups';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-import Button from '@mui/material/Button';
+import BookModal from './BookModal';
 
 function NavBar() {
     return (
@@ -21,7 +20,7 @@ function NavBar() {
                     <img src={logo} alt="logo madasafari" className='logo' />
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <FontAwesomeIcon icon={faBars} style={{ color: "#6e4c27" }} />
+                    <FontAwesomeIcon icon={faBars} style={{ color: "var(--primary-grey)" }} />
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,7 +51,9 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <a className='booknow' href="#navtop"><Button className='BtnBookNow' variant="contained"><EventAvailableIcon /> Book Now</Button></a>
+                         
+                        <BookModal />
+                            
                         </li>
 
                         

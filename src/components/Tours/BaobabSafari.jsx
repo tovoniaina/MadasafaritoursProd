@@ -9,9 +9,10 @@ import DoNotDisturbOnTotalSilenceIcon from '@mui/icons-material/DoNotDisturbOnTo
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import Button from '@mui/material/Button';
+import TransitionsModal from '../TransitionsModal';
+
 
 function BaobabSafari() {
   return (
@@ -19,7 +20,7 @@ function BaobabSafari() {
       <h1 className='text-center'>Baobab Safari itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"><TransitionsModal/></div>
       </div>
 
 
@@ -134,7 +135,7 @@ function BaobabSafari() {
       </VerticalTimeline>
 
       <div className="row">
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 included incluD">
             <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
             <div class="card-body">
@@ -147,7 +148,7 @@ function BaobabSafari() {
           </div>
         </div>
 
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 excluded">
             <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
@@ -161,9 +162,10 @@ function BaobabSafari() {
         </div>
 
       </div>
+      
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"><TransitionsModal/></div>
       </div>
 
     </div>

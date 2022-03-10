@@ -14,12 +14,15 @@
   --primary-black: #010103;
   --primary-grey: #282c34;
   --primary-green: #5FA423;
+  --light: #d0d1d3;
+  --dark: #040d14;
+  --green: #21ce99;
+  
 }
 
 /****test footer****/
 .footers {
-  display: flex;
-  
+  display: flex;  
   flex-direction: row;
   align-items: flex-end;
   padding: 1em;
@@ -192,16 +195,29 @@ html, body {
 .subscribe{
   background-color: var(--primary-orange) !important;
   color: var(--primary-grey) !important;
-  text-transform:none !important;
-  margin-bottom: 4px !important;
+  border-radius: 5px !important;
+  border-color: var(--primary-grey) !important;
+  height: 45px !important;
+  width: 30%;
+}
+
+.subscribe a {
   text-decoration: none !important;
+  cursor: pointer;
+  color: inherit !important;
 }
 
 .mailInput{
-  height: 40px;
+  height: 45px;
   margin-top: 2px;
   border-radius: 5px;
   padding: 10px !important;
+  width: 65%;
+
+}
+
+.payment-method{
+    width: 80px;
 }
 /**************PROPOS SECTION1*************/
 /*
@@ -314,7 +330,7 @@ margin-right: auto;
 
 .bouton-expertise:hover{
   background-color: var(--primary-white) !important;
-  color: var(--chocolat) !important;
+  color: var(--primary-grey) !important;
   
 }
 
@@ -397,4 +413,97 @@ margin-right: auto;
 .accordion-button{
   background-color: var(--primary-grey) !important;
   color: var(--primary-white) !important;
+}
+
+
+/*******BOOK NOW MODAL*******/
+.modalBookNow{
+  background-color: var(--primary-grey) !important;
+  color: var(--primary-white);
+  border-color: var(--primary-grey) !important;
+  font-family: var(--bodyFont) !important;
+  text-transform:initial !important;
+  
+}
+
+
+.BookMyTravel{
+  background-color: var(--primary-orange) !important;
+  color: var(--primary-grey) !important;
+}
+
+
+/*****************CONTACT****************/
+
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+  background-color: var(--primary-grey);
+  box-shadow: 0 0 0 2px var(--primary-white);
+  border: none;
+  color: var(--primary-white) !important;
+}
+
+.formInput:focus {
+  background-color: var(--primary-grey);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-orange);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--primary-white);
+  opacity: 0.5;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 340px !important;
+  margin-left: -12px;
+  background-color: var(--primary-green);
+}
+
+.submit-btn {
+  background-color: var(--primary-grey);
+  color: var(--primary-white) !important;
+  padding: 15px 50px;
+  border: 2px solid var(--primary-grey);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.submit-btn:hover {
+  background-color: var(--primary-orange);
+  color: var(--dark) !important;
+  border: 2px solid var(--primary-white);
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--dark);
+  color: var(--green) !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
 }

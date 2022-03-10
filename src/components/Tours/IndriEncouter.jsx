@@ -19,7 +19,7 @@ function IndriEncouter() {
       <h1 className='text-center'>Indri Encouter itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
       
       <VerticalTimeline>
@@ -89,7 +89,7 @@ function IndriEncouter() {
       </VerticalTimeline>
 
       <div className="row">
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 included incluD">
             <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
             <div class="card-body">
@@ -102,7 +102,7 @@ function IndriEncouter() {
           </div>
         </div>
 
-        <div className="col col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 excluded">
             <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
@@ -118,7 +118,7 @@ function IndriEncouter() {
       </div>
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
 
     </div>
