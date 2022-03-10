@@ -109,6 +109,8 @@ const Footer = () => {
     } catch (e) {
       console.log(e);
     }
+
+  await sendData()
   };
 
   return (
