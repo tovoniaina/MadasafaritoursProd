@@ -74,7 +74,7 @@ function TourHighlightsCard() {
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €980",
             location: 'Northeast',
-            timer: "10 Days",
+            timer: "14 Days",
             learnMore:'/vanilla-cruise',
         },
         {

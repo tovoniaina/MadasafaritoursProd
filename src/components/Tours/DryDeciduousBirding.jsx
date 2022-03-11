@@ -19,7 +19,7 @@ function DryDeciduousBirding() {
       <h1 className='text-center'>Dry Deciduous Birding itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
       
       <VerticalTimeline>
@@ -33,7 +33,7 @@ function DryDeciduousBirding() {
         >
           <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
           <p className='text-justify'>
-            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
+          A member of our team will welcome you at Ivato international airport Hall. And then you will be transferred to your hotel located downtown Antananarivo (often abbreviated to Tana) where you can relax before the start of your next day adventures. <br /> Overnight: San Cristobal
           </p>
 
 
@@ -46,11 +46,11 @@ function DryDeciduousBirding() {
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
-          icon={<DirectionsCarIcon />}
+          icon={<FlightTakeoffIcon />}
         >
-          <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
+          <h3 className="vertical-timeline-element-title">TANA – TULEAR – IFATY</h3>
           <p className='text-justify'>
-            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
+          You will be transferred to the airport for flight taking you to Tuléar, the capital of the Vezo fishing people. Upon arrival, you will be met by a member of our team representing our company, taking you to Ifaty, home of the fishermen, a village just by the seaside. Along the road, stops in hope to spot few species of birds including the Ring-plover, Lesser flamingo, Kittliz plover, Black-winged Stilt, and quite possibly the rarest Madagascar plover, Ruddy turnstone, Wimbrel, etc. <br /> Overnight: Belle Vue
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -61,22 +61,121 @@ function DryDeciduousBirding() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <h3 className="vertical-timeline-element-title">IFATY</h3>
           <p className='text-justify'>
-            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
+          Set off early in the morning by 5 a.m. visiting Ifaty spiny forest. Ifaty is home of the long-tailed Running coua, Chaberts vanga, Red-shouldered vanga, Sickle-billed vanga, Sub-desert Mesite, Madagascar Nightjar, Green-capped coua, Red-capped coua, Lafreysnaye’s vanga, Common Newtonia, Archbolds Newtonia, Hook-billed vanga, Sub-desert brush-warbler, Madagascar Harrier hawk, Sakalava Weaver, Madagascar Fody, etc. In the afternoon, you can relax by the beach or explore the village to see and learn how fishermen do their daily business when taking offshore their catch, fresh and plenty. <br /> Overnight: Belle Vue
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">IFATY – TSIMANAMPETSOTSE</h3>
+          <p className='text-justify'>
+          We drive back to Tuléar and then transfer to Anakao boarding in a fast motor boat taking approximately one and half hour. Upon arrival, we depart to Tsimanampetsotse national park taking roughly three hour drive. <br /> Overnight: Relais d’Ambola
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 5"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">TSIMANAMPETSOTSE</h3>
+          <p className='text-justify'>
+          This protected area is composed of a coastal forest, a limestone plateau, with a sandy lake and several caves some of which are accessible. We have the whole day visiting this park in search of the Red-tailed vanga, Madagascar plover, Greater and Lesser flamingo, Red knobbed coot, Verreauxi Couas and so forth. Besides, this is the only place that harbors the blind fish. After the visit, we drive back to your hotel. <br /> Overnight: Relais d’Ambola
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 6"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">TSIMANAMPETSOTSE – ANAKAO</h3>
+          <p className='text-justify'>
+          Early morning breakfast and then drive back to Anakao. Upon arrival, immediate boat ride heading to Nosy Ve, home of the Red-tailed tropic bird, Sanderling, White-fronted Plover, Great Crested-Tern, Lesser Crested-Tern, etc. Also, Nosy Ve’s fine white sand, very clean beach, crystal clear water is a good place for snorkeling in order to spot plethora species of colorful fish underwater. Back to your hotel, and spend the afternoon at leisure. <br /> Overnight: Anakao Ocean Lodge
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 7"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<FlightTakeoffIcon />}
         >
-          <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
+          <h3 className="vertical-timeline-element-title">ANAKAO – TANA</h3>
           <p className='text-justify'>
-            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
+          Early morning transfer back to Tuléar. Then, transfer to the airport for flight back to Tana. <br /> Overnight: San Cristobal
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 8"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">TANA – ANKARAFANTSIKA</h3>
+          <p className='text-justify'>
+          Morning drive along the national road number 4. Stops en route in hope to spot some birds including the Madagascar kestrel, Madagascar reunion harrier, Squacco heron, Little egret, Black egret, Green-backed heron, Black-crowned night heron, and so many more. You arrive at Ampijoroa forest station early evening. <br /> Overnight: Bungalow
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 9"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ANKARAFANTSIKA</h3>
+          <p className='text-justify'>
+          We set off for a whole visit day in search of birds listed among our today’s agenda. This dry deciduous forest is located at 462 km north of Antananarivo. There are 103 species of birds recorded here, among which the most localized are Madagascar Fish-Eagle, Schlegel’s Asity, Van Dam’s Vanga, Coquerel’s Coua,  Madagascar Jacana, Rufous vanga,  White-Breasted Mesite, White-headed Vanga, Frances’ sparrow hawk, Malagasy Scoops-Owl, Madagascar lesser cuckoo, African darter, Common greenshank, Purple heron, Madagascar crested Ibis, Malagasy Pond-heron, Madagascar button-quail,  Madagascar Buzzard,   Madagascar sparrow hawk, Cuckoo-roller,Broad-billed roller,  etc. <br /> Overnight: Bungalow
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 10"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ANKARAFANTSIKA – TANA</h3>
+          <p className='text-justify'>
+          After breakfast, we drive back to Tana. Lunch somewhere and then few stops can be arranged by your guide along the road. <br /> Overnight: San Cristobal
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 11"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<FlightTakeoffIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">FLY HOME</h3>
+          <p className='text-justify'>
+          We have city tour this morning in order to learn about the capital and its people, their cultures, their daily life and so on. Some visit will be focused on areas settled in the upper town, visiting the old queen palace, picturesque cathedral, the lake Anosy and the busiest central part where the famous Zoma market is located, seeing bunch of foreign visitors, with good European architectures. Then, drive to Route Digue, a recommended place for souvenirs including products made from raffia, zebu horns, woodcarvings, semi-precious stones, local made tee-shirts, and so on. After shopping, transfer to the airport to catch a flight taking you back home. 
           </p>
         </VerticalTimelineElement>
 
@@ -119,7 +218,7 @@ function DryDeciduousBirding() {
 
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
 
     </div>

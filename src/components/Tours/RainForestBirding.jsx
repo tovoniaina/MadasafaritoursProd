@@ -19,7 +19,7 @@ function RainForestBirding() {
       <h1 className='text-center'>Rainforest Birding itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
       
       <VerticalTimeline>
@@ -33,7 +33,7 @@ function RainForestBirding() {
         >
           <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
           <p className='text-justify'>
-            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
+          Upon arrival at Ivato international airport, you will be met by a member of our team and then you will be transferred to your hotel. <br /> Overnight: Chalet des Roses.
           </p>
 
 
@@ -48,11 +48,12 @@ function RainForestBirding() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
+          <h3 className="vertical-timeline-element-title">TANA – ANTSIRABE</h3>
           <p className='text-justify'>
-            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
+          Set off toward Antsirabe with stops along the road to spot some birds including the Black-crowned night heron, Green backed heron, Squacco heron, Black egret, Little egret, Hammerkop and so forth. When arriving at Antsirabe, visit the surrounding areas and various workshops of semi and precious stones. <br /> Overnight: Le Voyageur 
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 3"
@@ -61,14 +62,100 @@ function RainForestBirding() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <h3 className="vertical-timeline-element-title">ANTSIRABE – RANOMAFANA</h3>
           <p className='text-justify'>
-            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
+          We depart today heading to Ranomafana; stop at Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, continue driving to Ranomafana. Stop at Namorona waterfall. <br /> Drive to your hotel for overnight at Karibo Hotel.
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">RANOMAFANA (VOHIPARARA VISIT)</h3>
+          <p className='text-justify'>
+          You have a full day visit in Vohiparara forest accompanied by your guides in search of several species of birds, 12 species of lemur and 90 species of butterflies. Besides, there are 98 species of amphibians and 62 species of reptiles such as chameleons, and so on. The Pitta like ground roller and other endemic birds like the Brown mesite, Velvet asity, Stripe-throated jerry, Common newtonia, Dark newtonia, Long-billed Tretraka, Malagasy kingfisher, Red capped coua, Forest rock thrush, etc. nest in this park. <br /> Overnight: Karibo Hotel
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 5"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">RANOMAFANA VISIT - ANTSIRABE</h3>
+          <p className='text-justify'>
+          We explore the morning in search of not only birds but also other animals. Ranomafana is the only place where we can observe the Golden bamboo lemur, Greater bamboo lemur, Milne Edwards sifaka, and few species of reptiles, frogs, satanic leaf-tailed gecko, ring-tailed mangoose, and of course birds like the Velvety asity, Crested ibis, and so forth. After the visit, we drive back to Antsirabe. <br /> Overnight: Le Voyageur
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 6"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ANTSIRABE – TANA</h3>
+          <p className='text-justify'>
+          This morning, city tour and then we depart back to Tana with stops en route. <br /> Settle in your hotel for overnight at Chalet des Roses
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 7"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">TANA – ANDASIBE</h3>
+          <p className='text-justify'>
+          Depart to Andasibe taking approximately 3.5 hour drive. Stop at Mangoro River to spot some birds on the bank of the River such as Madagascar Pratincole, Common sandpiper, Malachite kingfisher and many more. On arrival, visit the famous Vakona Reserve where five species of lemurs such as the black-and white ruffed lemur, the browns, the ring-tail lemur, the modest eastern bamboo lemur and the diademed sifaka can be seen in this reserve. <br /> Overnight: Andasibe Hotel
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 8"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ANDASIBE (MANTADIA NATIONAL PARK)</h3>
+          <p className='text-justify'>
+          We drive to Mantadia national park in search of endemic birds nesting in this park. The bird list of today includes, Pitta like ground roller, Scaly ground roller, Red breasted coua, Red fronted coua, Madagascar Nightjar, White-throated Oxylabes, Velvety asity, Yellow bellied asity, spectacular Red Fody, Broad billed roller, Cuckoo roller, Madagascar serpent eagle, Madagascar Ibis, Madagascar starling, etc. Lunch and then drive back to your hotel. <br /> Overnight: Andasibe hotel
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 9"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ANDASIBE (ANALAMAZOATRA RESERVE) - TANA</h3>
+          <p className='text-justify'>
+          After breakfast, visit Analamazoatra reserve harboring many species of birds such as the nuthatch vanga, Blue vanga, Madagascar fluff tail, Madagascar Wood rail, Madagascar Cuckoo shrike, Madagascar buzzard, Short-legged ground roller, Red-shouldered vanga, Nelicourvi weaver, Blue Coua, White throated rail, Madagascar harrier hawk, Frances sparrow hawk and many more. After the visit, we drive back to Tana. <br /> Overnight: Chalet des Roses
+          </p>
+        </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 10"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -76,7 +163,7 @@ function RainForestBirding() {
         >
           <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
           <p className='text-justify'>
-            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
+          You have a morning city tour visiting Tana and its surrounding including the upper town and lower town in downtown Tana, the queen palaces, the old picturesque cathedral and then the lake Anosy. After the city tour, you will be transferred to the airport for your flight back home. End of our service.
           </p>
         </VerticalTimelineElement>
 
@@ -119,7 +206,7 @@ function RainForestBirding() {
 
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
 
     </div>

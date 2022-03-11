@@ -18,8 +18,8 @@ function TanaSurrounding() {
     <div className='container itineraries'>
       <h1 className='text-center'>Tana Surrounding itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 180$</Button> </div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
       
       <VerticalTimeline>
@@ -33,8 +33,8 @@ function TanaSurrounding() {
         >
           <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
           <p className='text-justify'>
-            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
-          </p>
+          Arrival at Ivato international airport, you will be met and welcomed by a member of our team at the airport hall. And then, transfer to your hotel settled in downtown. <br /> Overnight: Chalet des Roses
+                    </p>
 
 
         </VerticalTimelineElement>
@@ -48,9 +48,9 @@ function TanaSurrounding() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
+          <h3 className="vertical-timeline-element-title">TANA – LEMURS’ PARK</h3>
           <p className='text-justify'>
-            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
+          This morning, we will depart to Lemurs’ Park. This park harbors many species of lemurs, some of which are freely performing their dances and leaping from branches to branches. Others are settled in a cage including the rarest ones like the aye-aye and other tiny mouse lemurs. After the visit, drive back to town and then city tour taking you to the old queen palace, picturesque catholic cathedral, the lake Anosy and then the Zoma market. <br /> Overnight: Chalet des Roses
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -61,9 +61,9 @@ function TanaSurrounding() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <h3 className="vertical-timeline-element-title">TANA – AMBOHIMANGA ROVA VISIT</h3>
           <p className='text-justify'>
-            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
+          This morning, we drive to Ambohimanga, the King palace. This palace records old history of the Merina tribe where the first king reigned. Besides, this is the best place to learn a lot about the beginning and the philosophical cultures of the Malagasy people, a deep understanding of their origin, its political foundation, traditions and custom. Drive back to town and then, visit the Digue market for souvenirs where you can find interesting products made from raffia, zebu horns, woodcarvings, semi-precious stones, traditional embroideries, and many more. After shopping, drive to your hotel near the airport. <br /> Overnight: Gassy Country House
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -76,7 +76,7 @@ function TanaSurrounding() {
         >
           <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
           <p className='text-justify'>
-            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
+          You will be transferred to Ivato international airport for flight heading back home. End of our service.
           </p>
         </VerticalTimelineElement>
 
@@ -118,8 +118,8 @@ function TanaSurrounding() {
       </div>
 
       <div className="row mb-3">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 180$</Button> </div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
 
     </div>

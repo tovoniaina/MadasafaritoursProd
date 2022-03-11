@@ -11,7 +11,8 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import Button from '@mui/material/Button';
-import TransitionsModal from '../TransitionsModal';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+
 
 function MadaNorthernSafari() {
   return (
@@ -19,7 +20,7 @@ function MadaNorthernSafari() {
       <h1 className='text-center'>Mada Northern Safari itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><TransitionsModal/></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
       
       <VerticalTimeline>
@@ -188,7 +189,7 @@ function MadaNorthernSafari() {
 
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><TransitionsModal/></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
         </div>
 
     </div>

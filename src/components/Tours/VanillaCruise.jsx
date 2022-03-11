@@ -19,7 +19,7 @@ function VanillaCruise() {
       <h1 className='text-center'>Vanilla Cruise itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
       
       <VerticalTimeline>
@@ -33,7 +33,7 @@ function VanillaCruise() {
         >
           <h3 className="vertical-timeline-element-title">TANA (ARRIVAL)</h3>
           <p className='text-justify'>
-            On arrival in Antananarivo (abbreviated as Tana) a member of our team will welcome you at the international arrival hall and transfer you to your hotel. Overnight: Grand Hotel Urban
+          You will be met by one of our team to welcome you at the international airport of Ivato. Then, you will be transferred in a private car taking you to your hotel settled in downtown. <br /> Overnight: Chalet des Roses
           </p>
 
 
@@ -50,7 +50,7 @@ function VanillaCruise() {
         >
           <h3 className="vertical-timeline-element-title">TANA - ANDASIBE</h3>
           <p className='text-justify'>
-            This morning, breakfast and then set off towards Andasibe. Along the journey, you will enjoy various sceneries from highlands to rice fields and small cluttered traditional villages mostly perched on hill sides. The road is steep and winding; with lush vegetation until you reach Andasibe, home of the Indri, the biggest lemur in Madagascar. Upon arrival, visit the Vakona reserve harboring five species of lemurs such as, the black-and-white ruffed lemur, the eastern bamboo lemur, the ring-tails, the browns and the dancing diademed sifaka. You will have fun during your visit here since lots of dance performances, photo-ops and a close encounter with the lemurs will fill your day. And then, back to the car taking you to your hotel. Overnight: Andasibe Hotel
+          This morning, we drive to Andasibe, roughly 4 hour drive. There are some stops en route. Upon arrival, immediate drive heading to Vakona reserve, where five species of lemurs are happy for photo-op. the Black and white ruffed lemur, Common brown lemurs, Eastern bamboo lemurs, Dancing sifakas, the Ring-tails known as the Maki catta are freely leaping around this tiny island. After the visit, settle in your hotel. <br /> Overnight: Andasibe Hotel
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -61,14 +61,148 @@ function VanillaCruise() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">ANDASIBE - TANA</h3>
+          <h3 className="vertical-timeline-element-title">ANDASIBE</h3>
           <p className='text-justify'>
-            After breakfast, we explore the reserve of Analamazoatra where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Be ready to take lots of photos recording the haunting calls of the indri for a final walk in Andasibe before heading back to the capital. You shall reach Tana late in the afternoon and settle in your hotel. Overnight: Grand Hotel Urban
-          </p>
+          After breakfast, you will spend the morning exploring the Analamazoatra reserve where the Indri and other species of lemurs, birds, reptiles and so forth dwell in this primary and secondary forest. Analamazoatra is where the indri indri, the largest species of lemur, with eerie haunting calls echo and heard miles away from your hotel. <br /> Overnight: Andasibe Hotel          </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ANDASIBE – MAHANORO</h3>
+          <p className='text-justify'>
+          We depart as early as possible heading east toward Mahanoro. The landscape is so stunning. So, stops along the road. We shall reach Mahanoro early evening. This is the starting point for our boat ride along the Pangalanes Canal, a new experience to learn more about Madagascar and its rural life. <br /> Overnight: Le Prestige        
+          </p>
+          </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 5"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MAHANORO – NOSY VARIKA</h3>
+          <p className='text-justify'>
+          As early as possible, leave Mahanoro and then embark on a boat taking you to Nosy Varika. The ride is rewarding though a bit long and tiresome. However, the landscape along the canal is extraordinary with lots of birds including the Madagascar red fody, Black-crowned night herons, terns, Madagascar coucal, etc. Besides, we have some stops along the way including a visit at a vanilla plantation, the right moment to learn about how the local farmers grow vanilla. Also, other visits include a stop at a rural village, visiting a school, local traditional houses, etc. Settle in your hotel for overnight: Le Petit Oasis
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 6"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">NOSY VARIKA – MANANJARY	</h3>
+          <p className='text-justify'>
+          After breakfast, we board on the boat continuing our ride which may take roughly 8 to 10 hours. We have lunch in a boat. The ride provides a good chance to experience rural Malagasy life, traditions, culture, visits of certain places, and so forth. Also, along the canal, birds abound and Red fody tend to serenade travelers. <br /> Overnight: Sorafa Hotel
+           </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 7"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MANANJARY – RANOMAFANA	</h3>
+          <p className='text-justify'>
+          We set off heading toward Ranomafana national park. This park is home of the endangered Golden bamboo lemur, Great bamboo lemur and other animals endemic in this park without forgetting lots of reptiles and birds nesting in this area. Evening safari walk can be arranged. <br /> Overnight: Karibo Hotel 
+           </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 8"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">RANOMAFANA VISIT – FIANARANTSOA</h3>
+          <p className='text-justify'>
+          We have a visit in the park in hope to explore a great deal of animals, several species of birds, 12 species of lemur and 90 species of butterflies. Besides, there are 98 species of amphibians and 62 species of reptiles such as chameleons, satanic leaf-tailed gecko, ring-tailed mangoose, and so on. After the visit, we depart to Fianarantsoa, the capital of the Betsileo tribe. <br /> Overnight: Villa Sylvestre     </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 9"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">FIANARANTSOA – ISALO</h3>
+          <p className='text-justify'>
+          After breakfast, we drive southwards, contemplating sceneries influenced by dramatic open plains and lots of cluttered small traditional villages perched on hillside. Stop at Ambalavao visiting the paper fabric of Antemoro, and then the zebu market (on Wednesdays and Thursday mornings). After the visit, continue toward Anja community reserve, home of the ring-tails, and the largest chameleon as well as the tiny ground chameleon. After the visit, lunch and then depart to Isalo national park. <br /> Overnight: Orchidée Hotel </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 10"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ISALO VISIT</h3>
+          <p className='text-justify'>
+          We will have a full day hike in Isalo National Park heading to the ‘Piscine Naturelle’ where you can spend few moments swimming. A classic walk is very rewarding granting a dramatic view of the so-called ‘Grand Canyon’. Besides, we hike following the Namaza trail (4 km) leading to the camping site where three species of lemurs (ring-tails, the browns and the sifakas) drop by in search of food and come for drink. Picnic lunch, and then, continue hiking upwards leading to the ‘Piscine Bleue and Piscine Noire’ (blue and black pool) and another short hike reaching the ‘Cascade de Nymphe’, fed by natural streams that refreshes the heat. After the long hike, we head back to our hotel. <br /> Overnight: Orchidée Hotel </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 11"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">ISALO – IFATY	</h3>
+          <p className='text-justify'>
+          After breakfast, leave Isalo and depart to Ifaty. There will be some stops en route, with photo of the baobab forest, and bunch of traditional Mahafaly tombs observed all along the drive toward Tuléar, the capital of the Vezo fishing people. The Mahafaly tombs have distinct cultural traits of this typical southern tribe displaying images that represent the daily life or dreams of the deceased. We shall have lunch in Tuléar and then continue driving to Ifaty. <br /> Overnight: Belle Vue</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 12"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">IFATY</h3>
+          <p className='text-justify'>
+          The whole day is yours at leisure. However, there are lots of activities that can be organized by your hotel such as snorkeling, diving or visiting the spiny forest and many more. <br /> Overnight: Belle Vue </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 13"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<FlightTakeoffIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">IFATY – TANA</h3>
+          <p className='text-justify'>
+          Depart to Tuléar and transfer to the airport for flight heading back to Tana. <br /> Overnight: Chalet des Roses</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 14"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -76,8 +210,7 @@ function VanillaCruise() {
         >
           <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
           <p className='text-justify'>
-            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
-          </p>
+          Your last day this morning in Madagascar grants you a city tour as well as opportunities to explore the sights and life in Antananarivo. Depending on time departure, visit the Zoma (the large traditional market of Tana) and the palace, the old picturesque cathedral, etc to feel and learn about the Malagasy cultures. Then, you will be transferred to the airport for your flight back home.          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -119,7 +252,7 @@ function VanillaCruise() {
 
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
-        <div className="col"><a className='booknow' href="#navtop"><Button className='BtnBookNow ' variant="contained"><EventAvailableIcon /> Book Now</Button></a></div>
+        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
 
     </div>
