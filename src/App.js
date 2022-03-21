@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from '../src/pages/Home';
 import AboutUs from '../src/pages/AboutUs';
 import Faqs from '../src/pages/Faqs';
-import Itinerary from '../src/pages/Itinerary';
+import Madagascars from './pages/Madagascars';
 import Tour from '../src/pages/Tour';
 import Contact from './pages/Contact';
 import BaobabSafari from './components/Tours/BaobabSafari';
@@ -30,6 +30,8 @@ import RiverTrip from './components/Tours/RiverTrip';
 import SouthernTrekking from './components/Tours/SouthernTrekking';
 import TanaSurrounding from './components/Tours/TanaSurrounding';
 import VanillaCruise from './components/Tours/VanillaCruise';
+import ProtocolCovid from './components/ProtocolCovid';
+import ConditionOfService from './components/ConditionOfService';
 
 
 function App() {
@@ -42,9 +44,10 @@ function App() {
         <Routes>
 
           <Route exact path="/" element={<Home />} />
+          <Route exact path="protocol-covid" element={<ProtocolCovid />} /> 
           <Route exact path="AboutUs" element={<AboutUs />} />
           <Route exact path="Faqs" element={<Faqs />} />
-          <Route exact path="Itinerary" element={<Itinerary />} />
+          <Route exact path="Madagascars" element={<Madagascars />} />
           <Route path="Tour" element={<Tour />}>
             <Route index element={<TourHighlightsCard />} />
             <Route path='safari' element={<BaobabSafari />} />
@@ -66,6 +69,7 @@ function App() {
           <Route exact path="Contact" element={<Contact />} />
           <Route exact path="term-of-condition" element={<TermOfCondition />} />
           <Route exact path="disclaimer" element={<Disclaimer />} />
+          <Route exact path="condition-of-services" element={<ConditionOfService />} />
           <Route  path="*" element={<NoMatch/>} />
 
         </Routes>

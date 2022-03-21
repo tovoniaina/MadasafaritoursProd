@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import '../css/ContactForm.css'
-import logofooter from "../images/logo.png";
+import logofooter from "../images/logoBottom.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -15,8 +15,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
 import { Link } from "react-router-dom";
 import cb from '../images/paymentMethod/cb.jpg'
-import masterCard from '../images/paymentMethod/masterCard.jpg'
-import paypal from '../images/paymentMethod/paypal.jpg'
+import masterCard from '../images/paymentMethod/masterCard.png'
+import paypal from '../images/paymentMethod/paypal.png'
 import visa from '../images/paymentMethod/visa.png'
 import { Send } from "@mui/icons-material";
 
@@ -24,40 +24,6 @@ import { Send } from "@mui/icons-material";
 
 
 const Footer = () => {
-
-  //Copy data from newsletter input to the airtable
-
-  const [formData, setFormData] = useState({});
-  const [message, setMessage] = useState("");
-
-  const handleInput = e => {
-    const copyFormData = { ...formData };
-    copyFormData[e.target.name] = e.target.value;
-    setFormData(copyFormData);
-  };
-
-  const sendData = async e => {
-    e.preventDefault();
-    try {
-      const response = await fetch(
-        "https://v1.nocodeapi.com/aristide371/airtable/VsMXtNPpivfewLbi?tableName=Newsletter",
-        {
-          method: "post",
-          body: JSON.stringify([formData]),
-          headers: {
-            "Content-Type": "application/json"
-          }
-        }
-      );
-      const json = await response.json();
-      console.log("Success:", JSON.stringify(json));
-      setMessage(json.message);
-    } catch (error) {
-      console.error("Error:", error);
-      setMessage("Error");
-    }
-
-  };
 
   //Newsletter toastify setting
   const {
@@ -109,8 +75,6 @@ const Footer = () => {
     } catch (e) {
       console.log(e);
     }
-
-  await sendData()
   };
 
   return (
@@ -146,13 +110,14 @@ const Footer = () => {
 
             <div className="legacy mt-4">
               <Link to="/term-of-condition">Term of Condition</Link> <br />
-              <Link to="/disclaimer">Disclaimer</Link>
+              <Link to="/disclaimer">Disclaimer</Link> <br />
+              <Link to="/condition-of-services">Condition of services</Link>
             </div>
 
 
             <form id='contact-form' onSubmit= {handleSubmit(onSubmit)} noValidate>
               <div className="newsletter">
-                Subscribe to our newsletter be informed continuously <br />
+                Subscribe to our newsletter be informed regularily <br />
                 <input
                   type="email"
                   {...register('email', {
@@ -163,7 +128,6 @@ const Footer = () => {
                   name="email"
                   className="mailInput"
                   placeholder="example@email.com"
-                  onChange={handleInput}
                 />
 
                 <button type="submit"  disabled={disabled} className="subscribe"> Send <Send />  </button>
@@ -172,7 +136,6 @@ const Footer = () => {
               {errors.email && (
                 <span className='errorMessage'>Please enter a valid email address</span>
               )}
-              <div>{message}</div>
             </form>
 
           </div>
@@ -196,7 +159,7 @@ const Footer = () => {
 
       </div>
       <div className="copyright text-center py-1">
-        <p className="my-1">Copyright © <a className="copyrightText" href="#Home">MadaSafariTour</a> {new Date().getFullYear()} - All rights reserved</p>
+        <p className="my-1">Copyright © <Link className="copyrightText" to="/">MadaSafariTour</Link> {new Date().getFullYear()} - All rights reserved</p>
       </div>
     </div>
   );

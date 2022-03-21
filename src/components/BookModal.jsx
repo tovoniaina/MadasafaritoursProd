@@ -112,10 +112,12 @@ const BookModal = () => {
                                         })}
                                         className="form-control nameModal"
                                         placeholder='FirstName'
-                                    />
-                                    {errors.firstName && <span className='errorMessage'>{errors.firstName.message}</span>}
 
-                                    <span className='mx-2'></span>
+                                    >
+                                    </input>
+                                    <div className='input-group mb-4'>{errors.firstName && <span className='errorMessage'>{errors.firstName.message}</span>}</div>
+
+                                    {/* <span className='mx-2'></span> */}
                                     <span className="input-group-text"> <PersonIcon /> </span>
                                     <input
                                         type="text"
@@ -134,7 +136,7 @@ const BookModal = () => {
                                         className="form-control nameModal"
                                         placeholder='LastName'
                                     />
-                                    {errors.lastName && <span className='errorMessage'>{errors.lastName.message}</span>}
+                                    <div className="input-group">{errors.lastName && <span className='errorMessage'>{errors.lastName.message}</span>}</div>
 
                                 </div>
 
@@ -153,14 +155,14 @@ const BookModal = () => {
                                         placeholder='example@email.com'
                                     />
                                     {errors.email && (
-                                        <span className='errorMessage'>Please enter a valid email address</span>
+                                        <div className="input-group"><span className='errorMessage'>Please enter a valid email address</span></div>
                                     )}
                                 </div>
 
                                 <div className="input-group mb-4">
                                     <span className="input-group-text"> <LanguageIcon /> </span>
 
-                                    <select id="country" name="country" className='input-group-text'
+                                    <select id="country" name="country" className=''
                                         {...register('country', {
                                             required: true,
                                         })}
@@ -419,9 +421,7 @@ const BookModal = () => {
                                         <option value="Zambia">Zambia</option>
                                         <option value="Zimbabwe">Zimbabwe</option>
                                     </select>
-                                    {errors.country && (
-                                        <span className='errorMessage'>Please enter a valid country</span>
-                                    )}
+                                    {errors.country && (<span className='errorMessage'>Please enter a valid country</span>)}
                                 </div>
 
                                 <div className="mb-4 input-group">
@@ -456,16 +456,18 @@ const BookModal = () => {
                                         id="recipient-name"
                                         className="form-control nameModal"
                                         placeholder='Number of person'
-                                    />
-                                    {errors.numberOfPerson && (
-                                        <span className='errorMessage'>Should be a digit</span>
-                                    )}
+                                    >
+
+                                    </input>
+                                    {errors.numberOfPerson && (<span className='errorMessage'>Should be a digit</span>)}
                                 </div>
+
+
 
                                 <div className="input-group mb-4">
                                     <span className="input-group-text"> <LanguageIcon /> </span>
 
-                                    <select id="tours" name="tours" className='input-group-text'
+                                    <select id="tours" name="tours" className=''
                                         {...register('tours', {
                                             required: true,
                                         })}
@@ -486,9 +488,7 @@ const BookModal = () => {
                                         <option value="Malagasy Culture Discovery">Malagasy Culture Discovery</option>
                                         <option value="River Trip">River Trip</option>
                                     </select>
-                                    {errors.tours && (
-                                        <span className='errorMessage'>Please select your tours</span>
-                                    )}
+                                    {errors.tours && (<span className='errorMessage'>Please select your tours</span>)}
                                 </div>
                                 <div className="row">
                                     <div className="col">
@@ -520,12 +520,12 @@ const BookModal = () => {
                                 </div>
                             </form>
                         </div>
-                        <ToastContainer />              
+                        <ToastContainer />
                     </div>
                 </div>
-                
+
             </div>
-            
+
         </div>
     )
 }

@@ -5,8 +5,9 @@ import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import img1 from "../images/aristide-5.png";
-import img3 from "../images/team-3.jpg";
 import img4 from "../images/team-4.png";
+import img3 from "../images/team-5.png";
+
 
 function AboutUsTeam() {
   return (

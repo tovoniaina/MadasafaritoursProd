@@ -1,23 +1,25 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from '../images/logo.png';
+import logoTop from '../images/logoTop.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import InfoIcon from '@mui/icons-material/Info';
 import QuizIcon from '@mui/icons-material/Quiz';
-import GroupsIcon from '@mui/icons-material/Groups';
+import PublicIcon from '@mui/icons-material/Public';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import BookModal from './BookModal';
 
+
 function NavBar() {
     return (
         <nav className='navbar navbar-expand-lg navbar-light menu'>
+
             <div className="container">
                 <Link className='navbar-brand' to="/">
-                    <img src={logo} alt="logo madasafari" className='logo' />
+                    <img src={logoTop} alt="logo madasafari" className='logo' />
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "var(--primary-grey)" }} />
@@ -35,7 +37,7 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Itinerary" className="nav-link"><GroupsIcon />Itinerary</Link>
+                            <Link to="/Madagascars" className="nav-link"><PublicIcon />Madagascar</Link>
                         </li>
 
                         <li className="nav-item">
@@ -45,24 +47,24 @@ function NavBar() {
                         <li className="nav-item">
                             <Link to="/Faqs" className="nav-link"><QuizIcon />Faqs</Link>
                         </li>
-                       
+
                         <li className="nav-item">
                             <Link to="/Contact" className="nav-link"><ContactMailIcon />Contact</Link>
                         </li>
 
                         <li className="nav-item">
-                         
-                        <BookModal />
-                            
+
+                            <BookModal />
+
                         </li>
 
-                        
+
                     </ul>
                 </div>
             </div>
 
         </nav >
-        
+
 
     )
 }

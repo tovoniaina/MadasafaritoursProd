@@ -128,6 +128,16 @@ html, body {
 }
 
 
+.genereric-icon{
+  background-color: var(--primary-grey);
+  opacity: 0.5;
+  font-size: large !important;
+}
+
+.texte-icons{
+  color: white !important;
+}
+
 /********************FOOTER********************/
 .footer{
   background-color: var(--primary-grey);
@@ -217,7 +227,9 @@ html, body {
 }
 
 .payment-method{
-    width: 80px;
+    width: 60px;
+    background-color: white !important;
+    opacity: 0.5;
 }
 /**************PROPOS SECTION1*************/
 /*
@@ -443,9 +455,9 @@ margin-right: auto;
 .formInput {
   padding: 15px 10px;
   background-color: var(--primary-grey);
-  box-shadow: 0 0 0 2px var(--primary-white);
   border: none;
   color: var(--primary-white) !important;
+  
 }
 
 .formInput:focus {
@@ -470,6 +482,7 @@ margin-right: auto;
   font-size: 14px;
   margin: 0;
   padding: 0;
+  float: left !important;
 }
 
 #notifyToast {
@@ -506,4 +519,18 @@ margin-right: auto;
     width: 125px;
     margin-left: 200px;
   }
+}
+
+.tana{
+  background-image: url('../images/tana.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/************************COVID BANNER********************/
+
+.covid-info{
+  background-color: var(--primary-grey);
+  color: white;
 }

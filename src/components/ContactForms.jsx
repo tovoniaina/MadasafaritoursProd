@@ -70,7 +70,7 @@ const ContactForms = () => {
   };
 
   return (
-    <div className='ContactForm my-4'>
+    <div className='ContactForm my-4 tana'>
       <div className='container'>
         <div className='row'>
           <div className="col-lg-4 col-md-12 col-sm-12 partieGauche">
