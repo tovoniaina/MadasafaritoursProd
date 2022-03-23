@@ -356,6 +356,11 @@ margin-right: auto;
 .card-title{
   color: var(--primary-white) !important;
 }
+
+.marojejy{
+  /* width: 200px;
+  height: 300px; */
+}
 /****************CARD**********************/
 .card{
   background-color: var(--primary-grey) !important;
@@ -533,4 +538,9 @@ margin-right: auto;
 .covid-info{
   background-color: var(--primary-grey);
   color: white;
+}
+
+/*********************TOUR CATEGORY****************/
+.slideTours{
+ vertical-align: middle !important;
 }

@@ -120,8 +120,6 @@ function Faq() {
                 </div>
             </div>
 
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-b1af22ce-dde9-43ea-85a5-990549e5c725"> test here</div>
         </div>
     )
 }
