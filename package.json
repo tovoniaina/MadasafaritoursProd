@@ -21,6 +21,7 @@
     "emailjs": "^3.7.0",
     "emailjs-com": "^3.2.0",
     "flickity": "^2.3.0",
+    "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
     "google-maps-reviews": "^0.2.0",
     "node-sass": "^7.0.1",
@@ -71,6 +72,8 @@
     ]
   },
   "devDependencies": {
+    "@iconify/icons-mdi": "^1.2.3",
+    "@iconify/react": "^3.2.0",
     "gh-pages": "^3.2.3",
     "mdbreact": "^5.2.0",
     "react-wavify": "^1.5.4"

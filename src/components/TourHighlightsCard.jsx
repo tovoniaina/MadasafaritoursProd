@@ -1,9 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Send } from '@mui/icons-material';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import Indri from '../images/imagesMst/indri.JPG';
 import EasternWonder from '../images/imagesMst/EasternWonder.png';
-import AvTimerIcon from '@mui/icons-material/AvTimer';
 import DivingTour from '../images/imagesMst/DivingTour.jpg'
 import DryDeciduousBirding from '../images/imagesMst/DryDeciduousBirding.jpg'
 import RainForestBirding from '../images/imagesMst/RainForestBirding.jpg'
@@ -18,25 +17,29 @@ import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscove
 import RiverTrip from '../images/imagesMst/RiverTrip.jpg'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import GroupsIcon from '@mui/icons-material/Groups';
+import AvTimerIcon from '@mui/icons-material/AvTimer';
 
 
 function TourHighlightsCard() {
+    const [showMore, setShowMore] = useState(false);
     const tours = [
         {
             title: 'Indri Encouter',
             img: Indri,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €280",
-            location: 'East',
+            location: 'E',
             timer: "4 Days",
             learnMore:'/indri-encouter',
+            person: 4
         }, 
         {
             title: 'Eastern wonder',
             img: EasternWonder,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €280",
-            location: 'East',
+            location: 'E',
             timer: "7 Days",
             learnMore:'/eastern-wonder',
         },
@@ -45,7 +48,7 @@ function TourHighlightsCard() {
             img: DivingTour,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €280",
-            location: 'Northwest',
+            location: 'NW',
             timer: "9 Days",
             learnMore:'/diving-tour',
         },
@@ -54,7 +57,7 @@ function TourHighlightsCard() {
             img: DryDeciduousBirding,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €750",
-            location: 'South',
+            location: 'S',
             timer: "11 Days",
             learnMore:'/dry-deciduous-birding',
             quote:""
@@ -64,7 +67,7 @@ function TourHighlightsCard() {
             img: RainForestBirding,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €680",
-            location: 'Southeast',
+            location: 'SE',
             timer: "10 Days",
             learnMore:'/rainforest-birding',
         },
@@ -73,7 +76,7 @@ function TourHighlightsCard() {
             img: VanillaCruise,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €980",
-            location: 'Northeast',
+            location: 'NE',
             timer: "14 Days",
             learnMore:'/vanilla-cruise',
         },
@@ -82,7 +85,7 @@ function TourHighlightsCard() {
             img: BaobabSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €420",
-            location: 'West',
+            location: 'W',
             timer: "7 Days",
             learnMore:'/safari',
         },
@@ -91,7 +94,7 @@ function TourHighlightsCard() {
             img: MadaNorthernSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €620",
-            location: 'North',
+            location: 'N',
             timer: "9 Days",
             learnMore:'/mada-northern-safari',
         },
@@ -100,7 +103,7 @@ function TourHighlightsCard() {
             img: TanaSurrounding,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €160",
-            location: 'Highland',
+            location: 'H',
             timer: "4 Days",
             learnMore:'/tana-surrounding',
         },
@@ -109,7 +112,7 @@ function TourHighlightsCard() {
             img: SouthernTrekking,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €1160",
-            location: 'Southern',
+            location: 'S',
             timer: "17 Days",
             learnMore:'/southern-trekking',
         },
@@ -118,7 +121,7 @@ function TourHighlightsCard() {
             img: MadaSouthernSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €950",
-            location: 'Southern',
+            location: 'S',
             timer: "12 Days",
             learnMore:'/mada-southern-safari',
         },
@@ -127,7 +130,7 @@ function TourHighlightsCard() {
             img: MarvellousHoneymoonSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €970",
-            location: 'NorthWest',
+            location: 'NW',
             timer: "10 Days",
             learnMore:'/post-wedding-safari',
         },
@@ -136,7 +139,7 @@ function TourHighlightsCard() {
             img: MalagasyCultureDiscovery,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €920",
-            location: 'Southeast',
+            location: 'SE',
             timer: "10 Days",
             learnMore:'/malagasy-culture-discovery',
         },
@@ -145,7 +148,7 @@ function TourHighlightsCard() {
             img: RiverTrip,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €920",
-            location: 'Southeast',
+            location: 'SE',
             timer: "10 Days",
             learnMore:'/river-trip',
         }
@@ -172,17 +175,23 @@ function TourHighlightsCard() {
                                 </div>
                                 <h3 className="card-title text-center">{tour.title}</h3>
                                 <div><img className='card-img-top' src={tour.img} alt="" /></div>
-                                <p className="card-text">{tour.description} </p>
+                                <p className="card-text">
+                                    {showMore ? tour.description : `${tour.description.substring(0,85)}`}{' '}
+                                    <button className='buttonShowMore' onClick={() => setShowMore(!showMore)}>
+                                       {showMore ? "Show less" : "Show more"}
+                                    </button>
+                                    </p>
 
                                 <div className='row infoPratique'>
-                                    <div className="col"><span class="badge badge-info place"> <MyLocationIcon />{tour.location}</span></div>
-                                    <div className="col"> <span class="badge badge-info price"><AvTimerIcon /> {tour.timer}</span> </div>
-                                    <div className="col"><span class="badge badge-info price"><MonetizationOnIcon /> {tour.price}</span></div>
+                                    <div className="col"><span className="badge badge-info place"> <MyLocationIcon />{tour.location}</span></div>
+                                    <div className="col"> <span className="badge badge-info price"><AvTimerIcon /> {tour.timer}</span> </div>
+                                    <div className="col"><span className="badge badge-info price"><MonetizationOnIcon /> {tour.price}</span></div>
+                                    <div className="col"><span className="badge badge-info price"><GroupsIcon /> {tour.person}</span></div>
                                 </div>
 
                                 <div className="button-action">
-                                    <button type="button" className="bouton-expertise"><a href={`/Tour${tour.learnMore}`}>Learn more <Send /></a></button>
-                                    <button className="bouton-expertise droite-btn" variant="contained" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <RequestQuoteIcon />  Ask a quote </button>
+                                    <button type="button" className="learnMoreBtn"><a href={`/Tour${tour.learnMore}`} target="_blank" rel="noopener noreferrer">Learn more <Send /></a></button>
+                                    <button className="RequestQuoteBtn" variant="contained" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <RequestQuoteIcon />  Ask a quote </button>
                                 </div>
 
                             </div>

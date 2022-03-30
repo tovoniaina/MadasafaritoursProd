@@ -35,8 +35,8 @@ function AboutUsTeam() {
                             <ul className="list-unstyled mb-2 text-center" contact-team>
                                 <a href="#FbLink" className="mx-2 social-icon"><FacebookIcon /></a>
                                 <a href="#LinkedinLink" className="mx-2 social-icon"><LinkedInIcon /></a>
-                                <a href="#PhoneLink" className="mx-2 social-icon"><WhatsAppIcon /></a>
-                                <a href="#MailLink" className="mx-2 social-icon"><MailIcon /></a>
+                                <a href="tel:+261336381135" className="mx-2 social-icon"><WhatsAppIcon /></a>
+                                <a href="mailto:idealy371@gmail.com" className="mx-2 social-icon"><MailIcon /></a>
                             </ul>
                         </div>
                     </div>

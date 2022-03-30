@@ -24,9 +24,9 @@ function Slider() {
             <h1>Lorem ipsum dolor, sit amet</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <div className='genereric-icon'>
+            <div className='genereric-icon banner-trust'>
               <hr />
-              <div className="row">
+              <div className="row ">
                 <div className="col texte-icons"> <LocationSearchingIcon /> Local tour operator</div>
                 <div className="col texte-icons"> <ExploreIcon /> Experienced guides</div>
                 <div className="col texte-icons"> <SecurityIcon /> Secured tourism</div>

@@ -87,8 +87,8 @@ const ContactForms = () => {
             <div className='contactForm'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
-                <div className='row formRow'>
-                  <div className='col-6'>
+                <div className='row formRow my-3'>
+                  <div className='col-lg-6 col-md-12 col-sm-12'>
                     <input
                       type='text'
                       name='name'
@@ -108,7 +108,7 @@ const ContactForms = () => {
                     ></input>  
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                   </div>
-                  <div className='col-6'>
+                  <div className='col-lg-6 col-md-12 col-sm-12'>
                     <input
                       type='email'
                       name='email'
@@ -124,9 +124,10 @@ const ContactForms = () => {
                       <span className='errorMessage'>Please enter a valid email address</span>
                     )}
                   </div>
+                  
                 </div>
                 {/* Row 2 of form */}
-                <div className='row formRow'>
+                <div className='row formRow my-3'>
                   <div className='col'>
                     <input
                       type='text'
@@ -150,7 +151,7 @@ const ContactForms = () => {
                   </div>
                 </div>
                 {/* Row 3 of form */}
-                <div className='row formRow'>
+                <div className='row formRow my-3'>
                   <div className='col'>
                     <textarea
                       rows={3}

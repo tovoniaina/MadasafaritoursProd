@@ -12,6 +12,9 @@ import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import Button from '@mui/material/Button';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import MyLocationIcon from '@mui/icons-material/MyLocation';
+import GroupsIcon from '@mui/icons-material/Groups';
+import AvTimerIcon from '@mui/icons-material/AvTimer';
 
 
 
@@ -23,9 +26,14 @@ function BaobabSafari() {
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
-
-
-
+<hr />
+      <div className='row text-center '>
+        <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
+        <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 4 Days</span> </div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $450/person</span></div>
+        <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
+      </div>
+      <hr />
 
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -81,7 +89,7 @@ function BaobabSafari() {
         >
           <h3 className="vertical-timeline-element-title">TSINGY VISIT</h3>
           <p className='text-justify'>
-          Explore both the Petit Tsingy and Grand Tsingy. The whole protected area, comprising a surface of 1.575 km square was designated a UNESCO World Heritage Site in 1990. While hiking in the park, you will observe the beauty of these limestone pinnacles, a hike leading you through narrow gauge, climbing on top (harness is a must), walking on a suspended bridge, and toward the cathedral where you may spot lemurs, the Giant rat, the Giant coua, Madagascar green pigeon, and many more. <br /> Overnight: Orchidée de Bemaraha
+            Explore both the Petit Tsingy and Grand Tsingy. The whole protected area, comprising a surface of 1.575 km square was designated a UNESCO World Heritage Site in 1990. While hiking in the park, you will observe the beauty of these limestone pinnacles, a hike leading you through narrow gauge, climbing on top (harness is a must), walking on a suspended bridge, and toward the cathedral where you may spot lemurs, the Giant rat, the Giant coua, Madagascar green pigeon, and many more. <br /> Overnight: Orchidée de Bemaraha
           </p>
         </VerticalTimelineElement>
 
@@ -95,7 +103,7 @@ function BaobabSafari() {
         >
           <h3 className="vertical-timeline-element-title">TSINGY – MORONDAVA</h3>
           <p className='text-justify'>
-          After breakfast, we depart back to Morondava. There will be stops en-route including the ‘amorous baobab’, the Baobab Alley where you can have a nice photo at sunset time. Baobabs are distinctive trees adapted to thrive in harsh conditions. <br /> Overnight: Chez Maggie
+            After breakfast, we depart back to Morondava. There will be stops en-route including the ‘amorous baobab’, the Baobab Alley where you can have a nice photo at sunset time. Baobabs are distinctive trees adapted to thrive in harsh conditions. <br /> Overnight: Chez Maggie
           </p>
         </VerticalTimelineElement>
 
@@ -109,7 +117,7 @@ function BaobabSafari() {
         >
           <h3 className="vertical-timeline-element-title">MORONDAVA – TANA</h3>
           <p className='text-justify'>
-          Transfer to the airport for flight back to Tana. On arrival you will be met and transferred to your hotel. <br /> Overnight: Le Grand Urban Hotel
+            Transfer to the airport for flight back to Tana. On arrival you will be met and transferred to your hotel. <br /> Overnight: Le Grand Urban Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -123,7 +131,7 @@ function BaobabSafari() {
         >
           <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
           <p className='text-justify'>
-          Check out of your hotel and transfer to the airport for flight back home. End of our service.
+            Check out of your hotel and transfer to the airport for flight back home. End of our service.
           </p>
         </VerticalTimelineElement>
 
@@ -163,7 +171,7 @@ function BaobabSafari() {
         </div>
 
       </div>
-      
+
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>

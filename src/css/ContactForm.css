@@ -7,18 +7,24 @@
   --primary-white:#fefefe;
   --primary-blue: #2e79c8;
   --primary-brown: #68303e;
-  --primary-orange: #ff834f;
+  --primary-orange: #2e933c;
   --primary-black: #010103;
-  --primary-grey: #282c34;
-  --primary-green: #5FA423;
+  --primary-grey: #00253a;
 }
 
 
 
-
+/* 
 .formRow {
   margin: 10px 0 20px 0;
-}
+} */
+
+/* @media (max-width: 991px) {
+  .formInput {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+} */
 
 .formInput {
   padding: 15px 10px;

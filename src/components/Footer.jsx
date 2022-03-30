@@ -14,10 +14,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
 import { Link } from "react-router-dom";
-import cb from '../images/paymentMethod/cb.jpg'
-import masterCard from '../images/paymentMethod/masterCard.png'
-import paypal from '../images/paymentMethod/paypal.png'
-import visa from '../images/paymentMethod/visa.png'
+import PaymentCard from '../images/paymentMethod/payment-cards.png'
 import { Send } from "@mui/icons-material";
 
 //Copy data from newsletter input to the airtable
@@ -145,16 +142,7 @@ const Footer = () => {
         <div className="text-center">
           We accept these payment method <br />
 
-          <img src={visa} alt="visa" className="mx-1 my-1 payment-method" />
-          <img src={masterCard} alt="mastercard" className="mx-1 my-1 payment-method" />
-
-          <img src={paypal} alt="paypal" className="mx-1 my-1 payment-method" />
-
-          <img src={cb} alt="cb" className="mx-1 my-1 payment-method" />
-
-
-
-
+          <img src={PaymentCard} alt="paymentmethod" className="mx-1 my-1 payment-method" />
         </div>
 
       </div>

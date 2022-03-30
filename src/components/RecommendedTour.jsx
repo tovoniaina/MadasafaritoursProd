@@ -12,7 +12,7 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 
 function RecommendedTour() {
     const tours = [
-       
+
         {
             title: 'Eastern wonder',
             img: EasternWonder,
@@ -20,9 +20,10 @@ function RecommendedTour() {
             price: "From €280",
             location: 'East',
             timer: "7 Days",
-            learnMore:'/eastern-wonder',
+            learnMore: '/eastern-wonder',
+            badge: 'Recommended'
         },
-        
+
         {
             title: 'Southern Trekking',
             img: SouthernTrekking,
@@ -30,7 +31,8 @@ function RecommendedTour() {
             price: "From €1160",
             location: 'Southern',
             timer: "17 Days",
-            learnMore:'/southern-trekking',
+            learnMore: '/southern-trekking',
+            badge: 'Recommended'
         },
         {
             title: 'Mada Southern Safari',
@@ -39,9 +41,10 @@ function RecommendedTour() {
             price: "From €950",
             location: 'Southern',
             timer: "12 Days",
-            learnMore:'/mada-southern-safari',
+            learnMore: '/mada-southern-safari',
+            badge: 'Recommended'
         },
-        
+
         {
             title: 'Malagasy Culture Discovery',
             img: MalagasyCultureDiscovery,
@@ -49,7 +52,8 @@ function RecommendedTour() {
             price: "From €920",
             location: 'Southeast',
             timer: "10 Days",
-            learnMore:'/malagasy-culture-discovery',
+            learnMore: '/malagasy-culture-discovery',
+            badge: 'Recommended'
         }
     ]
     return (
@@ -60,14 +64,17 @@ function RecommendedTour() {
                 </div>
 
                 <div>
-                We have 14 tours modalities, so you can choose wisely the one suits you <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed saepe explicabo iste ad, quibusdam beatae neque officia dignissimos necessitatibus sapiente voluptate rem nemo repellendus accusantium, a doloremque exercitationem minus.
-                Maxime asperiores placeat sunt laudantium inventore, quaerat dolore assumenda facilis deserunt quos soluta! Voluptates dolore accusamus fugit saepe quod repellendus eum. Iure, autem blanditiis? Repellendus maxime laudantium sed minus qui?
+                    We have 14 tours modalities, so you can choose wisely the one suits you <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed saepe explicabo iste ad, quibusdam beatae neque officia dignissimos necessitatibus sapiente voluptate rem nemo repellendus accusantium, a doloremque exercitationem minus.
+                    Maxime asperiores placeat sunt laudantium inventore, quaerat dolore assumenda facilis deserunt quos soluta! Voluptates dolore accusamus fugit saepe quod repellendus eum. Iure, autem blanditiis? Repellendus maxime laudantium sed minus qui?
                 </div>
                 <div className="row">
                     {tours.map((tour, i) => <div key={i} className="col-lg-6 col-md-12 col-sm-12 my-2" >
                         <div className="card">
                             <div className="card-body">
+                                <div className="strips-container">
+                                    <div className='strips'> {tour.badge} </div>
+                                </div>
                                 <div className="card-icons text-center">
 
                                 </div>
@@ -82,8 +89,8 @@ function RecommendedTour() {
                                 </div>
 
                                 <div className="button-action">
-                                    <button type="button" className="bouton-expertise"><a href={`/Tour${tour.learnMore}`}>Learn more <Send /></a></button>
-                                    <button className="bouton-expertise droite-btn" variant="contained" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <RequestQuoteIcon />  Ask a quote </button>
+                                    <button type="button" className="learnMoreBtn"><a href={`/Tour${tour.learnMore}`} target="_blank" rel="noopener noreferrer">Learn more <Send /></a></button>
+                                    <button className="RequestQuoteBtn" variant="contained" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <RequestQuoteIcon />  Ask a quote </button>
                                 </div>
 
                             </div>

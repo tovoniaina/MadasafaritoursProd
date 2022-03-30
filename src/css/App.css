@@ -10,15 +10,18 @@
   --primary-white:#fefefe;
   --primary-blue: #2e79c8;
   --primary-brown: #68303e;
-  --primary-orange: #ff834f;
+  --primary-orange: #2e933c;
   --primary-black: #010103;
-  --primary-grey: #282c34;
+  --primary-grey: #2e933c;
   --primary-green: #5FA423;
   --light: #d0d1d3;
   --dark: #040d14;
   --green: #21ce99;
   
 }
+
+/* #00253a
+#2e933c */
 
 /****test footer****/
 .footers {
@@ -49,10 +52,15 @@
   height: 100px;
 }
 
+.faBarsMd{
+  border-color: var(--primary-white) !important;
+}
+
 nav a.nav-link{
-  font-weight: 500;
+  font-weight: bolder;
   letter-spacing: 0.0375rem;
   cursor: pointer;
+  font-size: 15px !important;
 }
 nav ul li{
   text-transform: uppercase;
@@ -65,11 +73,11 @@ nav ul{
   font-size: 1rem;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
-  border-bottom: 0.1875rem solid var(--primary-brown);
+  border-bottom: 0.1875rem solid var(--primary-white);
 
 }
 
@@ -80,27 +88,40 @@ nav ul{
 }
 
 .navbar-nav > li > a:hover{
-  border-bottom: 0.1875rem solid var(--primary-black);
+  border-bottom: 0.1875rem solid var(--primary-white);
 }
 
 .menu{
-  background-color: var(--primary-orange);
+  background-color: var(--primary-grey);
 }
 
+.buttonShowMore{
+  background-color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
+  border: white solid 1px !important;
+  border-radius: 10px;
+}
 
 .BtnBookNow{
   background-color: var(--primary-grey) !important;
   color: var(--primary-white) !important;
+  border: white solid 1px !important;
+}
+
+.BtnBookNow:hover{
+  background-color: white !important;
+  border: var(--primary-grey) solid 1px !important;
+  color: var(--primary-grey) !important;
 }
 
 
 /****************NAVTOP****************/
 .navtop{
-  background-color: var(--primary-grey);
+  background-color: #e0fcc8;
 }
 
 .social > a{
-  color: var(--primary-white) !important;
+  color: var(--primary-grey) !important;
 }
 
 .social{
@@ -108,7 +129,7 @@ nav ul{
 }
 
 .contact > a{
-  color: var(--primary-white) !important;
+  color: var(--primary-grey) !important;
 }
 
 .contact> a:hover{
@@ -136,6 +157,12 @@ html, body {
 
 .texte-icons{
   color: white !important;
+}
+
+@media screen and (max-width: 1175px) {
+  .banner-trust {
+    display: none;
+  }
 }
 
 /********************FOOTER********************/
@@ -190,7 +217,7 @@ html, body {
 }
 
 .copyright{
-  background-color: var(--primary-orange);
+  background-color: #e0fcc8;
   color: var(--primary-grey);
 }
 
@@ -226,11 +253,6 @@ html, body {
 
 }
 
-.payment-method{
-    width: 60px;
-    background-color: white !important;
-    opacity: 0.5;
-}
 /**************PROPOS SECTION1*************/
 /*
 #AproposSection1{   
@@ -321,32 +343,35 @@ margin-right: auto;
 }
 
 .card-text{
-  color: var(--primary-orange);
+  color: var(--primary-white);
 }
 
 .card-group{
   background-color: var(--primary-grey) !important;
 }
 
-/*******************TOUR****************/
 
-.bouton-expertise{
-  background-color: var(--primary-orange) !important;
-  color: var(--primary-grey) !important;
+/****************TOUR CARD**********************/
+
+
+.learnMoreBtn{
+  background-color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
   border-radius: 5px !important;
-  border-color: var(--primary-grey) !important;
+  border-color: var(--primary-white) !important;
   height: 45px !important;
   width: 48%;
   
 }
 
-.bouton-expertise:hover{
+.learnMoreBtn:hover{
   background-color: var(--primary-white) !important;
   color: var(--primary-grey) !important;
+  border-color: var(--primary-grey) !important;
   
 }
 
-.bouton-expertise >a {
+.learnMoreBtn >a {
   text-decoration: none !important;
   cursor: pointer;
   color: inherit !important;
@@ -357,58 +382,29 @@ margin-right: auto;
   color: var(--primary-white) !important;
 }
 
-.marojejy{
-  /* width: 200px;
-  height: 300px; */
-}
-/****************CARD**********************/
-.card{
-  background-color: var(--primary-grey) !important;
-}
-.card-icons svg{
-  display: block;
-  margin: auto;
-  font-size: 50px;
-  color: var(--chocolat);
-
-}
-
-.selectpicker{
-  background-color: transparent !important;
-  display: inline-block;
-  border: none;
-  color: var(--primary-background);
-}
-
-.selectpicker svg {
-  color: var(--primary-background);
-}
-
-.droite-btn{
-  float: right;
-  background-color: var(--primary-white) !important;
-}
-
-.droite-btn:hover{
-  background-color: var(--primary-orange) !important;
-}
-
-
-/************TOUR*************/
-
-/* .place{
-  background-color: var(--primary-green);
-}
-
-.price{
-  background-color: var(--primary-white);
-  float: right;
-  color: var(--primary-grey) !important;
-} */
-
 .infoPratique{
   color: var(--primary-white);
 }
+
+.card{
+  background-color: var(--primary-grey) !important;
+}
+
+.RequestQuoteBtn{
+  float: right;
+  background-color: var(--primary-grey) !important;
+  height: 45px !important;
+  width: 48%;
+  border-color: var(--primary-white) !important;
+  border-radius: 5px !important;
+  color: var(--primary-white);
+}
+
+.RequestQuoteBtn:hover{
+  background-color: var(--primary-white) !important;
+  color: var(--primary-grey);
+}
+
 
 
 /****************ITINERARY*****************/
@@ -419,7 +415,7 @@ margin-right: auto;
 
 .excluded{
   background-color: var(--primary-orange) !important;
-  color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
 }
 
 .price-itinerary{
@@ -440,8 +436,15 @@ margin-right: auto;
   border-color: var(--primary-grey) !important;
   font-family: var(--bodyFont) !important;
   text-transform:initial !important;
-  
 }
+
+/* @media (max-width: 768px) {
+  .modalBookNow {
+    display: none !important;
+  }
+} */
+
+
 
 
 .BookMyTravel{
@@ -453,9 +456,16 @@ margin-right: auto;
 /*****************CONTACT****************/
 
 
-.formRow {
+/* .formRow {
   margin: 10px 0 20px 0;
-}
+} */
+
+/* @media (max-width: 768px) {
+  .formInput {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+} */
 
 .formInput {
   padding: 15px 10px;
@@ -544,3 +554,30 @@ margin-right: auto;
 .slideTours{
  vertical-align: middle !important;
 }
+
+/****************RECOMMENDED TOUR******************/
+
+.strips-container{
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.strips{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        display: block;
+        position: absolute;
+        right: -100px;
+        top: 20px;
+        padding: 20px 100px;
+        font-weight: bold;
+        text-transform: uppercase;
+        white-space: nowrap;
+        text-align: center;
+        background: orange;
+        color: #000;
+        font-size: 14px;
+} 

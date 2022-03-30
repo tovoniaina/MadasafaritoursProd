@@ -211,7 +211,7 @@ function MalagasyCultureDiscovery() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Day 4"
+          date="Day 14"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -234,8 +234,8 @@ function MalagasyCultureDiscovery() {
       <div className="row">
         <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 included incluD">
-            <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
-            <div class="card-body">
+            <div className="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
+            <div className="card-body">
               <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet. <br />
               <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
               <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
@@ -247,8 +247,8 @@ function MalagasyCultureDiscovery() {
 
         <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="card text-white mb-3 excluded">
-            <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
-            <div class="card-body text-dark">
+            <div className="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
+            <div className="card-body text-dark">
               <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet. <br />
               <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
               <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
