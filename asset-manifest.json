@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://madasafaritours.herokuapp.com/static/css/main.4624dea5.chunk.css",
-    "main.js": "https://madasafaritours.herokuapp.com/static/js/main.76fea458.chunk.js",
-    "main.js.map": "https://madasafaritours.herokuapp.com/static/js/main.76fea458.chunk.js.map",
+    "main.js": "https://madasafaritours.herokuapp.com/static/js/main.2a1abc09.chunk.js",
+    "main.js.map": "https://madasafaritours.herokuapp.com/static/js/main.2a1abc09.chunk.js.map",
     "runtime-main.js": "https://madasafaritours.herokuapp.com/static/js/runtime-main.def1bd0a.js",
     "runtime-main.js.map": "https://madasafaritours.herokuapp.com/static/js/runtime-main.def1bd0a.js.map",
     "static/css/2.1aac531d.chunk.css": "https://madasafaritours.herokuapp.com/static/css/2.1aac531d.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.0f595714.chunk.js": "https://madasafaritours.herokuapp.com/static/js/3.0f595714.chunk.js",
     "static/js/3.0f595714.chunk.js.map": "https://madasafaritours.herokuapp.com/static/js/3.0f595714.chunk.js.map",
     "index.html": "https://madasafaritours.herokuapp.com/index.html",
-    "precache-manifest.d56378fc8a8b9446ec8983563a0be4a3.js": "https://madasafaritours.herokuapp.com/precache-manifest.d56378fc8a8b9446ec8983563a0be4a3.js",
+    "precache-manifest.0b5a74f1c6eb3385e8166f994c9ad952.js": "https://madasafaritours.herokuapp.com/precache-manifest.0b5a74f1c6eb3385e8166f994c9ad952.js",
     "service-worker.js": "https://madasafaritours.herokuapp.com/service-worker.js",
     "static/css/2.1aac531d.chunk.css.map": "https://madasafaritours.herokuapp.com/static/css/2.1aac531d.chunk.css.map",
     "static/css/main.4624dea5.chunk.css.map": "https://madasafaritours.herokuapp.com/static/css/main.4624dea5.chunk.css.map",
@@ -48,6 +48,6 @@
     "static/css/2.1aac531d.chunk.css",
     "static/js/2.e8b741ca.chunk.js",
     "static/css/main.4624dea5.chunk.css",
-    "static/js/main.76fea458.chunk.js"
+    "static/js/main.2a1abc09.chunk.js"
   ]
 }

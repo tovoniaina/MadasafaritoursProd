@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://madasafaritours.herokuapp.com/precache-manifest.d56378fc8a8b9446ec8983563a0be4a3.js"
+  "https://madasafaritours.herokuapp.com/precache-manifest.0b5a74f1c6eb3385e8166f994c9ad952.js"
 );
 
 self.addEventListener('message', (event) => {

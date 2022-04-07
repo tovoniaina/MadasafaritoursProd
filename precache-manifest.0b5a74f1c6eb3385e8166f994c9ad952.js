@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46b59a8da85e72223df68b27a5217933",
+    "revision": "eb3c1bf6176635e1931a7a4c80994942",
     "url": "https://madasafaritours.herokuapp.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://madasafaritours.herokuapp.com/static/css/2.1aac531d.chunk.css"
   },
   {
-    "revision": "f684fab07a6564c372ac",
+    "revision": "4cb5d1eca62d13c8f7e0",
     "url": "https://madasafaritours.herokuapp.com/static/css/main.4624dea5.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://madasafaritours.herokuapp.com/static/js/3.0f595714.chunk.js"
   },
   {
-    "revision": "f684fab07a6564c372ac",
-    "url": "https://madasafaritours.herokuapp.com/static/js/main.76fea458.chunk.js"
+    "revision": "4cb5d1eca62d13c8f7e0",
+    "url": "https://madasafaritours.herokuapp.com/static/js/main.2a1abc09.chunk.js"
   },
   {
     "revision": "85d6a049e5ada6f3c9e1",
