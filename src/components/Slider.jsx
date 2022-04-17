@@ -21,8 +21,8 @@ function Slider() {
         <div className="carousel-item active">
           <img className="d-block w-100" src={caroussel2} alt="First slide" />
           <div className="carousel-caption d-none d-md-block">
-            <h1>Lorem ipsum dolor, sit amet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Discover the paradisiacal landscapes and treasures of Madagascar</h1>
+            <p>Baobab Alley, Emerald Sea, Red Canyons, Beautiful Sunsets, Endemic Species, Coral, etc...</p>
 
             <div className='genereric-icon banner-trust'>
               <hr />
@@ -39,8 +39,8 @@ function Slider() {
         <div className="carousel-item">
           <img className="d-block w-100" src={caroussel3} alt="Second slide" />
           <div className="carousel-caption d-none d-md-block">
-            <h1>Lorem ipsum dolor, sit amet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Discover Malagasy’s rich culture and events</h1>
+            <p>Experience unique highlights with the whale festival, the royal and ancestral custom.</p>
 
 
             <div className='genereric-icon'>
@@ -59,8 +59,8 @@ function Slider() {
         <div className="carousel-item">
           <img className="d-block w-100" src={caroussel1} alt="Third slide" />
           <div className="carousel-caption d-none d-md-block">
-            <h1>Lorem ipsum dolor, sit amet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Benefit from a flexible offer</h1>
+            <p>Choose your tour and customize the itinerary at any time you wish. </p>
 
 
             <div className='genereric-icon'>
@@ -80,8 +80,8 @@ function Slider() {
         <div className="carousel-item">
           <img className="d-block w-100" src={caroussel4} alt="Second slide" />
           <div className="carousel-caption d-none d-md-block">
-            <h1>Lorem ipsum dolor, sit amet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Entrust your travels to experts</h1>
+            <p>With over 2 years of experience, we always strive for excellence.</p>
 
 
             <div className='genereric-icon'>
@@ -101,8 +101,8 @@ function Slider() {
         <div className="carousel-item">
           <img className="d-block w-100" src={caroussel5} alt="Second slide" />
           <div className="carousel-caption d-none d-md-block">
-            <h1>Lorem ipsum dolor, sit amet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Travel safely</h1>
+            <p>We ensure your 100% safety during all your trips.</p>
 
 
             <div className='genereric-icon'>

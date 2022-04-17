@@ -1,11 +1,11 @@
 import React from 'react'
 import { Send } from '@mui/icons-material';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
-import EasternWonder from '../images/imagesMst/EasternWonder.png';
+import EasternWonder from '../images/imagesMst/EasternWonder.webp';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
-import SouthernTrekking from '../images/imagesMst/SouthernTrekking.jpg'
-import MadaSouthernSafari from '../images/imagesMst/MadaSouthernSafari.jpg'
-import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscovery.jpg'
+import SouthernTrekking from '../images/imagesMst/SouthernTrekking.webp'
+import MadaSouthernSafari from '../images/imagesMst/MadaSouthernSafari.webp'
+import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscovery.webp'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 

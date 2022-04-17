@@ -2,19 +2,19 @@ import React, {useState} from 'react'
 import { Send } from '@mui/icons-material';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import Indri from '../images/imagesMst/indri.JPG';
-import EasternWonder from '../images/imagesMst/EasternWonder.png';
-import DivingTour from '../images/imagesMst/DivingTour.jpg'
-import DryDeciduousBirding from '../images/imagesMst/DryDeciduousBirding.jpg'
-import RainForestBirding from '../images/imagesMst/RainForestBirding.jpg'
-import BaobabSafari from '../images/imagesMst/BaobabSafari.jpg'
-import VanillaCruise from '../images/imagesMst/VanillaCruise.jpg'
-import MadaNorthernSafari from '../images/imagesMst/MadaNorthernSafari.jpg'
-import TanaSurrounding from '../images/imagesMst/TanaSurrounding.jpg'
-import SouthernTrekking from '../images/imagesMst/SouthernTrekking.jpg'
-import MadaSouthernSafari from '../images/imagesMst/MadaSouthernSafari.jpg'
-import MarvellousHoneymoonSafari from '../images/imagesMst/MarvellousHoneymoonSafari.jpg'
-import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscovery.jpg'
-import RiverTrip from '../images/imagesMst/RiverTrip.jpg'
+import EasternWonder from '../images/imagesMst/EasternWonder.webp';
+import DivingTour from '../images/imagesMst/DivingTour.webp'
+import DryDeciduousBirding from '../images/imagesMst/DryDeciduousBirding.webp'
+import RainForestBirding from '../images/imagesMst/RainForestBirding.webp'
+import BaobabSafari from '../images/imagesMst/BaobabSafari.webp'
+import VanillaCruise from '../images/imagesMst/VanillaCruise.webp'
+import MadaNorthernSafari from '../images/imagesMst/MadaNorthernSafari.webp'
+import TanaSurrounding from '../images/imagesMst/TanaSurrounding.webp'
+import SouthernTrekking from '../images/imagesMst/SouthernTrekking.webp'
+import MadaSouthernSafari from '../images/imagesMst/MadaSouthernSafari.webp'
+import MarvellousHoneymoonSafari from '../images/imagesMst/MarvellousHoneymoonSafari.webp'
+import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscovery.webp'
+import RiverTrip from '../images/imagesMst/RiverTrip.webp'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import GroupsIcon from '@mui/icons-material/Groups';
@@ -25,7 +25,7 @@ function TourHighlightsCard() {
     const [showMore, setShowMore] = useState(false);
     const tours = [
         {
-            title: 'Indri Encouter',
+            title: 'Indri Encounter',
             img: Indri,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €280",

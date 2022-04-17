@@ -36,6 +36,7 @@ import ConditionOfService from './components/ConditionOfService';
 
 function App() {
   return (
+
     <div className="App">
       <Router>
         <Navtop />
@@ -92,5 +93,7 @@ function NoMatch() {
         <Link to="/">Go to the home page</Link>
       </p>
     </div>
+
+    
   );
 }

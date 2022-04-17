@@ -3,6 +3,7 @@ import Slider from '../components/Slider';
 import RecommendedTour from '../components/RecommendedTour'
 import RecommendedToursSlider from '../components/RecommendedToursSlider'
 import Covid from '../components/Covid';
+import PremiumTours from '../components/PremiumTours';
 
 
 function Home() {
@@ -13,6 +14,8 @@ function Home() {
             <Covid />
             <RecommendedTour />
             <RecommendedToursSlider />
+            <PremiumTours />
+
         </main>
     )
 }
