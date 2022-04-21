@@ -1,9 +1,9 @@
 import React from 'react'
-import caroussel1 from '../images/Caroussel1.jpg'
-import caroussel2 from '../images/Caroussel2.jpg'
-import caroussel3 from '../images/Caroussel3.png'
-import caroussel4 from '../images/Slider4.png'
-import caroussel5 from '../images/Slider5.png'
+import caroussel1 from "../images/Caroussel1.webp"
+import caroussel2 from '../images/Caroussel2.webp'
+import caroussel3 from '../images/Caroussel3.webp'
+import caroussel4 from '../images/Slider4.webp'
+import caroussel5 from '../images/Slider5.webp'
 
 import LocationSearchingIcon from '@mui/icons-material/LocationSearching';
 import ExploreIcon from '@mui/icons-material/Explore';
