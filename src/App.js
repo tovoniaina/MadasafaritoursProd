@@ -1,4 +1,5 @@
 import React from 'react';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navtop from './components/Navtop';
@@ -78,6 +79,7 @@ function App() {
 
         <Footer />
       </Router>
+      <MessengerCustomerChat pageId="169223953712845" appId="985211278867130"/>
     </div>
 
   );
