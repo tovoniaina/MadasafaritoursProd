@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://madasafaritours.netlify.app/static/css/main.6e22578c.chunk.css",
-    "main.js": "https://madasafaritours.netlify.app/static/js/main.84b17cf3.chunk.js",
-    "main.js.map": "https://madasafaritours.netlify.app/static/js/main.84b17cf3.chunk.js.map",
+    "main.js": "https://madasafaritours.netlify.app/static/js/main.1ce02827.chunk.js",
+    "main.js.map": "https://madasafaritours.netlify.app/static/js/main.1ce02827.chunk.js.map",
     "runtime-main.js": "https://madasafaritours.netlify.app/static/js/runtime-main.aa782dcf.js",
     "runtime-main.js.map": "https://madasafaritours.netlify.app/static/js/runtime-main.aa782dcf.js.map",
     "static/css/2.1aac531d.chunk.css": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css",
@@ -11,15 +11,15 @@
     "static/js/3.21ea2159.chunk.js": "https://madasafaritours.netlify.app/static/js/3.21ea2159.chunk.js",
     "static/js/3.21ea2159.chunk.js.map": "https://madasafaritours.netlify.app/static/js/3.21ea2159.chunk.js.map",
     "index.html": "https://madasafaritours.netlify.app/index.html",
-    "precache-manifest.6f15d845b28eb04f17444c9f93bcc42c.js": "https://madasafaritours.netlify.app/precache-manifest.6f15d845b28eb04f17444c9f93bcc42c.js",
+    "precache-manifest.d4a9361ffdd15e7f83d2777949e465cd.js": "https://madasafaritours.netlify.app/precache-manifest.d4a9361ffdd15e7f83d2777949e465cd.js",
     "service-worker.js": "https://madasafaritours.netlify.app/service-worker.js",
     "static/css/2.1aac531d.chunk.css.map": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css.map",
     "static/css/main.6e22578c.chunk.css.map": "https://madasafaritours.netlify.app/static/css/main.6e22578c.chunk.css.map",
     "static/js/2.f1888f00.chunk.js.LICENSE.txt": "https://madasafaritours.netlify.app/static/js/2.f1888f00.chunk.js.LICENSE.txt",
     "static/media/BaobabSafari.webp": "https://madasafaritours.netlify.app/static/media/BaobabSafari.29d8b46e.webp",
-    "static/media/Caroussel1.jpg": "https://madasafaritours.netlify.app/static/media/Caroussel1.2ea256e8.jpg",
-    "static/media/Caroussel2.jpg": "https://madasafaritours.netlify.app/static/media/Caroussel2.0b94f1bf.jpg",
-    "static/media/Caroussel3.png": "https://madasafaritours.netlify.app/static/media/Caroussel3.d6660202.png",
+    "static/media/Caroussel1.webp": "https://madasafaritours.netlify.app/static/media/Caroussel1.38aa97b4.webp",
+    "static/media/Caroussel2.webp": "https://madasafaritours.netlify.app/static/media/Caroussel2.d4d9c1b4.webp",
+    "static/media/Caroussel3.webp": "https://madasafaritours.netlify.app/static/media/Caroussel3.3f258a90.webp",
     "static/media/DivingTour.webp": "https://madasafaritours.netlify.app/static/media/DivingTour.5f9303e1.webp",
     "static/media/DryDeciduousBirding.webp": "https://madasafaritours.netlify.app/static/media/DryDeciduousBirding.1ada9e58.webp",
     "static/media/EasternWonder.webp": "https://madasafaritours.netlify.app/static/media/EasternWonder.de55d36f.webp",
@@ -33,8 +33,8 @@
     "static/media/Premium4.webp": "https://madasafaritours.netlify.app/static/media/Premium4.4f4e3802.webp",
     "static/media/RainForestBirding.webp": "https://madasafaritours.netlify.app/static/media/RainForestBirding.516c809a.webp",
     "static/media/RiverTrip.webp": "https://madasafaritours.netlify.app/static/media/RiverTrip.44c0de75.webp",
-    "static/media/Slider4.png": "https://madasafaritours.netlify.app/static/media/Slider4.cb62cb24.png",
-    "static/media/Slider5.png": "https://madasafaritours.netlify.app/static/media/Slider5.306779d5.png",
+    "static/media/Slider4.webp": "https://madasafaritours.netlify.app/static/media/Slider4.b95eabc5.webp",
+    "static/media/Slider5.webp": "https://madasafaritours.netlify.app/static/media/Slider5.eb3b55dc.webp",
     "static/media/SouthernTrekking.webp": "https://madasafaritours.netlify.app/static/media/SouthernTrekking.c0e09465.webp",
     "static/media/TanaSurrounding.webp": "https://madasafaritours.netlify.app/static/media/TanaSurrounding.8b90c0f6.webp",
     "static/media/VanillaCruise.webp": "https://madasafaritours.netlify.app/static/media/VanillaCruise.09fe0f95.webp",
@@ -52,6 +52,6 @@
     "static/css/2.1aac531d.chunk.css",
     "static/js/2.f1888f00.chunk.js",
     "static/css/main.6e22578c.chunk.css",
-    "static/js/main.84b17cf3.chunk.js"
+    "static/js/main.1ce02827.chunk.js"
   ]
 }
