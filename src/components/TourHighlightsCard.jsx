@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Send } from '@mui/icons-material';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
-import Indri from '../images/imagesMst/indri.JPG';
+import Indri from '../images/imagesMst/indri.jpeg';
 import EasternWonder from '../images/imagesMst/EasternWonder.webp';
 import DivingTour from '../images/imagesMst/DivingTour.webp'
 import DryDeciduousBirding from '../images/imagesMst/DryDeciduousBirding.webp'
