@@ -14,6 +14,7 @@
     "@material-ui/core": "^3.9.3",
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
+    "@raja_rakoto/minificator": "^1.0.3",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -44,7 +45,11 @@
     "react-toastify": "^8.2.0",
     "react-vertical-timeline-component": "^3.5.2",
     "sass": "^1.49.8",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -76,6 +81,13 @@
     "@iconify/icons-mdi": "^1.2.3",
     "@iconify/react": "^3.2.0",
     "gh-pages": "^3.2.3",
+    "grunt": "^1.5.2",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.2.1",
+    "grunt-shell": "^4.0.0",
+    "load-grunt-tasks": "^5.1.0",
     "mdbreact": "^5.2.0",
     "react-wavify": "^1.5.4"
   }
