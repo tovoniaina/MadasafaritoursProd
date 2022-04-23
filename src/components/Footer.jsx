@@ -15,7 +15,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
 import { Link } from "react-router-dom";
 import PaymentCard from '../images/paymentMethod/payment-cards.png'
-import { Send } from "@mui/icons-material";
+import NewsletterCute from './Newsletter/NewsletterCute';
 
 //Copy data from newsletter input to the airtable
 
@@ -24,12 +24,9 @@ const Footer = () => {
 
   //Newsletter toastify setting
   const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors }
+    reset
   } = useForm();
-  const [disabled, setDisabled] = useState(false);
+  const [ setDisabled] = useState(false);
 
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
@@ -112,32 +109,13 @@ const Footer = () => {
             </div>
 
 
-            <form id='contact-form' onSubmit= {handleSubmit(onSubmit)} noValidate>
-              <div className="newsletter">
-                Subscribe to our newsletter be informed regularily <br />
-                <input
-                  type="email"
-                  {...register('email', {
-                    required: true,
-                    pattern:
-                      /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-                  })}
-                  name="email"
-                  className="mailInput"
-                  placeholder="example@email.com"
-                />
-
-                <button type="submit"  disabled={disabled} className="subscribe"> Send <Send />  </button>
-
-              </div>
-              {errors.email && (
-                <span className='errorMessage'>Please enter a valid email address</span>
-              )}
-            </form>
+            <div className='my-2'> <NewsletterCute /></div>
 
           </div>
           <ToastContainer />
         </div>
+
+       
 
         <div className="text-center">
           We accept these payment method <br />
