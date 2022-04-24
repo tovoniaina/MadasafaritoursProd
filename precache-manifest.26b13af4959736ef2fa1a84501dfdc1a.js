@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6bf504dba98806f8d16f69a0abaabbf",
+    "revision": "2726ca4227599c7377e741c86c8962c6",
     "url": "https://madasafaritours.netlify.app/index.html"
   },
   {
-    "revision": "de58dc22ee7c4f4d369b",
+    "revision": "89a3a55d05f85cf18211",
     "url": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css"
   },
   {
-    "revision": "82ca9350e7cabc2dda60",
-    "url": "https://madasafaritours.netlify.app/static/css/main.6e22578c.chunk.css"
+    "revision": "3aee860cc4b7eb1c7eec",
+    "url": "https://madasafaritours.netlify.app/static/css/main.02946531.chunk.css"
   },
   {
-    "revision": "de58dc22ee7c4f4d369b",
-    "url": "https://madasafaritours.netlify.app/static/js/2.cc971c0f.chunk.js"
+    "revision": "89a3a55d05f85cf18211",
+    "url": "https://madasafaritours.netlify.app/static/js/2.e5c54ba4.chunk.js"
   },
   {
-    "revision": "8c3c23b405672a6abbf0f4d30271e7b8",
-    "url": "https://madasafaritours.netlify.app/static/js/2.cc971c0f.chunk.js.LICENSE.txt"
+    "revision": "dd4ef8351e87aca58c538d8ca4bc14b6",
+    "url": "https://madasafaritours.netlify.app/static/js/2.e5c54ba4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d487a989d41fa558640d",
-    "url": "https://madasafaritours.netlify.app/static/js/3.726e8636.chunk.js"
+    "revision": "0a5d8856ab5f96b7d98c",
+    "url": "https://madasafaritours.netlify.app/static/js/3.cf049425.chunk.js"
   },
   {
-    "revision": "82ca9350e7cabc2dda60",
-    "url": "https://madasafaritours.netlify.app/static/js/main.5d6df806.chunk.js"
+    "revision": "3aee860cc4b7eb1c7eec",
+    "url": "https://madasafaritours.netlify.app/static/js/main.dc44fb5f.chunk.js"
   },
   {
-    "revision": "fafce684680cb9d0f7d4",
-    "url": "https://madasafaritours.netlify.app/static/js/runtime-main.c9cd6864.js"
+    "revision": "9b69abdfd5882624d660",
+    "url": "https://madasafaritours.netlify.app/static/js/runtime-main.2f86e607.js"
   },
   {
     "revision": "29d8b46ee7e05b3c30ad5b5b3a91f4e4",
