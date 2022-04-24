@@ -25,27 +25,27 @@ function NavBar() {
                     
                         <li className="nav-item"> 
 
-                            <Link to="/" className="nav-link"> Home</Link>
+                            <Link to="/" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link"> Home</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Tour" className="nav-link">Tour</Link>
+                            <Link to="/Tour" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Tour</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Madagascars" className="nav-link">Madagascar</Link>
+                            <Link to="/Madagascars" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Madagascar</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/AboutUs" className="nav-link">About Us</Link>
+                            <Link to="/AboutUs" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">About Us</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Faqs" className="nav-link">Faqs</Link>
+                            <Link to="/Faqs" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Faqs</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Contact" className="nav-link">Contact</Link>
+                            <Link to="/Contact" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Contact</Link>
                         </li>
 
                         <li className="nav-item">

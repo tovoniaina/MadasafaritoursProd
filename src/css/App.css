@@ -10,7 +10,7 @@
   --primary-white:#fefefe;
   --primary-blue: #2e79c8;
   --primary-brown: #68303e;
-  --primary-orange: #2e933c;
+  --primary-orange: #5d2e93;
   --primary-black: #010103;
   --primary-grey: #2e933c;
   --primary-green: #5FA423;
@@ -78,6 +78,7 @@ nav ul{
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-bottom: 0.1875rem solid var(--primary-white);
+  /* border-width: 5px !important; */
 
 }
 
@@ -88,7 +89,7 @@ nav ul{
 }
 
 .navbar-nav > li > a:hover{
-  border-bottom: 0.1875rem solid var(--primary-white);
+  border-bottom: 0.1875rem solid var(--primary-white); 
 }
 
 .menu{

@@ -10,13 +10,14 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LanguageIcon from '@mui/icons-material/Language';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import GroupsIcon from '@mui/icons-material/Groups';
-import { Send } from '@mui/icons-material';
-import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+import CancelIcon from '@mui/icons-material/Cancel';
 
 
 
@@ -553,8 +554,8 @@ const BookModal = () => {
                                 {errors.message && <span className='errorMessage'>Please enter a message</span>}
                             </div>
                             <DialogActions>
-                                <button type="button" className="btn btn-secondary" autoFocus onClick={handleClose} data-bs-dismiss="modal"> <DoNotDisturbOnIcon /> Close</button>
-                                <button type="submit" disabled={disabled} className="btn BookMyTravel">Book my travel <Send /></button>
+                                <Button variant='outlined'  size='large' color='error' onClick={handleClose} autoFocus startIcon = {<CancelIcon />}> Cancel </Button>
+                                <Button variant='contained' size='large' color='success' type="submit" endIcon={<SendIcon />}  disabled={disabled}> Book</Button>
                             </DialogActions>
 
 
