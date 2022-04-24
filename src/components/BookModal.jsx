@@ -119,15 +119,11 @@ const BookModal = () => {
             </div>
             <Dialog open={open}>
 
-                {/* <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"> */}
-                {/* <div className="modal-dialog modal-dialog-centered modal-lg"> */}
-                {/* <div className="modal-content modalBookNow"> */}
-                {/* className='modalBookNow' */}
+              
                 <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Madasafaritours </DialogTitle>
 
                 <DialogContent className='my-3'>
                     <DialogContentText>
-                        {/* <div className="modal-body"> */}
 
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
                             <div className="mb-4 input-group">
@@ -476,10 +472,7 @@ const BookModal = () => {
                                     className="form-control nameModal"
                                     placeholder='Whatsapp number'
                                 >
-                                </input> <br />
-                                {errors.whatsappNumber && (
-                                    <span className='errorMessage'>Please enter a valid Whatsapp Number</span>
-                                )}
+                                </input> 
 
                                 <span className='mx-2'></span>
                                 <span className="input-group-text"> <GroupsIcon /> </span>
@@ -497,9 +490,15 @@ const BookModal = () => {
                                 >
 
                                 </input>
-                                {errors.numberOfPerson && (<span className='errorMessage'>Should be a digit</span>)}
+                                
+                                
                             </div>
 
+                            <div className="row">
+                                <div className='input-group col msg'>{errors.whatsappNumber && (<span className='errorMessage'>Please enter a valid Whatsapp Number</span>)}</div>       
+
+                                <div className='input-group col msg'>  {errors.numberOfPerson && (<span className='errorMessage'>Should be a digit</span>)} </div>
+                                </div>
 
 
                             <div className="input-group mb-4">

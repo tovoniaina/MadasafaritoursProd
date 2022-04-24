@@ -429,6 +429,12 @@ margin-right: auto;
 
 
 /*******BOOK NOW MODAL*******/
+
+.msg{
+  float: left !important;
+  margin-top: -20px !important;
+  margin-bottom: 25px;
+}
 .modalBookNow{
   background-color: var(--primary-grey) !important;
   color: var(--primary-white);
