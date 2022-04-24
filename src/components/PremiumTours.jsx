@@ -33,12 +33,12 @@ function PremiumTours() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <div class="flip-card ">
-                            <div class="flip-card-inner ">
-                                <div class="flip-card-front PremiumCard1">
+                        <div className="flip-card ">
+                            <div className="flip-card-inner ">
+                                <div className="flip-card-front PremiumCard1">
                                     <img src={ImagePremium1} alt="Avatar"/>
                                 </div>
-                                <div class="flip-card-back">
+                                <div className="flip-card-back">
                                     <h1>John Doe</h1>
                                     <p>Architect & Engineer</p>
                                     <p>We love that guy</p>
@@ -48,12 +48,12 @@ function PremiumTours() {
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <div class="flip-card PremiumCard2">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
+                        <div className="flip-card PremiumCard2">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
                                     <img src={ImagePremium2} alt="Avatar"/>
                                 </div>
-                                <div class="flip-card-back">
+                                <div className="flip-card-back">
                                     <h1>John Doe</h1>
                                     <p>Architect & Engineer</p>
                                     <p>We love that guy</p>
@@ -63,12 +63,12 @@ function PremiumTours() {
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <div class="flip-card PremiumCard3">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
+                        <div className="flip-card PremiumCard3">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
                                     <img src={ImagePremium3} alt="Avatar"/>
                                 </div>
-                                <div class="flip-card-back">
+                                <div className="flip-card-back">
                                     <h1>John Doe</h1>
                                     <p>Architect & Engineer</p>
                                     <p>We love that guy</p>
@@ -78,12 +78,12 @@ function PremiumTours() {
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <div class="flip-card PremiumCard4">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
+                        <div className="flip-card PremiumCard4">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
                                     <img src={ImagePremium4} alt="Avatar"/>
                                 </div>
-                                <div class="flip-card-back">
+                                <div className="flip-card-back">
                                     <h1>John Doe</h1>
                                     <p>Architect & Engineer</p>
                                     <p>We love that guy</p>

@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { ToastContainer, toast } from 'react-toastify';
-import emailjs from 'emailjs-com';
+import React from 'react';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import '../css/ContactForm.css'
 import logofooter from "../images/logoBottom.png";
@@ -17,59 +15,9 @@ import { Link } from "react-router-dom";
 import PaymentCard from '../images/paymentMethod/payment-cards.png'
 import NewsletterCute from './Newsletter/NewsletterCute';
 
-//Copy data from newsletter input to the airtable
 
 
 const Footer = () => {
-
-  //Newsletter toastify setting
-  const {
-    reset
-  } = useForm();
-  const [ setDisabled] = useState(false);
-
-  // Function that displays a success toast on bottom right of the page when form submission is successful
-  const toastifySuccess = () => {
-    toast('Great! You have been subscribed', {
-      position: 'top-right',
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast'
-    });
-  };
-
-  // Function called on submit that uses emailjs to send email of valid contact form
-  const onSubmit = async (data) => {
-    // Destrcture data object
-    const { email } = data;
-    try {
-      // Disable form while processing submission
-      setDisabled(true);
-
-      // Define template params
-      const templateParams = { email };
-
-      emailjs.send('service_wbcqhdh', 'template_copj82l', templateParams, 'GwFaGFV-0KNwOLU8T')
-        .then(function (response) {
-          console.log('SUCCESS!', response.status, response.text);
-        }, function (error) {
-          console.log('FAILED...', error);
-        });
-
-      // Reset contact form fields after submission
-      reset();
-      // Display success toast
-      toastifySuccess();
-      // Re-enable form submission
-      setDisabled(false);
-    } catch (e) {
-      console.log(e);
-    }
-  };
 
   return (
     <div className="footer">
