@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://madasafaritours.netlify.app/static/css/main.02946531.chunk.css",
-    "main.js": "https://madasafaritours.netlify.app/static/js/main.dc44fb5f.chunk.js",
-    "main.js.map": "https://madasafaritours.netlify.app/static/js/main.dc44fb5f.chunk.js.map",
+    "main.css": "https://madasafaritours.netlify.app/static/css/main.16f2ecfe.chunk.css",
+    "main.js": "https://madasafaritours.netlify.app/static/js/main.39f3cdb2.chunk.js",
+    "main.js.map": "https://madasafaritours.netlify.app/static/js/main.39f3cdb2.chunk.js.map",
     "runtime-main.js": "https://madasafaritours.netlify.app/static/js/runtime-main.2f86e607.js",
     "runtime-main.js.map": "https://madasafaritours.netlify.app/static/js/runtime-main.2f86e607.js.map",
     "static/css/2.1aac531d.chunk.css": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css",
@@ -11,10 +11,10 @@
     "static/js/3.cf049425.chunk.js": "https://madasafaritours.netlify.app/static/js/3.cf049425.chunk.js",
     "static/js/3.cf049425.chunk.js.map": "https://madasafaritours.netlify.app/static/js/3.cf049425.chunk.js.map",
     "index.html": "https://madasafaritours.netlify.app/index.html",
-    "precache-manifest.26b13af4959736ef2fa1a84501dfdc1a.js": "https://madasafaritours.netlify.app/precache-manifest.26b13af4959736ef2fa1a84501dfdc1a.js",
+    "precache-manifest.29db7f82109b1e5abc1a02b9b479b042.js": "https://madasafaritours.netlify.app/precache-manifest.29db7f82109b1e5abc1a02b9b479b042.js",
     "service-worker.js": "https://madasafaritours.netlify.app/service-worker.js",
     "static/css/2.1aac531d.chunk.css.map": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css.map",
-    "static/css/main.02946531.chunk.css.map": "https://madasafaritours.netlify.app/static/css/main.02946531.chunk.css.map",
+    "static/css/main.16f2ecfe.chunk.css.map": "https://madasafaritours.netlify.app/static/css/main.16f2ecfe.chunk.css.map",
     "static/js/2.e5c54ba4.chunk.js.LICENSE.txt": "https://madasafaritours.netlify.app/static/js/2.e5c54ba4.chunk.js.LICENSE.txt",
     "static/media/BaobabSafari.webp": "https://madasafaritours.netlify.app/static/media/BaobabSafari.29d8b46e.webp",
     "static/media/Caroussel1.webp": "https://madasafaritours.netlify.app/static/media/Caroussel1.38aa97b4.webp",
@@ -51,7 +51,7 @@
     "static/js/runtime-main.2f86e607.js",
     "static/css/2.1aac531d.chunk.css",
     "static/js/2.e5c54ba4.chunk.js",
-    "static/css/main.02946531.chunk.css",
-    "static/js/main.dc44fb5f.chunk.js"
+    "static/css/main.16f2ecfe.chunk.css",
+    "static/js/main.39f3cdb2.chunk.js"
   ]
 }
