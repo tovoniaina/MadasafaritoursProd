@@ -60,10 +60,32 @@ export default function NewsletterCute() {
         });
     };
 
+    const sendData = async (data) => {
+        try {
+            const response = await fetch(
+                "https://v1.nocodeapi.com/aristide371/airtable/WvYclijKYrNkswKj?tableName=Newsletter",
+                {
+                    method: "post",
+                    body: JSON.stringify([data]),
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                }
+            )
+            const json = await response.json()
+            console.log("Success:", JSON.stringify(json))
+            // setMessage("Success")
+        } catch (error) {
+            console.error("Error:", error)
+            // setMessage("Error")
+        }
+    }
+
     // Function called on submit that uses emailjs to send email of valid contact form
     const onSubmit = async (data) => {
         // Destrcture data object
         const { email, Lastname } = data;
+        sendData(data)
         try {
             // Disable form while processing submission
             setDisabled(true);
@@ -86,7 +108,8 @@ export default function NewsletterCute() {
             setDisabled(false);
 
             //Close the dialog after submission of the form
-            handleCloseDialog(true);
+            // handleCloseDialog(true);
+            setOpen(false)
 
         } catch (e) {
             console.log(e);
@@ -103,9 +126,9 @@ export default function NewsletterCute() {
         setOpen(false);
     };
 
-    const handleCloseDialog = () =>{
-        setOpen(false)
-    };
+    // const handleCloseDialog = () =>{
+    //     setOpen(false)
+    // };
 
 
     return (
