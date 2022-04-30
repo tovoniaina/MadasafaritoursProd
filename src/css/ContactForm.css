@@ -9,34 +9,18 @@
   --primary-brown: #68303e;
   --primary-orange: #ffffff;
   --primary-black: #010103;
-  --primary-grey: #00253a;
+  --primary-grey: #0E2A47;
 }
 
 
-
-/* 
-.formRow {
-  margin: 10px 0 20px 0;
-} */
-
-/* @media (max-width: 991px) {
-  .formInput {
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-  }
-} */
-
 .formInput {
   padding: 15px 10px;
-  background-color: var(--primary-grey);
-  box-shadow: 0 0 0 2px var(--primary-white);
-  border: none;
+  background-color: transparent;
   color: var(--primary-white) !important;
 }
 
 .formInput:focus {
-  background-color: var(--primary-grey);
-  outline: none;
+  background-color: transparent;
   box-shadow: 0 0 0 2px var(--primary-orange);
   color: var(--light);
 }

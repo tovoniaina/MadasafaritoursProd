@@ -30,7 +30,7 @@ function Slider() {
               <div className="row ">
                 <div className="col texte-icons"> <LocationSearchingIcon /> Local tour operator</div>
                 <div className="col texte-icons"> <ExploreIcon /> Experienced guides</div>
-                <div className="col texte-icons"> <SecurityIcon /> Secured tourism</div>
+                <div className="col texte-icons"> <SecurityIcon /> Secured travel</div>
                 <div className="col texte-icons"> <SecurityIcon /> Full funded</div>
               </div> 
               <hr />
@@ -49,7 +49,7 @@ function Slider() {
               <div className="row">
                 <div className="col texte-icons"> <LocationSearchingIcon /> Local tour operator</div>
                 <div className="col texte-icons"> <ExploreIcon /> Experienced guides</div>
-                <div className="col texte-icons"> <SecurityIcon /> Secured tourism</div>
+                <div className="col texte-icons"> <SecurityIcon /> Secured travel</div>
                 <div className="col texte-icons"> <SecurityIcon /> Full funded</div>
               </div>
               <hr />
@@ -69,7 +69,7 @@ function Slider() {
               <div className="row">
                 <div className="col texte-icons"> <LocationSearchingIcon /> Local tour operator</div>
                 <div className="col texte-icons"> <ExploreIcon /> Experienced guides</div>
-                <div className="col texte-icons"> <SecurityIcon /> Secured tourism</div>
+                <div className="col texte-icons"> <SecurityIcon /> Secured travel</div>
                 <div className="col texte-icons"> <SecurityIcon /> Full funded</div>
               </div>
               <hr />
@@ -90,7 +90,7 @@ function Slider() {
               <div className="row">
                 <div className="col texte-icons"> <LocationSearchingIcon /> Local tour operator</div>
                 <div className="col texte-icons"> <ExploreIcon /> Experienced guides</div>
-                <div className="col texte-icons"> <SecurityIcon /> Secured tourism</div>
+                <div className="col texte-icons"> <SecurityIcon /> Secured travel</div>
                 <div className="col texte-icons"> <SecurityIcon /> Full funded</div>
               </div>
               <hr />
@@ -111,7 +111,7 @@ function Slider() {
               <div className="row">
                 <div className="col texte-icons"> <LocationSearchingIcon /> Local tour operator</div>
                 <div className="col texte-icons"> <ExploreIcon /> Experienced guides</div>
-                <div className="col texte-icons"> <SecurityIcon /> Secured tourism</div>
+                <div className="col texte-icons"> <SecurityIcon /> Secured travel</div>
                 <div className="col texte-icons"> <SecurityIcon /> Full funded</div>
               </div>
               <hr />

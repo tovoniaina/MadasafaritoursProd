@@ -112,7 +112,6 @@ nav ul{
 }
 
 .BtnBookNow{
-  background-color: var(--primary-grey) !important;
   color: var(--primary-white) !important;
   border: white solid 1px !important;
 }
@@ -498,15 +497,12 @@ label:focus,
 
 .formInput {
   padding: 15px 10px;
-  background-color: var(--primary-grey);
-  border: none;
+  background-color: transparent;
   color: var(--primary-white) !important;
-  
 }
 
 .formInput:focus {
-  background-color: var(--primary-grey);
-  outline: none;
+  background-color: transparent !important;
   box-shadow: 0 0 0 2px var(--primary-orange);
   color: var(--light);
 }
@@ -518,7 +514,6 @@ label:focus,
 
 .formInput:focus::placeholder {
   color: var(--light);
-  opacity: 1;
 }
 
 .errorMessage {
@@ -577,6 +572,10 @@ label:focus,
   color: var(--primary-white);
   text-decoration: none !important;
 color: inherit;
+}
+
+.partieGauche > a:hover{
+  color: #C0C6CB;
 }
 
 /************************COVID BANNER********************/
