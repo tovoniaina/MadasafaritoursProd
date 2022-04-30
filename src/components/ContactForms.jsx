@@ -70,16 +70,24 @@ const ContactForms = () => {
   };
 
   return (
-    <div className='ContactForm my-4 tana'>
+    <div className='ContactForm pt-5 tana'>
       <div className='container'>
+        <div>
+        <h4 className='text-center'>Madasafaritours - Travel agency</h4>
+          <p>
+          Madagascar Safari tours' service representatives are available to answer your questions and take your reservations, Monday - Friday from 9 am - 6pm and Saturday from 9am - 2pm local time +GMT 
+          <br />
+          Your travel agent may also be able to answer any questions and can make your reservations for you.
+          </p>
+        </div>
         <div className='row'>
           <div className="col-lg-4 col-md-12 col-sm-12 partieGauche">
-            <h5>Madasafaritours - Travel agency</h5>
+            
 
                <p><StoreIcon />Licensed by the Tourism minister <br /> No: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18</p> 
-               <p><a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> </p> 
-               <p><a href="mailto:cs@madasaritours.com"> <MailIcon /> cs@madasaritours.com </a></p> 
-               <p><a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> </p> 
+               <p className='partieGauche'><a href="https://g.page/r/CedDYYYAub90EBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> </p> 
+               <p className='partieGauche'><a href="mailto:madasafaritoursagency@gmail.com"> <MailIcon /> madasafaritoursagency@gmail.com </a></p> 
+               <p className='partieGauche'><a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> </p> 
              
             </div>
           <div className="col-lg-8 col-md-12 col-sm-12">
@@ -166,7 +174,7 @@ const ContactForms = () => {
                   </div>
                 </div>
 
-                <button className='submit-btn' disabled={disabled} type='submit'>
+                <button className='submit-btn BtnBookNow' disabled={disabled} type='submit'>
                  Submit <Send />
                 </button>
               </form>

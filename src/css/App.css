@@ -14,9 +14,7 @@
   --primary-black: #010103;
   --primary-grey: #2e933c;
   --primary-green: #5FA423;
-  --light: #d0d1d3;
-  --dark: #040d14;
-  --green: #21ce99;
+
   
 }
 
@@ -45,6 +43,12 @@
   color: red !important;
   font-size: 18px;
 }
+
+/*****************TERMS & CONDITIONS***************/
+.terms-conditions{
+  text-align: justify;
+}
+
 
 /****************NAVBAR****************/
 .logo{
@@ -93,8 +97,12 @@ nav ul{
 }
 
 .menu{
-  background-color: var(--primary-grey);
+  /* background-color: var(--primary-grey); */
+  background-image: url('../images/Navbar.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .buttonShowMore{
   background-color: var(--primary-grey) !important;
@@ -118,11 +126,14 @@ nav ul{
 
 /****************NAVTOP****************/
 .navtop{
-  background-color: #e0fcc8;
+  /* background-color: #e0fcc8; */
+  background-image: url('../images/navtop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social > a{
-  color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
 }
 
 .social{
@@ -130,7 +141,7 @@ nav ul{
 }
 
 .contact > a{
-  color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
 }
 
 .contact> a:hover{
@@ -150,9 +161,8 @@ html, body {
 
 
 .genereric-icon{
-  background-color: var(--primary-grey);
-  opacity: 0.5;
   font-size: large !important;
+  backdrop-filter: blur(2px);
 }
 
 .texte-icons{
@@ -167,8 +177,11 @@ html, body {
 
 /********************FOOTER********************/
 .footer{
-  background-color: var(--primary-grey);
-  color: var(--primary-white) !important;  
+  /* background-color: var(--primary-grey); */
+  color: var(--primary-white) !important; 
+  background-image: url('../images/footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -217,8 +230,10 @@ html, body {
 }
 
 .copyright{
-  background-color: #e0fcc8;
-  color: var(--primary-grey);
+  color: var(--primary-white);
+  background-image: url('../images/Navbar.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .copyrightText> a{
@@ -294,12 +309,7 @@ margin-right: auto;
   
 }
 
-/* #bg-conf{
-  background-image: url("../images/qerozia-photo.png") !important;
-  background-repeat: repeat;
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
+
 
 .card-team-each{
   background-color: transparent;
@@ -321,8 +331,7 @@ margin-right: auto;
   padding-bottom: 5px;
   border-radius: 5px;
   vertical-align: middle;
-  background-color: var(--primary-orange);
-  color: var(--primary-grey);
+  color: var(--primary-white);
   text-align: center;
 }
 
@@ -331,7 +340,7 @@ margin-right: auto;
 }
 
 .social-icon:hover{
-  color: var(--primary-orange) !important;
+  color: grey !important;
 }
 
 .nom-poste{
@@ -340,6 +349,7 @@ margin-right: auto;
 
 .card-body{
   justify-content: center !important;
+  background-image: url('../images/bgContactForm.svg');
 }
 
 .card-text{
@@ -556,16 +566,25 @@ label:focus,
 }
 
 .tana{
-  background-image: url('../images/tana.jpg');
+  background-image: url('../images/bgContactForm.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  color: var(--primary-white);
   
+}
+
+.partieGauche > a{
+  color: var(--primary-white);
+  text-decoration: none !important;
+color: inherit;
 }
 
 /************************COVID BANNER********************/
 
 .covid-info{
-  background-color: var(--primary-grey);
+  background-image: url('../images/Virus.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
 }
 

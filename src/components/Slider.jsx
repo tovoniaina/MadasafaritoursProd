@@ -11,6 +11,7 @@ import SecurityIcon from '@mui/icons-material/Security';
 
 function Slider() {
   return (
+    <div>
     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -128,6 +129,7 @@ function Slider() {
       </a>
 
 
+    </div>
     </div>
   )
 }

@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Navtop from './components/Navtop';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Slider from './components/Slider';
+
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -18,7 +20,7 @@ import BaobabSafari from './components/Tours/BaobabSafari';
 import DivingTour from './components/Tours/DivingTour';
 import TourHighlightsCard from './components/TourHighlightsCard';
 import TermOfCondition from './components/TermOfCondition';
-import Disclaimer from './components/Disclaimer';
+// import Disclaimer from './components/Disclaimer';
 import DryDeciduousBirding from './components/Tours/DryDeciduousBirding';
 import EasternWonder from './components/Tours/EasternWonder';
 import IndriEncouter from './components/Tours/IndriEncouter';
@@ -32,7 +34,7 @@ import SouthernTrekking from './components/Tours/SouthernTrekking';
 import TanaSurrounding from './components/Tours/TanaSurrounding';
 import VanillaCruise from './components/Tours/VanillaCruise';
 import ProtocolCovid from './components/ProtocolCovid';
-import ConditionOfService from './components/ConditionOfService';
+// import ConditionOfService from './components/ConditionOfService';
 
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
       <Router>
         <Navtop />
         <NavBar />
+        <Slider />
 
         <Routes>
 
@@ -68,10 +71,12 @@ function App() {
             <Route path='vanilla-cruise' element={<VanillaCruise />} />
 
           </Route>
+         
+          
           <Route exact path="Contact" element={<Contact />} />
           <Route exact path="term-of-condition" element={<TermOfCondition />} />
-          <Route exact path="disclaimer" element={<Disclaimer />} />
-          <Route exact path="condition-of-services" element={<ConditionOfService />} />
+          {/* <Route exact path="disclaimer" element={<Disclaimer />} />
+          <Route exact path="condition-of-services" element={<ConditionOfService />} /> */}
           <Route  path="*" element={<NoMatch/>} />
 
         </Routes>

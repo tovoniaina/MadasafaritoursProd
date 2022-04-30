@@ -1,11 +1,9 @@
 import React from 'react'
 import Madagascar from '../components/Madagascar'
-import Slider from '../components/Slider';
 
 function Madagascars() {
     return (
         <main id='Madagascar'>
-            <Slider />
 
             <Madagascar />
         </main>

@@ -1,9 +1,7 @@
 import React from 'react'
 // import Contacts from "../components/Contacts";
-import Slider from '../components/Slider';
 import ContactForms from '../components/ContactForms'
 import MapSection from '../components/map/Map'
-import BtnLoading from '../components/BtnLoading'
 
 
 const location = {
@@ -16,8 +14,6 @@ const location = {
 function Contact() {
     return(
         <main id='Qa'>
-            <Slider />
-            <BtnLoading />
         {/* <MapContainer /> */}
         <ContactForms />
         <MapSection location={location} zoomLevel={17} />
