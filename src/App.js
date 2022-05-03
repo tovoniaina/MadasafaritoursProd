@@ -7,7 +7,6 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Slider from './components/Slider';
 
-
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Home from '../src/pages/Home';
@@ -89,6 +88,8 @@ function App() {
 
   );
 }
+
+
 
 export default App;
 

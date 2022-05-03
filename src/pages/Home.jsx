@@ -5,9 +5,9 @@ import Covid from '../components/Covid';
 import PremiumTours from '../components/PremiumTours';
 
 
+
 function Home() {
     return (
-
         <main id='Home'>
             <Covid />
             <RecommendedTour />
@@ -15,6 +15,8 @@ function Home() {
             <PremiumTours />
 
         </main>
+
+        
     )
 }
 

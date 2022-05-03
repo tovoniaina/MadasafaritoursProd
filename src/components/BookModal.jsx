@@ -35,9 +35,9 @@ const BookModal = () => {
     };
 
 
-    const handleCloseDialog = () => {
-        setOpen(false)
-    };
+    // const handleCloseDialog = () => {
+    //     setOpen(false)
+    // };
 
     const {
         register,
@@ -65,6 +65,7 @@ const BookModal = () => {
     const onSubmit = async (data) => {
         // Destrcture data object
         const { firstName, lastName, email, country, whatsappNumber, numberOfPerson, tours, arrivalDate, departureDate, message } = data;
+        sendData(data)
         try {
             // Disable form while processing submission
             setDisabled(true);
@@ -98,10 +99,8 @@ const BookModal = () => {
             setDisabled(false);
 
             //Close the dialog after submission of the form
-            handleCloseDialog(true);
-
-
-
+            // handleCloseDialog(true);
+            setOpen(false);
 
         } catch (e) {
             console.log(e);
@@ -109,6 +108,29 @@ const BookModal = () => {
 
 
     };
+
+    //Copy data to Airtable
+
+    const sendData = async (data) => {
+        try {
+            const response = await fetch(
+                "https://v1.nocodeapi.com/aristide371/airtable/WvYclijKYrNkswKj?tableName=Booking",
+                {
+                    method: "post",
+                    body: JSON.stringify([data]),
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                }
+            )
+            const json = await response.json()
+            console.log("Success:", JSON.stringify(json))
+            // setMessage("Success")
+        } catch (error) {
+            console.error("Error:", error)
+            // setMessage("Error")
+        }
+    }
 
 
 
@@ -532,11 +554,29 @@ const BookModal = () => {
                             <div className="row">
                                 <div className="col">
                                     <label htmlFor="message-text" className="col-form-label">Arrival date:</label>
-                                    <input type="date" className="form-control nameModal" />
+                                    <input 
+                                        type="date" 
+                                        name='arrivalDate' 
+                                        {...register('arrivalDate', {
+                                            required: true
+                                        })}
+                                        className="form-control nameModal" 
+                                    />
+                                     {errors.arrivalDate && <span className='errorMessage'>Please enter a valid date</span>}
+
                                 </div>
+
                                 <div className="col">
                                     <label htmlFor="message-text" className="col-form-label ">Departure date:</label> <br />
-                                    <input type="date" className="form-control nameModal" />
+                                    <input 
+                                        type="date" 
+                                        name='departureDate' 
+                                        {...register('departureDate', {
+                                            required: true
+                                        })}
+                                        className="form-control nameModal" 
+                                    />
+                                    {errors.departureDate && <span className='errorMessage'>Please enter a valid date</span>}
                                 </div>
                             </div>
 

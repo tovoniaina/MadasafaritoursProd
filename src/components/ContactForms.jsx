@@ -39,6 +39,7 @@ const ContactForms = () => {
   const onSubmit = async (data) => {
     // Destrcture data object
     const { name, email, subject, message } = data;
+    sendData(data)
     try {
       // Disable form while processing submission
       setDisabled(true);
@@ -68,6 +69,29 @@ const ContactForms = () => {
       console.log(e);
     }
   };
+
+  //Copy data from form to Airtable
+  const sendData = async (data) => {
+    try {
+        const response = await fetch(
+            "https://v1.nocodeapi.com/aristide371/airtable/WvYclijKYrNkswKj?tableName=Contact",
+            {
+                method: "post",
+                body: JSON.stringify([data]),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            }
+        )
+        const json = await response.json()
+        console.log("Success:", JSON.stringify(json))
+        // setMessage("Success")
+    } catch (error) {
+        console.error("Error:", error)
+        // setMessage("Error")
+    }
+}
+
 
   return (
     <div className='ContactForm pt-5 tana'>
