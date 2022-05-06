@@ -84,7 +84,7 @@ function App() {
 
         <Footer />
       </Router>
-      <MessengerCustomerChat pageId="169223953712845" appId="985211278867130"/>
+      <MessengerCustomerChat className="fb_dialog" pageId="169223953712845" appId="985211278867130"/>
     </div>
 
   );
