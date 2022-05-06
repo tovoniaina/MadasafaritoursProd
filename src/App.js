@@ -33,14 +33,15 @@ import SouthernTrekking from './components/Tours/SouthernTrekking';
 import TanaSurrounding from './components/Tours/TanaSurrounding';
 import VanillaCruise from './components/Tours/VanillaCruise';
 import ProtocolCovid from './components/ProtocolCovid';
-// import ConditionOfService from './components/ConditionOfService';
-
+import ScrollToTops from './components/ScrollToTop/ScrollToTops';
 
 function App() {
   return (
 
     <div className="App">
       <Router>
+      
+      <ScrollToTops />
         <Navtop />
         <NavBar />
         <Slider />
