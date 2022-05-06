@@ -175,13 +175,12 @@ html, body {
 }
 
 /*****************MESSENGER FACEBOOK*****************/
-.fb_dialog {
-  position: -webkit-sticky !important;
-  position: fixed !important;
-  bottom: 95px !important;
-  right: 30px !important;
-  }
-  
+.fb_dialog.fb_dialog_advanced iframe {
+  right: auto !important;
+  left: 2rem;
+  bottom: 2rem !important;
+}
+
 
 /********************FOOTER********************/
 .footer{
