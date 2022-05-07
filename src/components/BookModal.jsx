@@ -138,7 +138,7 @@ const BookModal = () => {
     return (
         <div>
             <div>
-                <button className="BtnBookNow btn" variant="contained" onClick={handleClickOpen}> <EventAvailableIcon />  Book Now </button>
+                <button className="BtnBookNow btn" variant="contained" onClick={handleClickOpen}> <EventAvailableIcon />  Ask a quote </button>
             </div>
             <Dialog open={open}>
 

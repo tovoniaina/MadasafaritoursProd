@@ -12,6 +12,9 @@ import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import Button from '@mui/material/Button';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import MyLocationIcon from '@mui/icons-material/MyLocation';
+import GroupsIcon from '@mui/icons-material/Groups';
+import AvTimerIcon from '@mui/icons-material/AvTimer';
 
 
 function MadaNorthernSafari() {
@@ -22,6 +25,15 @@ function MadaNorthernSafari() {
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
+
+      <hr />
+      <div className='row text-center '>
+        <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
+        <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 4 Days</span> </div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $450/person</span></div>
+        <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
+      </div>
+      <hr />
       
       <VerticalTimeline>
         <VerticalTimelineElement

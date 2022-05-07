@@ -217,20 +217,6 @@ export default function NewsletterCute() {
                                 >
                                     Subscribe</Button>
 
-                                {/* <Box>
-                                <LoadingButton
-                                    size="medium"
-                                    onClick={handleClick}
-                                    endIcon={<SendIcon />}
-                                    loading={loading}
-                                    loadingPosition="end"
-                                    variant="contained"
-                                >
-                                    Subscribe
-                                    </LoadingButton>
-
-                                </Box> */}
-
                             </DialogActions>
 
                         </form>

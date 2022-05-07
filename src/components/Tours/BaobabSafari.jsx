@@ -26,7 +26,8 @@ function BaobabSafari() {
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
-<hr />
+      
+      <hr />
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 4 Days</span> </div>
