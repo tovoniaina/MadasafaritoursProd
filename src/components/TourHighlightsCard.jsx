@@ -153,7 +153,7 @@ function TourHighlightsCard() {
     const [showMore, setShowMore] = useState(false);
     const tours = [
         {
-            title: 'Indri Encounter',
+            title: 'Indri Encounters',
             img: Indri,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
             price: "From €280",

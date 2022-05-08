@@ -15,11 +15,12 @@ import Button from '@mui/material/Button';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
+import { Link } from "react-router-dom";
 
 function IndriEncouter() {
   return (
     <div className='container itineraries'>
-      <h1 className='text-center'>Indri Encouter itinerary</h1>
+      <h1 className='text-center'>Indri Encounters itinerary</h1>
       <div className="row">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
@@ -102,9 +103,9 @@ function IndriEncouter() {
 
       <div className="row">
         <div className="col-lg-6 col-md-12 col-sm-12">
-          <div className="card text-white mb-3 included incluD">
-            <div class="card-header"><h4><CheckCircleIcon /> Included to the offer</h4></div>
-            <div class="card-body">
+          <div className="card mb-3 included">
+            <div class="card-header included-header text-dark"><h4><CheckCircleIcon /> Included to the offer</h4></div>
+            <div class="card-body text-dark">
               <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet. <br />
               <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
               <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
@@ -115,8 +116,8 @@ function IndriEncouter() {
         </div>
 
         <div className="col-lg-6 col-md-12 col-sm-12">
-          <div className="card text-white mb-3 excluded">
-            <div class="card-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
+          <div className="card mb-3 excluded">
+            <div class="card-header excluded-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
               <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet. <br />
               <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
@@ -131,6 +132,17 @@ function IndriEncouter() {
       <div className="row mb-3">
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
+      </div>
+      
+      <div>
+            <h3 className='text-center'>See too the related tours</h3>
+            <hr />
+            <div className="row">
+                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/eastern-wonder">Eastern wonder</Link></div>
+                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/rainforest-birding">Rain Forest Birding</Link> </div>
+                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/diving-tour">Diving Tour</Link></div>
+            </div>
+            <hr />
       </div>
 
     </div>

@@ -7,13 +7,15 @@
   --bodyFont: "Ubuntu";
 
   /****************COLOR****************/
+  --light: #d0d1d3;
+  --dark: #040d14;
+  --green: #21ce99;
   --primary-white:#fefefe;
   --primary-blue: #2e79c8;
   --primary-brown: #68303e;
-  --primary-orange: #5d2e93;
+  --primary-orange: #ffffff;
   --primary-black: #010103;
-  --primary-grey: #2e933c;
-  --primary-green: #5FA423;
+  --primary-grey: #0E2A47;
 
   
 }
@@ -354,7 +356,7 @@ margin-right: auto;
 
 .card-body{
   justify-content: center !important;
-  background-image: url('../images/bgContactForm.svg');
+  /* background-image: url('../images/bgContactForm.svg'); */
 }
 
 .card-text{
@@ -420,17 +422,39 @@ margin-right: auto;
   color: var(--primary-grey);
 }
 
+/*****************RELATED TOURS******************/
 
+.related-tours{
+color: var(--primary-black);
+}
+.related-tours:hover{
+  color: var(--primary-grey);
+  font-weight: bolder;
+}
 
 /****************ITINERARY*****************/
 .vertical-timeline::before{
   background: var(--primary-grey) !important;
-  
+}
+
+.included{
+  background-color: transparent !important;
+  border-color: var(--primary-green) !important;
+}
+
+.included-header{
+  border-color: var(--primary-green) !important;
 }
 
 .excluded{
-  background-color: var(--primary-orange) !important;
-  color: var(--primary-white) !important;
+  background-color: transparent !important;
+  color: var(--primary-black) !important;
+  border-color: red !important;
+}
+
+.excluded-header{
+  border-color: red !important;
+
 }
 
 .price-itinerary{

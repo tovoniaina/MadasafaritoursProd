@@ -52,8 +52,6 @@ const Footer = () => {
 
             <div className="legacy mt-4">
               <Link to="/term-of-condition">Terms and Conditions</Link> <br />
-              {/* <Link to="/disclaimer">Disclaimer</Link> <br />
-              <Link to="/condition-of-services">Condition of services</Link> */}
             </div>
 
 
