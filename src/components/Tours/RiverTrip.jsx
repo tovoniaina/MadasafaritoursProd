@@ -15,6 +15,8 @@ import Button from '@mui/material/Button';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
+import { Link } from "react-router-dom";
+
 
 function RiverTrip() {
   return (
@@ -220,6 +222,17 @@ function RiverTrip() {
         <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 584$</Button> </div>
         <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
       </div>
+
+      <div>
+            <h3 className='text-center'>See too the related tours</h3>
+            <hr />
+            <div className="row">
+                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/eastern-wonder">Eastern wonder</Link></div>
+                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/rainforest-birding">Rain Forest Birding</Link> </div>
+                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/diving-tour">Diving Tour</Link></div>
+            </div>
+            <hr />
+        </div>
 
     </div>
   )

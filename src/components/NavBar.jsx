@@ -29,7 +29,7 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/Tour" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Tour</Link>
+                            <Link to="/Tour" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Tours</Link>
                         </li>
 
                         <li className="nav-item">

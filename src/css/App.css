@@ -9,7 +9,7 @@
   /****************COLOR****************/
   --light: #d0d1d3;
   --dark: #040d14;
-  --green: #21ce99;
+  --primary-green: #26a712;
   --primary-white:#fefefe;
   --primary-blue: #2e79c8;
   --primary-brown: #68303e;
@@ -42,7 +42,6 @@
 
 /****************NAVTOP****************/
 .contact {
-  color: red !important;
   font-size: 18px;
 }
 
@@ -84,8 +83,6 @@ nav ul{
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-bottom: 0.1875rem solid var(--primary-white);
-  /* border-width: 5px !important; */
-
 }
 
 .navbar-brand{
@@ -99,7 +96,6 @@ nav ul{
 }
 
 .menu{
-  /* background-color: var(--primary-grey); */
   background-image: url('../images/Navbar.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,7 +123,6 @@ nav ul{
 
 /****************NAVTOP****************/
 .navtop{
-  /* background-color: #e0fcc8; */
   background-image: url('../images/navtop.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,6 +142,7 @@ nav ul{
 
 .contact> a:hover{
   color: var(--primary-orange) !important;
+  font-weight: bolder !important;
 }
 
 .social> a:hover{
@@ -216,6 +212,7 @@ html, body {
 
 .contact-list > a:hover{
   color: var(--primary-orange);
+  font-weight: bolder !important;
 }
 
 .social-footer > a{
@@ -223,17 +220,16 @@ html, body {
   cursor: pointer !important;
 }
 
-.social-footer > a:hover{
-  color: var(--primary-orange);
-}
+
 
 
 .legacy > a{
   color: var(--primary-white) !important;
 }
 
+
 .legacy > a:hover{
-  color: var(--primary-orange) !important;
+  font-weight: bolder !important;
 }
 
 .copyright{
@@ -555,10 +551,12 @@ label:focus,
 }
 
 #notifyToast {
-  color: #fff;
+  color: var(--primary-white);
   border-radius: 6px;
   width: 340px !important;
-  margin-left: -12px;
+  text-align: center;
+  /* margin-left: -12px; */
+  margin: auto !important;
   background-color: var(--primary-green);
 }
 
