@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://madasafaritours.netlify.app/precache-manifest.4aef1135bcc9f59ba74dc4a4d8b33b25.js"
+  "https://madasafaritours.netlify.app/precache-manifest.e5b3c1cbe5510b76023de57752a0ed87.js"
 );
 
 self.addEventListener('message', (event) => {
