@@ -9,13 +9,12 @@ import DoNotDisturbOnTotalSilenceIcon from '@mui/icons-material/DoNotDisturbOnTo
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import Button from '@mui/material/Button';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import { Link } from "react-router-dom";
+import BookModal from './ButtonRequestAQuote';
 
 
 function EasternWonder() {
@@ -23,8 +22,8 @@ function EasternWonder() {
     <div className='container itineraries'>
       <h1 className='text-center'>Eastern Wonder itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
-        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+        <div className="col"> <BookModal /> </div>
       </div>
 
       <hr />
@@ -41,7 +40,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 1"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', borderBlockColor: '#000' }}
           icon={<FlightLandIcon />}
@@ -57,7 +56,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 2"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -70,7 +69,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 3"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -83,7 +82,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -96,7 +95,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 5"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -109,7 +108,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 6"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -122,7 +121,7 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 7"
-          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
+          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<FlightTakeoffIcon />}
@@ -146,11 +145,11 @@ function EasternWonder() {
           <div className="card mb-3 included">
             <div class="card-header included-header text-dark"><h4><CheckCircleIcon /> Included to the offer</h4></div>
             <div class="card-body text-dark">
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet. <br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.
+              <CheckCircleOutlineIcon /> Hotel accommodation with breakfast <br />
+              <CheckCircleOutlineIcon /> 4WD car +fuel and the driver + specialized guide + their indemnities for all the tour<br />
+              <CheckCircleOutlineIcon /> Speed boat fees<br />
+              <CheckCircleOutlineIcon /> All park entry fees and local tour guide<br />
+              <CheckCircleOutlineIcon /> Car insurances, Taxes, our commissions
             </div>
           </div>
         </div>
@@ -159,11 +158,9 @@ function EasternWonder() {
           <div className="card mb-3 excluded">
             <div class="card-header excluded-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet. <br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.
+              <DoNotDisturbOnIcon /> International flights, domestic flights <br />
+              <DoNotDisturbOnIcon /> Personal spending, drinks, dinner and lunches (except in places mentioned half or full board)<br />
+              <DoNotDisturbOnIcon /> Gratuities for the local team<br />
             </div>
           </div>
         </div>
@@ -171,8 +168,8 @@ function EasternWonder() {
       </div>
 
       <div className="row mb-3">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 450$</Button> </div>
-        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+        <div className="col"> <BookModal /> </div>
       </div>
 
       <div>

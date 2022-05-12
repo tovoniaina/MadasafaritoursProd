@@ -15,7 +15,7 @@
   --primary-brown: #68303e;
   --primary-orange: #ffffff;
   --primary-black: #010103;
-  --primary-grey: #0E2A47;
+  --primary-grey: #0e2a47;
 
   
 }
@@ -38,7 +38,6 @@
 .footers div {
   flex-grow: 1;
 }
-
 
 /****************NAVTOP****************/
 .contact {
@@ -99,6 +98,11 @@ nav ul{
   background-image: url('../images/Navbar.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    padding: 10px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.10) !important;
 }
 
 
@@ -109,15 +113,17 @@ nav ul{
   border-radius: 10px;
 }
 
-.BtnBookNow{
+.RequestNow{
   color: var(--primary-white) !important;
-  border: white solid 1px !important;
+  background-color: var(--primary-grey) !important;
+  border: var(--primary-grey) solid 1px !important;
 }
 
-.BtnBookNow:hover{
+.RequestNow:hover{
   background-color: white !important;
   border: var(--primary-grey) solid 1px !important;
   color: var(--primary-grey) !important;
+  font-weight: bolder !important;
 }
 
 
@@ -457,6 +463,19 @@ color: var(--primary-black);
   text-align: right !important;
 }
 
+.PriceTours{
+  background-color: transparent !important;
+  border: var(--primary-grey) solid 1px !important;
+  color: var(--primary-grey) !important;
+}
+
+.PriceTours:hover{
+  background-color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
+  border: var(--primary-grey) solid 1px !important;
+  font-weight: bolder;
+}
+
 /**************FAQS*************/
 .accordion-button{
   background-color: var(--primary-grey) !important;
@@ -506,20 +525,33 @@ label:focus,
   color: var(--primary-grey) !important;
 }
 
+/**************BOOK NOW BUTTON***************/
+.BtnBookNow{
+  background-color: transparent !important;
+  color: var(--primary-white) !important;
+  border: solid var(--primary-white) 1px !important;
+}
 
+.BtnBookNow:hover{
+  background-color: var(--primary-white) !important;
+  color: var(--primary-grey) !important;
+  border: solid var(--primary-white) 1px !important;
+  font-weight: bold;
+}
+
+/**************SUBSCRIBE***************/
+.SubscribeButton{
+  background-color: transparent !important;
+  color: var(--primary-white) !important;
+  border: 1px solid white !important;
+}
+
+.SubscribeButton:hover{
+  background-color: var(--primary-white) !important;
+  color: var(--primary-grey) !important;
+  border: 1px solid var(--primary-white) !important;
+}
 /*****************CONTACT****************/
-
-
-/* .formRow {
-  margin: 10px 0 20px 0;
-} */
-
-/* @media (max-width: 768px) {
-  .formInput {
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-  }
-} */
 
 .formInput {
   padding: 15px 10px;
@@ -658,7 +690,6 @@ color: inherit;
 
 
 /*****************PREMIUM TOURS***************/
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
   width: 650px;

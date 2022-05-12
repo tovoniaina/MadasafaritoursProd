@@ -134,9 +134,9 @@ export default function NewsletterCute() {
     return (
         <div>
             <div className="ok">
-                <Button variant="outlined" onClick={handleClickOpen} className="BtnBookNow">
+                <button onClick={handleClickOpen} className="SubscribeButton btn">
                 <ForwardToInboxIcon />  &nbsp; Subscribe to our Newsletter
-                </Button>
+                </button>
                 <div className="dialogNewletter">
                     <Dialog open={open} onClose={handleClose} PaperComponent={PaperComponent} aria-labelledby="draggable-dialog-title">
                         <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
