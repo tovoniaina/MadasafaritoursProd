@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://madasafaritours.netlify.app/static/css/main.f7f792f6.chunk.css",
+    "main.css": "https://madasafaritours.netlify.app/static/css/main.2028d986.chunk.css",
     "main.js": "https://madasafaritours.netlify.app/static/js/main.f56b019e.chunk.js",
     "main.js.map": "https://madasafaritours.netlify.app/static/js/main.f56b019e.chunk.js.map",
     "runtime-main.js": "https://madasafaritours.netlify.app/static/js/runtime-main.97fed2ee.js",
@@ -11,10 +11,10 @@
     "static/js/3.3f3ae1a0.chunk.js": "https://madasafaritours.netlify.app/static/js/3.3f3ae1a0.chunk.js",
     "static/js/3.3f3ae1a0.chunk.js.map": "https://madasafaritours.netlify.app/static/js/3.3f3ae1a0.chunk.js.map",
     "index.html": "https://madasafaritours.netlify.app/index.html",
-    "precache-manifest.17315edd7f4b01e84025c8b4f805bd69.js": "https://madasafaritours.netlify.app/precache-manifest.17315edd7f4b01e84025c8b4f805bd69.js",
+    "precache-manifest.9bfca08e8de66c5b113e7e95ab2788e1.js": "https://madasafaritours.netlify.app/precache-manifest.9bfca08e8de66c5b113e7e95ab2788e1.js",
     "service-worker.js": "https://madasafaritours.netlify.app/service-worker.js",
     "static/css/2.1aac531d.chunk.css.map": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css.map",
-    "static/css/main.f7f792f6.chunk.css.map": "https://madasafaritours.netlify.app/static/css/main.f7f792f6.chunk.css.map",
+    "static/css/main.2028d986.chunk.css.map": "https://madasafaritours.netlify.app/static/css/main.2028d986.chunk.css.map",
     "static/js/2.2bd27b15.chunk.js.LICENSE.txt": "https://madasafaritours.netlify.app/static/js/2.2bd27b15.chunk.js.LICENSE.txt",
     "static/media/BaobabAlley.jpg": "https://madasafaritours.netlify.app/static/media/BaobabAlley.36ed8963.jpg",
     "static/media/BaobabSafari.webp": "https://madasafaritours.netlify.app/static/media/BaobabSafari.29d8b46e.webp",
@@ -53,7 +53,7 @@
     "static/js/runtime-main.97fed2ee.js",
     "static/css/2.1aac531d.chunk.css",
     "static/js/2.2bd27b15.chunk.js",
-    "static/css/main.f7f792f6.chunk.css",
+    "static/css/main.2028d986.chunk.css",
     "static/js/main.f56b019e.chunk.js"
   ]
 }
