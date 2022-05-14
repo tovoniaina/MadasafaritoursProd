@@ -13,6 +13,7 @@ import Home from '../src/pages/Home';
 import AboutUs from '../src/pages/AboutUs';
 import Faqs from '../src/pages/Faqs';
 import Madagascars from './pages/Madagascars';
+import GalleryPhoto from './components/GalleryPhoto'
 import Tour from '../src/pages/Tour';
 import Contact from './pages/Contact';
 import BaobabSafari from './components/Tours/BaobabSafari';
@@ -53,6 +54,7 @@ function App() {
           <Route exact path="AboutUs" element={<AboutUs />} />
           <Route exact path="Faqs" element={<Faqs />} />
           <Route exact path="Madagascars" element={<Madagascars />} />
+          <Route exact path="GalleryPhoto" element={<GalleryPhoto />} />
           <Route path="Tour" element={<Tour />}>
             <Route index element={<TourHighlightsCard />} />
             <Route path='safari' element={<BaobabSafari />} />

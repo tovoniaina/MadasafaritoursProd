@@ -56,6 +56,26 @@
   height: 100px;
 }
 
+.nestedMenu{
+  color: var(--primary-white) !important;
+  font-family: var(--bodyFont) !important;
+  font-weight: bolder !important;
+  margin-top: 1px !important;
+  background-color: transparent !important;
+  font-size: 15px !important;
+}
+
+
+.nestedMenu:hover{
+  border-bottom: 0.1875rem solid var(--primary-white) !important; 
+}
+
+.madagascarMenu{
+  text-decoration: none !important;
+  font-family: var(--bodyFont) !important;
+  color: var(--primary-grey) !important;
+}
+
 .faBarsMd{
   border-color: var(--primary-white) !important;
 }
@@ -83,6 +103,7 @@ nav ul{
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-bottom: 0.1875rem solid var(--primary-white);
 }
+
 
 .navbar-brand{
   max-width: 17.25rem;
@@ -683,7 +704,7 @@ color: inherit;
         text-transform: uppercase;
         white-space: nowrap;
         text-align: center;
-        background: orange;
+        background: #ffa500;
         color: #000;
         font-size: 14px;
 } 

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import BookModal from './BookModal';
 import logoTop from "../images/logoBottom.png";
+import NestedMenuNavbar from './NestedMenuNavbar';
 
 
 function NavBar() {
@@ -32,8 +33,8 @@ function NavBar() {
                             <Link to="/Tour" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Tours</Link>
                         </li>
 
-                        <li className="nav-item">
-                            <Link to="/Madagascars" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Madagascar</Link>
+                        <li className='nav-item'>
+                        <NestedMenuNavbar />
                         </li>
 
                         <li className="nav-item">

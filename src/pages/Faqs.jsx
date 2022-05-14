@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import GalleryPhoto from '../components/GalleryPhoto'
 import Faqs from '../components/Faq'
 
 export class Faq extends Component {
@@ -7,12 +6,6 @@ export class Faq extends Component {
         return (
             <main id='Faq'>
                 <Faqs />
-                <GalleryPhoto />
-                
-
-                
-                
-                
             </main>
         )
     }
