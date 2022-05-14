@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 
 function RecommendedToursSlider() {
+
   return (
     <div className='elfsightWidget'>
       <Helmet>

@@ -77,8 +77,12 @@
 }
 
 .faBarsMd{
+  border: solid 2px var(--primary-white) !important;
+  margin: 5px !important;
+  border-radius: 5px !important;
   border-color: var(--primary-white) !important;
 }
+
 
 nav a.nav-link{
   font-weight: bolder;

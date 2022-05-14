@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars } from '@fortawesome/free-solid-svg-icons';
 import BookModal from './BookModal';
 import logoTop from "../images/logoBottom.png";
 import NestedMenuNavbar from './NestedMenuNavbar';
-
+import SegmentIcon from '@mui/icons-material/Segment';
 
 function NavBar() {
     return (
@@ -17,7 +17,8 @@ function NavBar() {
                     <img src={logoTop} alt="logo madasafari" className='logo' />
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <FontAwesomeIcon icon={faBars} className="faBarsMd" style={{ color: "var(--primary-white)" }} />
+                    {/* <FontAwesomeIcon icon={faBars} className="faBarsMd" style={{ color: "var(--primary-white)" }} /> */}
+                    <SegmentIcon fontSize='large' className="faBarsMd" style={{ color: "var(--primary-white)" }} />
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
