@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23c460d2528db28039fe01aa799aad5c",
+    "revision": "19e327fc7357ebbd28acd14e0d144179",
     "url": "https://madasafaritours.netlify.app/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css"
   },
   {
-    "revision": "a23b0ecacdfbe97d83bc",
-    "url": "https://madasafaritours.netlify.app/static/css/main.77f57517.chunk.css"
+    "revision": "5788cd788c151c1fb3da",
+    "url": "https://madasafaritours.netlify.app/static/css/main.c2fd1256.chunk.css"
   },
   {
     "revision": "a86077afeee448abb18e",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://madasafaritours.netlify.app/static/js/3.66458514.chunk.js"
   },
   {
-    "revision": "a23b0ecacdfbe97d83bc",
-    "url": "https://madasafaritours.netlify.app/static/js/main.d5ea0d27.chunk.js"
+    "revision": "5788cd788c151c1fb3da",
+    "url": "https://madasafaritours.netlify.app/static/js/main.f3955243.chunk.js"
   },
   {
     "revision": "34a356c6495d2dc0d649",
