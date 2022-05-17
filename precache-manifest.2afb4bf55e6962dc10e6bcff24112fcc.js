@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68f1091ccd2f2b6df924d5fe0fd20e9d",
+    "revision": "23c460d2528db28039fe01aa799aad5c",
     "url": "https://madasafaritours.netlify.app/index.html"
   },
   {
-    "revision": "61cdc53e93544bd24f38",
+    "revision": "a86077afeee448abb18e",
     "url": "https://madasafaritours.netlify.app/static/css/2.1aac531d.chunk.css"
   },
   {
-    "revision": "92a30a835164c8e82630",
-    "url": "https://madasafaritours.netlify.app/static/css/main.2028d986.chunk.css"
+    "revision": "a23b0ecacdfbe97d83bc",
+    "url": "https://madasafaritours.netlify.app/static/css/main.77f57517.chunk.css"
   },
   {
-    "revision": "61cdc53e93544bd24f38",
-    "url": "https://madasafaritours.netlify.app/static/js/2.2bd27b15.chunk.js"
+    "revision": "a86077afeee448abb18e",
+    "url": "https://madasafaritours.netlify.app/static/js/2.717f0c5d.chunk.js"
   },
   {
     "revision": "0c5eecdffe53969c3b51a588569cb0db",
-    "url": "https://madasafaritours.netlify.app/static/js/2.2bd27b15.chunk.js.LICENSE.txt"
+    "url": "https://madasafaritours.netlify.app/static/js/2.717f0c5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4be3882611592117dac5",
-    "url": "https://madasafaritours.netlify.app/static/js/3.3f3ae1a0.chunk.js"
+    "revision": "6120b37f20231b8b8a57",
+    "url": "https://madasafaritours.netlify.app/static/js/3.66458514.chunk.js"
   },
   {
-    "revision": "92a30a835164c8e82630",
-    "url": "https://madasafaritours.netlify.app/static/js/main.f56b019e.chunk.js"
+    "revision": "a23b0ecacdfbe97d83bc",
+    "url": "https://madasafaritours.netlify.app/static/js/main.d5ea0d27.chunk.js"
   },
   {
-    "revision": "b66f0745b95bdc27f503",
-    "url": "https://madasafaritours.netlify.app/static/js/runtime-main.97fed2ee.js"
+    "revision": "34a356c6495d2dc0d649",
+    "url": "https://madasafaritours.netlify.app/static/js/runtime-main.c5b11df8.js"
   },
   {
     "revision": "36ed8963ff3dc1d86d480a59b0fd1e1b",
@@ -158,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6414114c3d6c1626d431f6bacf97e684",
     "url": "https://madasafaritours.netlify.app/static/media/navtop.6414114c.svg"
+  },
+  {
+    "revision": "59df2446e6e7a2e29901934f329d11f2",
+    "url": "https://madasafaritours.netlify.app/static/media/payment-cards.59df2446.png"
   },
   {
     "revision": "80f0ab09ea800154a01718562ce238d5",
