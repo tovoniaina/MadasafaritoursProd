@@ -146,7 +146,7 @@ const BookModal = () => {
                 <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Madasafaritours </DialogTitle>
 
                 <DialogContent className='my-3'>
-                    <DialogContentText>
+                    <DialogContentText className='dialogBookModal'>
 
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
                             <div className="mb-4 input-group">
@@ -594,8 +594,8 @@ const BookModal = () => {
                                 {errors.message && <span className='errorMessage'>Please enter a message</span>}
                             </div>
                             <DialogActions>
-                                <Button variant='outlined'  size='large' color='error' onClick={handleClose} autoFocus startIcon = {<CancelIcon />}> Cancel </Button>
-                                <Button variant='contained' size='large' color='success' type="submit" endIcon={<SendIcon />}  disabled={disabled}> Book</Button>
+                                <Button variant='outlined' className='btnActionBookModal'  size='large' color='error' onClick={handleClose} autoFocus startIcon = {<CancelIcon />}> Cancel </Button>
+                                <Button variant='contained' className='btnActionBookModal' size='large' color='success' type="submit" endIcon={<SendIcon />}  disabled={disabled}> Book</Button>
                             </DialogActions>
 
 

@@ -531,6 +531,18 @@ color: var(--primary-black);
   margin-top: -20px !important;
   margin-bottom: 25px;
 }
+
+.dialogBookModal{
+  font-family: var(--bodyFont) !important;
+  text-transform: initial !important;
+}
+
+.btnActionBookModal{
+  font-family: var(--bodyFont) !important;
+  text-transform: initial !important;
+  font-size: 16px !important;
+}
+
 .modalBookNow{
   background-color: var(--primary-grey) !important;
   color: var(--primary-white);
@@ -599,6 +611,7 @@ label:focus,
   background-color: transparent;
   color: var(--primary-white) !important;
 }
+
 
 .formInput:focus {
   background-color: transparent !important;

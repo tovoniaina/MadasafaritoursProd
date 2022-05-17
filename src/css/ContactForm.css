@@ -20,6 +20,13 @@
   background-color: transparent;
   color: var(--primary-white) !important;
 }
+@media (max-width: 991px) {
+  .formInputLastName{
+    margin-bottom: 17px !important;
+  }
+}
+
+
 
 .formInput:focus {
   background-color: transparent;

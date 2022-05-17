@@ -17,8 +17,8 @@ function GalleryPhoto() {
     setViewerIsOpen(false);
   };
   return (
-    <div className="container">
-        <div className="titreGallery"><h1>Feel free to see our gallery photos</h1></div>
+    <div className="mx-5">
+        <div className="titreGallery my-3"><h1 className="text-center">Feel free to see our gallery photos</h1></div>
     <Gallery photos={photos} onClick={openLightbox} />
     <ModalGateway>
       {viewerIsOpen ? (

@@ -135,7 +135,7 @@ const ContactForms = () => {
                           message: 'Please use 60 characters or less'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput formInputLastName'
                       placeholder='FirstName & LastName'
                       
                     ></input>  
