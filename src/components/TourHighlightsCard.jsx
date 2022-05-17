@@ -785,7 +785,7 @@ function TourHighlightsCard() {
                                 </div>
 
                                 <div className="button-action">
-                                    <button type="button" className="learnMoreBtn"><a href={`/Tour${tour.learnMore}`} target="_blank" rel="noopener noreferrer">Learn more <Send /></a></button>
+                                    <button type="button" className="learnMoreBtn"><a href={`/Tour${tour.learnMore}`}>Learn more <Send /></a></button>
                                     <button className="RequestQuoteBtn" variant="contained" onClick={handleClickOpen}> <RequestQuoteIcon />  Ask a quote </button>
                                 </div>
 

@@ -14,6 +14,7 @@ import StoreIcon from '@mui/icons-material/Store';
 import { Link } from "react-router-dom";
 import PaymentCard from '../images/paymentMethod/payment-cards.png'
 import NewsletterCute from './Newsletter/NewsletterCute';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 
 
@@ -21,13 +22,21 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="container">
+      <div className="mx-5">
         <div className="row py-3">
-          <div className="col-lg-4 col-md-6 col-sm-12">
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <img src={logofooter} alt="logo-madasafaritour" className="logofooter" />
             <p className="description-footer">MADA SAFARI TOUR Bespoke & Luxury holidays throughout Madagascar. Book it now for your dream holiday</p>
+
+            <div>
+              We accept these payment method <br />
+              <img src={PaymentCard} alt="paymentmethod" className="payment-method" />
+            </div>
+
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <h5 className="contacts">Address & Contact</h5>
             <div className="contact-footer">
 
@@ -40,7 +49,8 @@ const Footer = () => {
 
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <h5>Follow us on:</h5>
             <div className="social-footer">
               <a href="https://web.facebook.com/madasafaritour" className="mx-2"><FacebookIcon /></a>
@@ -58,16 +68,32 @@ const Footer = () => {
             <div className='my-2'> <NewsletterCute /></div>
 
           </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <h5>Our tours</h5>
+            <div className="row">
+              <div className="col">
+
+              </div>
+            </div>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/indri-encouter"> Indri Encounter</Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/eastern-wonder"> Eastern wonder </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/diving-tour"> Diving Tour </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/dry-deciduous-birding"> Dry Deciduous Birding </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/rainforest-birding"> Rain Forest Birding </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/vanilla-cruise"> Vanilla Cruise </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/safari"> Baobab Safari </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/mada-northern-safari"> Mada Northern Safari</Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/tana-surrounding"> Tana Surrounding </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/southern-trekking"> Southern Trekking </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/mada-southern-safari"> Mada Southern Safari </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/post-wedding-safari"> Post Wedding Safari </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/malagasy-culture-discovery"> Malagasy Culture Discovery </Link> </li>
+            <li className='listTours'> <ArrowRightIcon /> <Link className='listTours' to="/Tour/river-trip"> River Trip </Link> </li>
+          </div>
           <ToastContainer />
         </div>
 
-       
-
-        <div className="text-center">
-          We accept these payment method <br />
-
-          <img src={PaymentCard} alt="paymentmethod" className="mx-1 my-1 payment-method" />
-        </div>
 
       </div>
       <div className="copyright text-center py-1">

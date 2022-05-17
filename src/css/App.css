@@ -10,8 +10,9 @@
   --light: #d0d1d3;
   --dark: #040d14;
   --primary-green: #26a712;
-  --primary-white:#fefefe;
+  --primary-white:#fff;
   --primary-blue: #2e79c8;
+  --primary-bleu: #0aa4af;
   --primary-brown: #68303e;
   --primary-orange: #ffffff;
   --primary-black: #010103;
@@ -217,6 +218,22 @@ html, body {
   
 }
 
+.payment-method{
+  text-align: left !important;
+  width: 70%;
+  height: 70%;
+}
+
+.listTours{
+  list-style-type: none;
+  text-decoration: none !important;
+  color: var(--primary-white);
+}
+
+.listTours:hover{
+  color: var(--primary-bleu);
+}
+
 
 .contact-footer{
   padding-bottom: 20px;
@@ -241,7 +258,7 @@ html, body {
 }
 
 .contact-list > a:hover{
-  color: var(--primary-orange);
+  color: var(--primary-bleu);
   font-weight: bolder !important;
 }
 
@@ -680,6 +697,18 @@ color: inherit;
 .checkOk:hover{
   fill: #2e79c8 !important;
 }
+
+/*****************VERTICAL TIMELINE*************/
+.dayCounter{
+  color: var(--primary-black);
+}
+
+@media screen and (max-width: 1169px) {
+  .dayCounter{
+    color: var(--primary-white);
+  }
+}
+
 /*********************TOUR CATEGORY****************/
 .slideTours{
  vertical-align: middle !important;

@@ -9,22 +9,20 @@ import DoNotDisturbOnTotalSilenceIcon from '@mui/icons-material/DoNotDisturbOnTo
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import DoNotDisturbOnIcon from '@mui/icons-material/DoNotDisturbOn';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import Button from '@mui/material/Button';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import { Link } from "react-router-dom";
-
+import BookModal from './ButtonRequestAQuote';
 
 function TanaSurrounding() {
   return (
     <div className='container itineraries'>
       <h1 className='text-center'>Tana Surrounding itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 180$</Button> </div>
-        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+        <div className="col"> <BookModal /> </div>
       </div>
 
       <hr />
@@ -40,6 +38,7 @@ function TanaSurrounding() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 1"
+          dateClassName = "dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', borderBlockColor: '#000' }}
@@ -57,6 +56,7 @@ function TanaSurrounding() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 2"
+          dateClassName = "dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -70,6 +70,7 @@ function TanaSurrounding() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 3"
+          dateClassName = "dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -83,6 +84,7 @@ function TanaSurrounding() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
+          dateClassName = "dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -132,8 +134,8 @@ function TanaSurrounding() {
       </div>
 
       <div className="row mb-3">
-        <div className="col price-itinerary"><Button className='BtnBookNow ' variant="contained"><MonetizationOnIcon /> Price 180$</Button> </div>
-        <div className="col"> <Button variant="contained" className='BtnBookNow' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><EventAvailableIcon /> BOOK NOW</Button></div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+        <div className="col"> <BookModal /> </div>
       </div>
 
       <div>

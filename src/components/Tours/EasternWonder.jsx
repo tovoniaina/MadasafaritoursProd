@@ -40,7 +40,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 1"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', borderBlockColor: '#000' }}
           icon={<FlightLandIcon />}
@@ -56,7 +57,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 2"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -69,7 +71,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 3"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -82,7 +85,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -95,7 +99,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 5"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -108,7 +113,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 6"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
@@ -121,7 +127,8 @@ function EasternWonder() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 7"
-          contentStyle={{ background: 'var(--primary-white)', color: 'var(--primary-grey)', border: '2px solid var(--primary-grey)' }}
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<FlightTakeoffIcon />}
