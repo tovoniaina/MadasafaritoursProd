@@ -8,6 +8,7 @@ import MadaSouthernSafari from '../images/imagesMst/MadaSouthernSafari.webp'
 import MalagasyCultureDiscovery from '../images/imagesMst/MalagasyCultureDiscovery.webp'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import LemurCatta from '../images/MakiCatta.jpg'
 
 
 function RecommendedTour() {
@@ -58,6 +59,9 @@ function RecommendedTour() {
     ]
     return (
         <div className="Services my-5">
+             <div className='MakiCattaImg'>
+                    <img className='MakiCatta' src={LemurCatta} alt="lemurCatta" />
+                </div>
             <div className="container">
                 <div>
                     <h1>Our recommended tours</h1>
@@ -68,6 +72,8 @@ function RecommendedTour() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed saepe explicabo iste ad, quibusdam beatae neque officia dignissimos necessitatibus sapiente voluptate rem nemo repellendus accusantium, a doloremque exercitationem minus.
                     Maxime asperiores placeat sunt laudantium inventore, quaerat dolore assumenda facilis deserunt quos soluta! Voluptates dolore accusamus fugit saepe quod repellendus eum. Iure, autem blanditiis? Repellendus maxime laudantium sed minus qui?
                 </div>
+
+               
                 <div className="row">
                     {tours.map((tour, i) => <div key={i} className="col-lg-6 col-md-12 col-sm-12 my-2" >
                         <div className="card">

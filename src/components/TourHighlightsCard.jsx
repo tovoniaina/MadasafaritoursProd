@@ -150,7 +150,7 @@ function TourHighlightsCard() {
 
 
 
-    const [showMore, setShowMore] = useState(false);
+    const [showMore, setShowMore] = useState();
     const tours = [
         {
             title: 'Indri Encounters',
@@ -291,7 +291,7 @@ function TourHighlightsCard() {
                 <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Madasafaritours </DialogTitle>
 
                 <DialogContent className='my-3'>
-                    <DialogContentText>
+                    <DialogContentText className='dialogBookModal'>
 
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
                             <div className="mb-4 input-group">
@@ -739,8 +739,8 @@ function TourHighlightsCard() {
                                 {errors.message && <span className='errorMessage'>Please enter a message</span>}
                             </div>
                             <DialogActions>
-                                <Button variant='outlined' size='large' color='error' onClick={handleClose} autoFocus startIcon={<CancelIcon />}> Cancel </Button>
-                                <Button variant='contained' size='large' color='success' type="submit" endIcon={<SendIcon />} disabled={disabled}> Book</Button>
+                                <Button variant='outlined' size='large' className='btnActionBookModal' color='error' onClick={handleClose} autoFocus startIcon={<CancelIcon />}> Cancel </Button>
+                                <Button variant='contained' size='large' className='btnActionBookModal' color='success' type="submit" endIcon={<SendIcon />} disabled={disabled}> Book</Button>
                             </DialogActions>
 
 
@@ -771,9 +771,9 @@ function TourHighlightsCard() {
                                 <h3 className="card-title text-center">{tour.title}</h3>
                                 <div><img className='card-img-top' src={tour.img} alt="" /></div>
                                 <p className="card-text">
-                                    {showMore ? tour.description : `${tour.description.substring(0, 85)}`}{' '}
-                                    <button className='buttonShowMore' onClick={() => setShowMore(!showMore)}>
-                                        {showMore ? "Show less" : "Show more"}
+                                    {showMore === i ? tour.description : `${tour.description.substring(0, 85)}`}{' '}
+                                    <button className='buttonShowMore' onClick={() => { showMore === i ? setShowMore(undefined) : setShowMore(i) }}>
+                                        {showMore === i ? "Show less" : "Show more"}
                                     </button>
                                 </p>
 

@@ -730,6 +730,15 @@ color: inherit;
 
 /****************RECOMMENDED TOUR******************/
 
+.MakiCatta{
+  width: 100% !important;
+  height: 50% !important;
+}
+
+.MakiCattaImg{
+  position: inherit !important;
+}
+
 .strips-container{
   overflow: hidden;
   width: 200px;
