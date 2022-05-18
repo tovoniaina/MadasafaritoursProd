@@ -11,7 +11,3 @@ function Madagascars() {
 }
 
 export default Madagascars
-
-
-// https://www.npmjs.com/package/react-vertical-timeline-component
-//documentation for design

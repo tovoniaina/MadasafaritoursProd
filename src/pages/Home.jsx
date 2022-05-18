@@ -12,6 +12,7 @@ function Home() {
             <RecommendedTour />
             <RecommendedToursSlider />
 
+
         </main>
 
         

@@ -13,7 +13,7 @@ function ProtocolCovid() {
 
           <div className="col-lg-6 col-md-6 col-sm-12">
           <div className='mx-2'> <CheckCircleOutlineIcon className='checkOk' fontSize='large' /></div>
-                    <p className="description-competences-techniques">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione tempore, earum dicta nemo aliquid.</p>
+                    <p className="dedsjkljlscription-competences-techniques">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione tempore, earum dicta nemo aliquid.</p>
           </div>
 
           <div className="col-lg-6 col-md-6 col-sm-12">

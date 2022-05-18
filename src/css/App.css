@@ -579,6 +579,11 @@ label:focus,
 }
 
 /**************BOOK NOW BUTTON***************/
+
+.GoHome{
+  text-align: center !important;
+}
+
 .BtnBookNow{
   background-color: transparent !important;
   color: var(--primary-white) !important;
