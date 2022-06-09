@@ -9,11 +9,13 @@ function RecommendedToursSlider() {
       <Helmet>
       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       </Helmet>
-      <div className="elfsight-app-36eb801d-2823-4999-bceb-76795e8af5a0"></div>
+      <div class="elfsight-app-3ea49f29-5c72-41c1-a445-a8d10b2c9532"></div>
     </div>
   )
 }
 
 export default RecommendedToursSlider
+
+
 
 
