@@ -22,16 +22,16 @@ function PostWeddingSafari() {
     <div className='container itineraries'>
       <h1 className='text-center'>Post Wedding Safari itinerary</h1>
       <div className="row">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> $2000/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
       <hr />
       <div className='row text-center '>
-        <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
-        <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 4 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $450/person</span></div>
-        <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
+        <div className="col"><span className="badge text-dark"> <MyLocationIcon />NorthWest</span></div>
+        <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 10 Days</span> </div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $2000/pax</span></div>
+        <div className="col"><span className="badge text-dark"><GroupsIcon /> 2 persons</span></div>
       </div>
       <hr />
       
@@ -228,7 +228,7 @@ function PostWeddingSafari() {
       </div>
 
       <div className="row mb-3">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2000/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 

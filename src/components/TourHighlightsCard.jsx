@@ -18,6 +18,9 @@ import RiverTrip from '../images/imagesMst/RiverTrip.webp'
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import GroupsIcon from '@mui/icons-material/Groups';
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+import CancelIcon from '@mui/icons-material/Cancel';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
@@ -32,9 +35,6 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
-import CancelIcon from '@mui/icons-material/Cancel';
 
 
 
@@ -147,27 +147,24 @@ function TourHighlightsCard() {
             // setMessage("Error")
         }
     }
-
-
-
     const [showMore, setShowMore] = useState();
+
     const tours = [
         {
             title: 'Indri Encounters',
             img: Indri,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €280",
-            location: 'E',
+            price: "From $800/pax",
+            location: 'East',
             timer: "4 Days",
             learnMore: '/indri-encouter',
-            person: 4
         },
         {
             title: 'Eastern wonder',
             img: EasternWonder,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €280",
-            location: 'E',
+            price: "From $1330/pax",
+            location: 'East',
             timer: "7 Days",
             learnMore: '/eastern-wonder',
         },
@@ -175,8 +172,8 @@ function TourHighlightsCard() {
             title: 'Diving Tour',
             img: DivingTour,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €280",
-            location: 'NW',
+            price: "From $1700/pax",
+            location: 'NorthWest',
             timer: "9 Days",
             learnMore: '/diving-tour',
         },
@@ -184,8 +181,8 @@ function TourHighlightsCard() {
             title: 'Dry Deciduous Birding',
             img: DryDeciduousBirding,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €750",
-            location: 'S',
+            price: "From $1980/pax",
+            location: 'West',
             timer: "11 Days",
             learnMore: '/dry-deciduous-birding',
             quote: ""
@@ -194,8 +191,8 @@ function TourHighlightsCard() {
             title: 'Rain Forest Birding',
             img: RainForestBirding,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €680",
-            location: 'SE',
+            price: "From $1800/pax",
+            location: 'East',
             timer: "10 Days",
             learnMore: '/rainforest-birding',
         },
@@ -203,8 +200,8 @@ function TourHighlightsCard() {
             title: 'Vanilla Cruise',
             img: VanillaCruise,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €980",
-            location: 'NE',
+            price: "From $2660/pax",
+            location: 'NorthEast',
             timer: "14 Days",
             learnMore: '/vanilla-cruise',
         },
@@ -212,8 +209,8 @@ function TourHighlightsCard() {
             title: 'Baobab Safari',
             img: BaobabSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €420",
-            location: 'W',
+            price: "From $1400/pax",
+            location: 'West',
             timer: "7 Days",
             learnMore: '/safari',
         },
@@ -221,8 +218,8 @@ function TourHighlightsCard() {
             title: 'Mada Northern Safari',
             img: MadaNorthernSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €620",
-            location: 'N',
+            price: "From $1700/pax",
+            location: 'North',
             timer: "9 Days",
             learnMore: '/mada-northern-safari',
         },
@@ -230,8 +227,8 @@ function TourHighlightsCard() {
             title: 'Tana Surrounding',
             img: TanaSurrounding,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €160",
-            location: 'H',
+            price: "From $800/pax",
+            location: 'HighLand',
             timer: "4 Days",
             learnMore: '/tana-surrounding',
         },
@@ -239,8 +236,8 @@ function TourHighlightsCard() {
             title: 'Southern Trekking',
             img: SouthernTrekking,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €1160",
-            location: 'S',
+            price: "From $3060/pax",
+            location: 'South',
             timer: "17 Days",
             learnMore: '/southern-trekking',
         },
@@ -248,8 +245,8 @@ function TourHighlightsCard() {
             title: 'Mada Southern Safari',
             img: MadaSouthernSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €950",
-            location: 'S',
+            price: "From $2160/pax",
+            location: 'South',
             timer: "12 Days",
             learnMore: '/mada-southern-safari',
         },
@@ -257,8 +254,8 @@ function TourHighlightsCard() {
             title: 'Post Wedding Safari',
             img: MarvellousHoneymoonSafari,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €970",
-            location: 'NW',
+            price: "From $2000/pax",
+            location: 'NorthWest',
             timer: "10 Days",
             learnMore: '/post-wedding-safari',
         },
@@ -266,8 +263,8 @@ function TourHighlightsCard() {
             title: 'Malagasy Culture Discovery',
             img: MalagasyCultureDiscovery,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €920",
-            location: 'SE',
+            price: "From $1900/pax",
+            location: 'SouthEast',
             timer: "10 Days",
             learnMore: '/malagasy-culture-discovery',
         },
@@ -275,8 +272,8 @@ function TourHighlightsCard() {
             title: 'River Trip',
             img: RiverTrip,
             description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
-            price: "From €920",
-            location: 'SE',
+            price: "From $2000/pax",
+            location: 'SouthEast',
             timer: "10 Days",
             learnMore: '/river-trip',
         }
@@ -781,7 +778,6 @@ function TourHighlightsCard() {
                                     <div className="col"><span className="badge badge-info place"> <MyLocationIcon />{tour.location}</span></div>
                                     <div className="col"> <span className="badge badge-info price"><AvTimerIcon /> {tour.timer}</span> </div>
                                     <div className="col"><span className="badge badge-info price"><MonetizationOnIcon /> {tour.price}</span></div>
-                                    <div className="col"><span className="badge badge-info price"><GroupsIcon /> {tour.person}</span></div>
                                 </div>
 
                                 <div className="button-action">

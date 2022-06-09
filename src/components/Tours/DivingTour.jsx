@@ -23,15 +23,15 @@ function DivingTour() {
     <div className='container itineraries'>
       <h1 className='text-center'>Diving Tour itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1700/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
       
       <hr />
       <div className='row text-center '>
-        <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
-        <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 4 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $450/person</span></div>
+        <div className="col"><span className="badge text-dark"> <MyLocationIcon />NorthWest</span></div>
+        <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 9 Days</span> </div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1700/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -211,7 +211,7 @@ function DivingTour() {
       </div>
 
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $450</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1700/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 

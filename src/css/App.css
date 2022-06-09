@@ -8,7 +8,7 @@
 
   /****************COLOR****************/
   --light: #d0d1d3;
-  --dark: #040d14;
+  --dark: #121212;
   --primary-green: #26a712;
   --primary-white:#fff;
   --primary-blue: #2e79c8;
@@ -41,7 +41,7 @@
 
 /****************NAVTOP****************/
 .contact {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*****************TERMS & CONDITIONS***************/
@@ -810,4 +810,206 @@ color: inherit;
 
 .PremiumCard1 .PremiumCard2 {
   float: right !important;
+}
+
+
+/**************TOUR CATEGORY*******************/
+.kiraro{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  min-height: 100vh;
+  position: relative;
+  margin-top: 15px;
+}
+
+
+.kiraro .cardx{
+  position: relative;
+  width: 420px;
+  height: 650px;
+  /* background: var(--dark); */
+  background-image: url('../images/eastern.webp');
+  background-size: cover;
+  backdrop-filter: blur(22px) !important;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.kiraro .cardx:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9bdc28;
+  clip-path: circle(170px at 75% 15%);
+  transition: 0.5s ease-in-out;
+}
+
+
+.kiraro .cardx:hover:before{
+  clip-path: circle(300px at 80% -20%);
+}
+
+.kiraro .cardx:after{
+  content: 'East';
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 7em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 25, 0.215)
+}
+
+.kiraro .cardx .imgBx{
+  position: absolute;
+  top: 55%;
+  transform: translateY(-70%);
+  /* transform: translateX(-30%); */
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.6s;
+}
+
+
+.kiraro .cardx:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+}
+
+
+.kiraro .cardx .imgBx .imageKiraro{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  width: 270px;
+}
+
+.kiraro .cardx .contentBx {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.kiraro .cardx:hover .contentBx{
+  height: 210px;
+}
+
+.kiraro .cardx .contentBx .NikeShoes{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.kiraro .cardx .contentBx .size, .kiraro .cardx .contentBx .couleur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+/*****/
+
+.kiraro .cardx:hover .contentBx .size{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.kiraro .cardx:hover .contentBx .couleur{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.kiraro .cardx .contentBx .size .texth3, .kiraro .cardx .contentBx .couleur .texth3{
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+.texth3{
+  margin-bottom: -13px !important;
+}
+
+.kiraro .cardx .contentBx .size .spanAttr{
+  width: auto;
+  height: auto;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.kiraro .cardx .contentBx .size .spanAttr:hover{
+  background: #9bdc28;
+}
+
+.kiraro .cardx .contentBx .couleur .spanAttr{
+  width: 20px;
+  height: 20px;
+  background: #ff0;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.kiraro .cardx .contentBx .couleur .spanAttr:nth-child(2){
+  background: #9bdc28;
+}
+
+.kiraro .cardx .contentBx .couleur .spanAttr:nth-child(3){
+  background: #03a9f4;
+}
+
+.kiraro .cardx .contentBx .couleur .spanAttr:nth-child(4){
+  background: #e91e63;
+}
+
+.kiraro .cardx .contentBx .linkKiraro{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+
+.kiraro .cardx:hover .contentBx .linkKiraro{
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+  
 }

@@ -8,11 +8,9 @@ import Covid from '../components/Covid';
 function Home() {
     return (
         <main id='Home'>
-            <Covid />
             <RecommendedTour />
             <RecommendedToursSlider />
-
-
+            <Covid />
         </main>
 
         

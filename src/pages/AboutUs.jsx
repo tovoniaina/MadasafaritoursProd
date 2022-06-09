@@ -10,7 +10,6 @@ export class AboutUs extends Component {
             <main id="AboutUs">
                 <Aboutus />
                 <JeanJacques />
-
                 <AboutUsTeam />
                 
                 
