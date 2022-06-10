@@ -148,7 +148,7 @@ function RecommendedTour() {
         {
             title: 'Eastern wonder',
             img: EasternWonder,
-            description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
+            description: "The eastern part of Madagascar is known for its humid climate and the rains are very frequent. It still shelters the majority of the primary forests of Madagascar and not to forget the various species of lemurs which are almost endemic to Madagascar.",
             price: "From $1330/pax",
             location: 'East',
             timer: "7 Days",
@@ -158,7 +158,7 @@ function RecommendedTour() {
         {
             title: 'Baobab Safari',
             img: BaobabSafari,
-            description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
+            description: "Let the wilderness of Morondava dazzle you! You will be amazed by the landscape and the Baobab Alley, not only that you will visit the Tsingy which is one of the most impressive Natural Geo-Structure you will see. Don’t hesitate anymore, we will wait you then.",
             price: "From $1400/pax",
             location: 'West',
             timer: "7 Days",
@@ -169,7 +169,7 @@ function RecommendedTour() {
         {
             title: 'Southern Trekking',
             img: SouthernTrekking,
-            description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
+            description: "Discover the southern part of Madagascar with its great diversity in both culture and landscape, you will discover several national parks and get ready to trek.",
             price: "From $3060/pax",
             location: 'Southern',
             timer: "17 Days",
@@ -179,7 +179,7 @@ function RecommendedTour() {
         {
             title: 'Mada Southern Safari',
             img: MadaSouthernSafari,
-            description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
+            description: "The Road to the South of Madagascar is full of Surprise, wether it is the luxurious Andasibe National Park or the city of Antsirabe which seems like an Old Picture from the Colonial Age. Let you be fascinated by the charm of Fianar and the Natural park you will see like Ranomafana and Ifaty.",
             price: "From $2160/pax",
             location: 'Southern',
             timer: "12 Days",
@@ -189,7 +189,7 @@ function RecommendedTour() {
         {
             title: 'Diving Tour',
             img: DivingTour,
-            description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
+            description: "Let yourself be carried away in the seaside resort of Madagascar, Nosy Be is a paradise island that offers a picturesque landscape for diving lovers, it is an ideal place to enjoy diving.",
             price: "From $1700/pax",
             location: 'NorthWest',
             timer: "9 Days",
@@ -200,7 +200,7 @@ function RecommendedTour() {
         {
             title: 'Malagasy Culture Discovery',
             img: MalagasyCultureDiscovery,
-            description: "With supporting text below as a natural lead-in to additional content text below as a natural lead-in to additional content",
+            description: "Madagascar is fascinating due to its biodiversity but also by its cosmopolitan culture, with origins from both Asia and Africa. “The Great Island” will not fail to amaze you, and its welcoming and friendly people will accompany you into discovering its island through tradition and the know-how of its culture.",
             price: "From $1900/pax",
             location: 'Southeast',
             timer: "10 Days",
