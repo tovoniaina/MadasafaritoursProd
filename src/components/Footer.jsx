@@ -2,7 +2,7 @@ import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import '../css/ContactForm.css'
-import logofooter from "../images/logoBottom.png";
+import logofooter from "../images/travelia.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -17,7 +17,6 @@ import NewsletterCute from './Newsletter/NewsletterCute';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 
-
 const Footer = () => {
 
   return (
@@ -26,8 +25,8 @@ const Footer = () => {
         <div className="row py-3">
 
           <div className="col-lg-3 col-md-6 col-sm-12">
-            <img src={logofooter} alt="logo-madasafaritour" className="logofooter" />
-            <p className="description-footer">MADA SAFARI TOUR Bespoke & Luxury holidays throughout Madagascar. Book it now for your dream holiday</p>
+           <Link to="/"><img src={logofooter} alt="logo-Travelia Safari" className="logofooter" /></Link> 
+            <p className="description-footer">Travelia Safari Bespoke & Luxury holidays throughout Madagascar. Book it now for your dream holiday</p>
 
             <div>
               We accept these payment method <br />
@@ -41,10 +40,10 @@ const Footer = () => {
             <div className="contact-footer">
 
               <div className="contact-list">
-                <a href="https://g.page/r/CedDYYYAub90EBA"> <StoreIcon />Mada Safari Tours S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
+                <a href="https://g.page/r/CedDYYYAub90EBA"> <StoreIcon />Travelia Safari S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
                 <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> <br />
-                <a href="mailto:aristide@madasafaritours.com"> <MailIcon /> aristide@madasafaritours.com </a> <br />
-                <a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> <br />
+                <a href="mailto:aristide@traveliasafari.com"> <MailIcon /> aristide@traveliasafari.com </a> <br />
+                <a href="tel:+261 33 63 811 35"> <WhatsAppIcon /> +261 33 63 811 35</a> <br />
               </div>
 
             </div>
@@ -53,10 +52,10 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <h5>Follow us on:</h5>
             <div className="social-footer">
-              <a href="https://web.facebook.com/madasafaritour" className="mx-2 social-footer"><FacebookIcon /></a>
+              <a href="https://web.facebook.com/Travelia Safari" className="mx-2 social-footer"><FacebookIcon /></a>
               <a href="https://twitter.com/safarimada" className="mx-2 social-footer"><TwitterIcon /></a>
               <a href="https://www.linkedin.com/company/79432916" className="mx-2 social-footer"><LinkedInIcon /></a>
-              <a href="https://www.instagram.com/madasafaritour/" className="mx-2 social-footer"><InstagramIcon /></a>
+              <a href="https://www.instagram.com/Travelia Safari/" className="mx-2 social-footer"><InstagramIcon /></a>
             </div>
 
 
@@ -97,7 +96,7 @@ const Footer = () => {
 
       </div>
       <div className="copyright text-center py-1">
-        <p className="my-1">Copyright © <Link className="copyrightText" to="/">MadaSafariTour</Link> {new Date().getFullYear()} - All rights reserved</p>
+        <p className="my-1">Copyright © <Link className="copyrightText" to="/">Travelia Safari</Link> {new Date().getFullYear()} - All rights reserved</p>
       </div>
     </div>
   );

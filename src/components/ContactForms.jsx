@@ -97,9 +97,9 @@ const ContactForms = () => {
     <div className='ContactForm pt-5 tana'>
       <div className='container'>
         <div>
-          <h4 className='text-center'>Madasafaritours - Travel agency</h4>
+          <h4 className='text-center'>Travelia Safari - Travel agency</h4>
           <p>
-            Madagascar Safari tours' service representatives are available to answer your questions and take your reservations, Monday - Friday from 9 am - 6pm and Saturday from 9am - 2pm local time +GMT
+            Madagascar Travelia Safari service representatives are available to answer your questions and take your reservations, Monday - Friday from 9 am - 6pm and Saturday from 9am - 2pm local time +GMT
             <br />
             Your travel agent may also be able to answer any questions and can make your reservations for you.
           </p>
@@ -111,8 +111,8 @@ const ContactForms = () => {
             <p><StoreIcon />Licensed by the Tourism minister <br /> No: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18</p>
             <p className='partieGauche'><a href="https://g.page/r/CedDYYYAub90EBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> </p>
             Written inquiries can be mailed to the following address: <br />
-            <p className='partieGauche'><a href="mailto:aristide@madasafaritours.com"> <MailIcon /> aristide@madasafaritours.com </a></p>
-            <p className='partieGauche'><a href="tel:+261 34 70 208 20"> <WhatsAppIcon /> +261 34 70 208 20</a> </p>
+            <p className='partieGauche'><a href="mailto:aristide@traveliasafari.com"> <MailIcon /> aristide@traveliasafari.com </a></p>
+            <p className='partieGauche'><a href="tel:+261 33 63 811 35"> <WhatsAppIcon /> +261 33 63 811 35</a> </p>
 
           </div>
           <div className="col-lg-8 col-md-12 col-sm-12">

@@ -52,8 +52,8 @@
 
 /****************NAVBAR****************/
 .logo{
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 90px;
 }
 
 .nestedMenu{
@@ -241,8 +241,8 @@ html, body {
 }
 
 .logofooter{
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 200px;
   
 }
 

@@ -214,7 +214,7 @@ function RecommendedTour() {
             <Dialog open={open}>
 
 
-                <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Madasafaritours </DialogTitle>
+                <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Travelia Safari </DialogTitle>
 
                 <DialogContent className='my-3'>
                     <DialogContentText className='dialogBookModal'>
@@ -686,7 +686,7 @@ function RecommendedTour() {
                 <div className='text-justify'>
                     We have 14 tours modalities, so you can choose wisely the one suits you <br />
                     With these 14 itineraries, you can discover the beauty of the island of treasures, stories engraved in their past <br />
-                    Also, Mada safari tours, offers its travelers the opportunity to discover the major tourist sites of Madagascar .
+                    Also, Travelia Safari, offers its travelers the opportunity to discover the major tourist sites of Madagascar .
                     <br /> The canoe descent of the Manambolo river or the Tsiribihina river , the Tsingy de Bemaraha national park or the mythical National Route 7 are offered to you with an original and authentic approach. The emerald sea , the national park of Ankarana or the island of Nosy Be are the jewels of the north of Madagascar. The loops of the great South between Morondava and Tulear or Fort Dauphin andTulear take you on an escape.
                 </div>
 

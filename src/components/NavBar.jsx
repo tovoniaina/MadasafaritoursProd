@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 import BookModal from './BookModal';
-import logoTop from "../images/logoBottom.png";
+import logoTop from "../images/travelia.png";
 import NestedMenuNavbar from './NestedMenuNavbar';
 import SegmentIcon from '@mui/icons-material/Segment';
 

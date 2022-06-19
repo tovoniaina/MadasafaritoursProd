@@ -143,7 +143,7 @@ const BookModal = () => {
             <Dialog open={open}>
 
               
-                <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Madasafaritours </DialogTitle>
+                <DialogTitle className='modalBookNow' id="staticBackdrop"> Booking form - Travelia Safari </DialogTitle>
 
                 <DialogContent className='my-3'>
                     <DialogContentText>

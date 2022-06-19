@@ -203,7 +203,7 @@ function Madagascar() {
                 <h4><li>Traveling to Madagascar</li></h4>
               </ol>
               <p>
-                Mada Safari Tours, incoming agency based in Antananarivo, offers different travel options in Madagascar. We advocate the concept of responsible and sustainable tourism . A new tourist orientation that we defend as a real vector of development in Madagascar.
+                Travelia Safari, incoming agency based in Antananarivo, offers different travel options in Madagascar. We advocate the concept of responsible and sustainable tourism . A new tourist orientation that we defend as a real vector of development in Madagascar.
               </p>
 
             </div>

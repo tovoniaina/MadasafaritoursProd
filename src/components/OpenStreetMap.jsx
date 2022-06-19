@@ -14,7 +14,7 @@ function OpenStreetMap() {
     />
     <Marker position={position}>
       <Popup>
-        Mada Safari Tour SA <br /> IVM 104 VZ Antetezanaafovoany I - Antananarivo 101
+        Travelia Safari SA <br /> IVM 104 VZ Antetezanaafovoany I - Antananarivo 101
       </Popup>
     </Marker>
   </MapContainer>
