@@ -111,7 +111,7 @@ const ContactForms = () => {
             <p><StoreIcon />Licensed by the Tourism minister <br /> No: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18</p>
             <p className='partieGauche'><a href="https://g.page/r/CedDYYYAub90EBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> </p>
             Written inquiries can be mailed to the following address: <br />
-            <p className='partieGauche'><a href="mailto:aristide@traveliasafari.com"> <MailIcon /> aristide@traveliasafari.com </a></p>
+            <p className='partieGauche'><a href="mailto:madasafaritoursagency@gmail.com"> <MailIcon /> madasafaritoursagency@gmail.com </a></p>
             <p className='partieGauche'><a href="tel:+261 33 63 811 35"> <WhatsAppIcon /> +261 33 63 811 35</a> </p>
 
           </div>
