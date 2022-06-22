@@ -4,9 +4,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-import img1 from "../images/aristide.png";
-import img4 from "../images/tody.png";
-import img3 from "../images/team-5.png";
+import img1 from "../images/team-4.png";
+import img4 from "../images/team-4.png";
+import img3 from "../images/team-4.png";
 
 
 function AboutUsTeam() {
@@ -26,7 +26,7 @@ function AboutUsTeam() {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div class="card card-group card-team-each">
                         <div className="card-body">
-                            <h5 className="font-weight-bold mt-4 mb-3 nom-team">Aristide</h5>
+                            <h5 className="font-weight-bold mt-4 mb-3 nom-team">John Doe</h5>
 
                             <img className="img1 z-depth-5 img-fluid" src={img1} alt="img1" />
 
@@ -44,7 +44,7 @@ function AboutUsTeam() {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div class="card card-group card-team-each">
                         <div className="card-body">
-                            <h5 className="font-weight-bold mt-4 mb-3 nom-team">Haingo</h5>
+                            <h5 className="font-weight-bold mt-4 mb-3 nom-team">John Doe</h5>
                             <img className=" img1 rounded-circle z-depth-5 img-fluid" src={img3} alt="img1" />
                             <h5 className="card-title text-center nom-poste">Secretaire</h5>
                             <p className="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -60,7 +60,7 @@ function AboutUsTeam() {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div class="card card-group card-team-each">
                         <div className="card-body">
-                            <h5 className="font-weight-bold mt-4 mb-3 nom-team">Tody</h5>
+                            <h5 className="font-weight-bold mt-4 mb-3 nom-team">John Doe</h5>
                             <img className=" img1 rounded-circle z-depth-5 img-fluid" src={img4} alt="img1"/>
                             <h5 className="card-title text-center nom-poste">Guide</h5>
                             <p className="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
