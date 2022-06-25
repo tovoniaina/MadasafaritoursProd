@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <h5>Follow us on:</h5>
             <div className="social-footer">
-              <a href="https://web.facebook.com/Travelia Safari" className="mx-2 social-footer"><FacebookIcon /></a>
+              <a href="https://web.facebook.com/traveliasafari" className="mx-2 social-footer"><FacebookIcon /></a>
               <a href="https://twitter.com/safarimada" className="mx-2 social-footer"><TwitterIcon /></a>
               <a href="https://www.linkedin.com/company/79432916" className="mx-2 social-footer"><LinkedInIcon /></a>
               <a href="https://www.instagram.com/Travelia Safari/" className="mx-2 social-footer"><InstagramIcon /></a>

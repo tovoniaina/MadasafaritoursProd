@@ -17,7 +17,7 @@ function Navtop() {
                         <a href="mailto:idealy371@gmail.com" className="mx-1"><MailIcon />Mail</a>
                     </div>
                     <div className="col-6 social">
-                        <a href="https://web.facebook.com/Travelia Safari" className="mx-1"><FacebookIcon /></a>
+                        <a href="https://web.facebook.com/traveliasafari" className="mx-1"><FacebookIcon /></a>
                         <a href="https://twitter.com/safarimada" className="mx-1"><TwitterIcon /></a>
                         <a href="https://www.linkedin.com/company/79432916" className="mx-1"><LinkedInIcon /></a>
                         <a href="https://www.instagram.com/Travelia Safari" className="mx-1"><InstagramIcon /></a>
