@@ -31,10 +31,10 @@ function AboutUsTeam() {
                                 <img className="img1 my-2 z-depth-5 img-fluid" src={img1} alt="img1" />
 
                                 <h5 className="card-title text-center nom-poste">CEO</h5>
-                                <p className="card-text text-center">The satisfaction of our customer is our top priority, <br /> come and visit Madagascar with Travelia Safari, you will not regret to have chosen us. <br /></p>
+                                <p className="card-text text-center">The customer's satisfaction is our top priority, <br /> come and visit Madagascar with Travelia Safari, you will never regret to have chosen us. <br /></p>
                                 <ul className="list-unstyled mb-2 text-center" contact-team>
                                     <a href="https://web.facebook.com/tovoniana" className="mx-2 social-icon"><FacebookIcon /></a>
-                                    <a href="#LinkedinLink" className="mx-2 social-icon"><LinkedInIcon /></a>
+                                    <a href="https://www.linkedin.com/in/rabemanantsoa-tovoniaina-aristide-7a0454105/" className="mx-2 social-icon"><LinkedInIcon /></a>
                                     <a href="tel:+261336381135" className="mx-2 social-icon"><WhatsAppIcon /></a>
                                     <a href="mailto:idealy371@gmail.com" className="mx-2 social-icon"><MailIcon /></a>
                                 </ul>
@@ -50,7 +50,7 @@ function AboutUsTeam() {
                                 <p className="card-text text-center">Through our agency's philosophy, we value a friendly relationship with our clients so that they can easily express their expectations to us and we will go beyond those expectations</p>
                                 <ul className="list-unstyled mb-2 text-center" contact-team>
                                     <a href="https://web.facebook.com/haingomanitrafitiavana.hajahariniaina" className="mx-2 social-icon"><FacebookIcon /></a>
-                                    <a href="#LinkedinLink" className="mx-2 social-icon"><LinkedInIcon /></a>
+                                    <a href="https://www.linkedin.com/in/haingomanitra-hajahariniaina-817b48189/" className="mx-2 social-icon"><LinkedInIcon /></a>
                                     <a href="#PhoneLink" className="mx-2 social-icon"><WhatsAppIcon /></a>
                                     <a href="#MailLink" className="mx-2 social-icon"><MailIcon /></a>
                                 </ul>
