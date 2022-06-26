@@ -755,8 +755,9 @@ function TourHighlightsCard() {
 
                 <div>
                     We have 14 tours modalities, so you can choose wisely the one suits you <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed saepe explicabo iste ad, quibusdam beatae neque officia dignissimos necessitatibus sapiente voluptate rem nemo repellendus accusantium, a doloremque exercitationem minus.
-                    Maxime asperiores placeat sunt laudantium inventore, quaerat dolore assumenda facilis deserunt quos soluta! Voluptates dolore accusamus fugit saepe quod repellendus eum. Iure, autem blanditiis? Repellendus maxime laudantium sed minus qui?
+                    We have grouped by type the adventures that can be enjoyed in Madagascar, whether it is what you want to discover <br /> 
+                    We always have an offer for you and especially they are all customizable to meet your needs.
+
                 </div>
                 <div className="row">
                     {tours.map((tour, i) => <div key={i} className="col-lg-4 col-md-12 col-sm-12 my-2" >
@@ -769,7 +770,7 @@ function TourHighlightsCard() {
                                 <div><img className='card-img-top' src={tour.img} alt="" /></div>
                                 <p className="card-text">
                                     {showMore === i ? tour.description : `${tour.description.substring(0, 85)}`}{' '}
-                                    <button className='buttonShowMore' onClick={() => { showMore === i ? setShowMore(undefined) : setShowMore(i) }}>
+                                    <button className='buttonShowMore' onClick={() => {showMore === i ? setShowMore(undefined) : setShowMore(i) }}>
                                         {showMore === i ? "Show less" : "Show more"}
                                     </button>
                                 </p>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Aboutus from "../components/AboutUs";
 import AboutUsTeam from "../components/AboutUsTeam";
-import JeanJacques from '../components/JeanJacques';
 
 
 export class AboutUs extends Component {
@@ -9,7 +8,6 @@ export class AboutUs extends Component {
         return (
             <main id="AboutUs">
                 <Aboutus />
-                <JeanJacques />
                 <AboutUsTeam />
                 
                 

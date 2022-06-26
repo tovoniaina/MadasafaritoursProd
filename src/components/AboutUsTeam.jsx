@@ -4,7 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-import img1 from "../images/team-4.png";
+import img1 from "../images/Aristide.jpg";
 import img4 from "../images/team-4.png";
 import img3 from "../images/team-4.png";
 

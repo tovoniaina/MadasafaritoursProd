@@ -19,7 +19,7 @@ function TermOfCondition() {
             Besides, a detailed information including first name, surname, passport number, citizenship, home address, phone number (cellular or fixed) and travel insurance shall be sent to us at least 30 days prior to arrival in Madagascar.
 
             <br /> <br />
-            No addition to these Terms and Conditions shall be of any force unless in writing and signed by a duly authorized representative of Madagascar Safari Tours.
+            No addition to these Terms and Conditions shall be of any force unless in writing and signed by a duly authorized representative of Madagascar Travelia Safari.
           </p>
 
          <h4><li>Deposit</li></h4> 
@@ -33,7 +33,7 @@ function TermOfCondition() {
         <h4><li>Tour alterations or additions</li></h4>
         <p>With regard to tour alterations or additions (that may affect the lengths of the itinerary or the number of the participants), the guest has to let us know as soon as possible. Failing to notify us, any resultant impacts to the tour in general implying a change in expenses will be borne by the guest.
           <br /> <br />
-          If it is necessary especially when requesting urgent changes, Madagascar Safari Tours reserves the right to offer such changes. In that case, the Company shall notify it in writing to the client indicating the type of modification and the consequent price change.
+          If it is necessary especially when requesting urgent changes, Madagascar Travelia Safari reserves the right to offer such changes. In that case, the Company shall notify it in writing to the client indicating the type of modification and the consequent price change.
           <br /> <br />
           No compensation is considered for changes due to unavoidable circumstances beyond our control like natural disasters, acts of terrorism, upheaval, and lethal epidemic, closure of ports or airports, air traffic control delays, technical problems, circumstances amounting to "force majeure", threat of war and flight cancellation made by Air Madagascar. However, we will do our best in an effort to keep all itineraries to make sure that no minimal impacts will occur upon the tour. 
         </p>
@@ -70,9 +70,9 @@ function TermOfCondition() {
         </p>
 
         <h4><li>Flights</li></h4>
-        <p>Madagascar Safari Tours views domestic flights as exclusions in the tour package. The guest is then strongly recommended to book domestic tickets directly from Air Madagascar’s website. However, the Company can assist the traveler to arrange their local flights booking (if requested) and the flight fare has to be paid to us immediately since Air Madagascar cancels all unpaid flight 3 days after the booking. 
+        <p>Madagascar Travelia Safari views domestic flights as exclusions in the tour package. The guest is then strongly recommended to book domestic tickets directly from Air Madagascar’s website. However, the Company can assist the traveler to arrange their local flights booking (if requested) and the flight fare has to be paid to us immediately since Air Madagascar cancels all unpaid flight 3 days after the booking. 
           <br /> <br />
-          Besides, Madagascar Safari Tours does not hold itself responsible for any cancellation or non-operation impacting the tour (caused by Air Madagascar) prior to departure, or during the course of its tours, brought about by technical difficulties, strikes, weather conditions or any other unforeseen circumstances which are beyond its control. 
+          Besides, Madagascar Travelia Safari does not hold itself responsible for any cancellation or non-operation impacting the tour (caused by Air Madagascar) prior to departure, or during the course of its tours, brought about by technical difficulties, strikes, weather conditions or any other unforeseen circumstances which are beyond its control. 
           <br /> <br />
           The traveler should know that Air Madagascar Company is not reliable as delays, flight cancellations often occur. As a result, any missing services cannot be replaced or compensated leaving the blame and the responsibilities to Air Madagascar. 
           <br /> <br />
@@ -85,7 +85,7 @@ function TermOfCondition() {
           However, Madagascar Safari would always strive to book the best hotel in the area where the guests are going. 
         </p>
         <h4><li>Travel Insurance</li></h4>
-        <p>Madagascar Safari Tours requires that all passengers on the tour are fully covered by comprehensive travel insurance. Traveler must take the highest possible cover and for all tours, be insured for the full duration of your time away from home.</p>
+        <p>Madagascar Travelia Safari requires that all passengers on the tour are fully covered by comprehensive travel insurance. Traveler must take the highest possible cover and for all tours, be insured for the full duration of your time away from home.</p>
 
         <h4><li>Travel Documents</li></h4>
         <p>It is the responsibility of each passenger to ensure that they are in possession of the correct travel documentation (passports/visas/health certificates) prior to departure. Madagascar Safari shall not accept responsibility for any consequences of any nature whatsoever, arising from the passenger failing to ensure that he/she has complied with the necessary health/passport/visa/re-entry permit requirements.</p>

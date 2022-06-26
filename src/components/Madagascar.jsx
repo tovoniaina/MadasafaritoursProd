@@ -7,14 +7,6 @@ import Mada5 from '../images/biodiversity.jpg'
 import Mada6 from '../images/volcanoMontain.jpg'
 
 
-
-
-
-
-
-
-
-
 function Madagascar() {
   return (
     <div>
@@ -134,10 +126,6 @@ function Madagascar() {
 
 
             <div className="col-lg-6 col-md-12 col-sm-12">
-              <img className='w-100 d-flex img-fluid' src={Mada5} alt="Madagascar old" />
-            </div>
-
-            <div className="col-lg-6 col-md-12 col-sm-12">
               <ol start={6}>
                 <h4><li>Biodiversity</li></h4>
               </ol>
@@ -180,6 +168,15 @@ function Madagascar() {
             </div>
 
             <div className="col-lg-6 col-md-12 col-sm-12">
+              <img className='w-100 d-flex img-fluid' src={Mada5} alt="Madagascar old" />
+            </div>
+
+
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <img className='w-100 d-flex img-fluid' src={Mada6} alt="Madagascar old" />
+            </div>
+
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <ol start={6}>
                 <h4><li>Dangers and threats </li></h4>
               </ol>
@@ -208,9 +205,7 @@ function Madagascar() {
 
             </div>
 
-            <div className="col-lg-6 col-md-12 col-sm-12">
-              <img className='w-100 d-flex img-fluid' src={Mada6} alt="Madagascar old" />
-            </div>
+
 
 
 

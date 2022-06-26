@@ -342,7 +342,7 @@ h3{
 .img1{
   width: 200px;
   height: 200px;
-  
+  border-radius: 50%;
 }
 .team-photo{
   justify-content: center;

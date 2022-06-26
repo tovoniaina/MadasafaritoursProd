@@ -9,7 +9,7 @@ function AboutUs() {
                     <div className="col-lg-12 col-md-12 col-sm-12">
                         <h4 className="text-center">Why Choose Us</h4>
                         <p className="text-justify">
-                            <p>Madagascar Safari Tours is more than just a tour company. Our passion is to providing lasting memories in Madagascar through extraordinary trips and vivid experiences.</p>
+                            <p>Madagascar Travelia Safari is more than just a tour company. Our passion is to providing lasting memories in Madagascar through extraordinary trips and vivid experiences.</p>
                         </p>
                     </div>
                 </div>

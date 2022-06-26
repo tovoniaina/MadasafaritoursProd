@@ -109,11 +109,11 @@ function TanaSurrounding() {
           <div className="card mb-3 included">
             <div class="card-header included-header text-dark"><h4><CheckCircleIcon /> Included to the offer</h4></div>
             <div class="card-body text-dark">
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet. <br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.<br />
-              <CheckCircleOutlineIcon /> Lorem ipsum dolor sit amet.
+              <CheckCircleOutlineIcon /> Hotel accommodation with breakfast <br />
+              <CheckCircleOutlineIcon /> 4WD car +fuel and the driver + specialized guide + their indemnities for all the tour<br />
+              <CheckCircleOutlineIcon /> Speed boat fees<br />
+              <CheckCircleOutlineIcon /> All park entry fees and local tour guide<br />
+              <CheckCircleOutlineIcon /> Car insurances, Taxes, our commissions
             </div>
           </div>
         </div>
@@ -122,11 +122,9 @@ function TanaSurrounding() {
           <div className="card mb-3 excluded">
             <div class="card-header excluded-header text-dark"><h4><DoNotDisturbOnTotalSilenceIcon /> Excluded to the offer </h4></div>
             <div class="card-body text-dark">
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet. <br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.<br />
-              <DoNotDisturbOnIcon /> Lorem ipsum dolor sit amet.
+              <DoNotDisturbOnIcon /> International flights, domestic flights <br />
+              <DoNotDisturbOnIcon /> Personal spending, drinks, dinner and lunches (except in places mentioned half or full board)<br />
+              <DoNotDisturbOnIcon /> Gratuities for the local team<br />
             </div>
           </div>
         </div>
