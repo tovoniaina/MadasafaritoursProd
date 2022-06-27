@@ -769,8 +769,8 @@ function TourHighlightsCard() {
                                 <h3 className="card-title text-center">{tour.title}</h3>
                                 <div><img className='card-img-top' src={tour.img} alt="" /></div>
                                 <p className="card-text">
-                                    {showMore === i ? tour.description : `${tour.description.substring(0, 85)}`}{' '}
-                                    <button className='buttonShowMore' onClick={() => {showMore === i ? setShowMore(undefined) : setShowMore(i) }}>
+                                    {showMore === i ? tour.description : `${tour.description.substring(0, 83)}`}{' '}
+                                    <button className='buttonShowMore' onClick={() => {showMore === i ? setShowMore(undefined)   : setShowMore(i) }}>
                                         {showMore === i ? "Show less" : "Show more"}
                                     </button>
                                 </p>

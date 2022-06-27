@@ -169,7 +169,7 @@ function BaobabSafari() {
             <div class="card-body text-dark">
               <DoNotDisturbOnIcon /> International flights, domestic flights <br />
               <DoNotDisturbOnIcon /> Personal spending, drinks, dinner and lunches (except in places mentioned half or full board)<br />
-              <DoNotDisturbOnIcon /> Gratuities for the local team<br />
+              <DoNotDisturbOnIcon /> Gratuities for the local team<br /> <br /> <br />
             </div>
           </div>
         </div>
@@ -181,9 +181,9 @@ function BaobabSafari() {
         <div className="col"> <BookModal /> </div>
       </div>
       
-      {/* <div className='my-2'>
+      <div className='my-2'>
       <iframe title='Itinerary for a tour' src="https://www.google.com/maps/d/u/0/embed?mid=1xXrppe5UpaA92vyb3iEeA9_rFyqBY3Y&ehbc=2E312F" width="640" height="480"></iframe>
-      </div> */}
+      </div>
       <div>
             <h3 className='text-center'>See too the related tours</h3>
             <hr />

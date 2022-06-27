@@ -218,7 +218,7 @@ function RainForestBirding() {
             <div class="card-body text-dark">
               <DoNotDisturbOnIcon /> International flights, domestic flights <br />
               <DoNotDisturbOnIcon /> Personal spending, drinks, dinner and lunches (except in places mentioned half or full board)<br />
-              <DoNotDisturbOnIcon /> Gratuities for the local team<br />
+              <DoNotDisturbOnIcon /> Gratuities for the local team<br /> <br /> <br />
             </div>
           </div>
         </div>
