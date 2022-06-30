@@ -11,7 +11,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 mixpanel.init('5736b4bf2cb97d5fde82f47f4ab2acab', {debug: true}); 
 mixpanel.track('Visit Travelia Safari landing page', {
-  'source': "Pat's affiliate site",
+  'source': "Travelia safari source code",
   'Opted out of email': true,
 });
 

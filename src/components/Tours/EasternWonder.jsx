@@ -179,6 +179,11 @@ function EasternWonder() {
         <div className="col"> <BookModal /> </div>
       </div>
 
+      <div className='my-2'>
+      <iframe title='Itinerary for Eastern wonder' src="https://www.google.com/maps/d/embed?mid=1cYfC_su2Y3aTyW9_XjEthqeahABTLlo&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+      
+
       <div>
             <h3 className='text-center'>See too the related tours</h3>
             <hr />

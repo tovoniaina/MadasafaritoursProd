@@ -244,7 +244,10 @@ function DryDeciduousBirding() {
       <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1980/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
-
+      
+    <div className="my-2">
+    <iframe title='Dry Deciduous Birding itinerary' src="https://www.google.com/maps/d/u/0/embed?mid=1prfoBSs7O0deGtlaAr9P8uPqyzVHRgs&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
 
       <div>
             <h3 className='text-center'>See too the related tours</h3>

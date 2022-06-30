@@ -34,12 +34,12 @@ function IndriEncouter() {
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
-      
+
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 1"
-          dateClassName = "dayCounter"
+          dateClassName="dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', borderBlockColor: '#000' }}
@@ -57,7 +57,7 @@ function IndriEncouter() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 2"
-          dateClassName = "dayCounter"
+          dateClassName="dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -71,7 +71,7 @@ function IndriEncouter() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 3"
-          dateClassName = "dayCounter"
+          dateClassName="dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -85,7 +85,7 @@ function IndriEncouter() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 4"
-          dateClassName = "dayCounter"
+          dateClassName="dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-orange)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
@@ -102,7 +102,7 @@ function IndriEncouter() {
           icon={<KeyboardDoubleArrowDownIcon />}
         />
 
-        
+
       </VerticalTimeline>
 
       <div className="row">
@@ -135,16 +135,20 @@ function IndriEncouter() {
         <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $800/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
-      
+
+      <div className='my-2'>
+      <iframe title='Itinerary for Indri encounter' src="https://www.google.com/maps/d/embed?mid=1_AJgprsIpva-wdRnWRd0aUDgvK3mD9E&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+
       <div>
-            <h3 className='text-center'>See too the related tours</h3>
-            <hr />
-            <div className="row">
-                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/eastern-wonder">Eastern wonder</Link></div>
-                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/rainforest-birding">Rain Forest Birding</Link> </div>
-                <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/diving-tour">Diving Tour</Link></div>
-            </div>
-            <hr />
+        <h3 className='text-center'>See too the related tours</h3>
+        <hr />
+        <div className="row">
+          <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/eastern-wonder">Eastern wonder</Link></div>
+          <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/rainforest-birding">Rain Forest Birding</Link> </div>
+          <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/diving-tour">Diving Tour</Link></div>
+        </div>
+        <hr />
       </div>
 
     </div>
