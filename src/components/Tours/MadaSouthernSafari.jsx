@@ -259,6 +259,10 @@ function MadaSouthernSafari() {
 
       </div>
 
+      <div className='my-2' id='route-mada-southern-safari'>
+      <iframe title='Mada Southern Safari' src="https://www.google.com/maps/d/u/0/embed?mid=1Yjz5OTdmfe2FPvxzYZoElZLXpKI1eDg&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+
       <div>
             <h3 className='text-center'>See too the related tours</h3>
             <hr />

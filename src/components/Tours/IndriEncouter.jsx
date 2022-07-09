@@ -136,7 +136,7 @@ function IndriEncouter() {
         <div className="col"> <BookModal /> </div>
       </div>
 
-      <div className='my-2'>
+      <div className='my-2' id='route-indri-encouters'>
       <iframe title='Itinerary for Indri encounter' src="https://www.google.com/maps/d/embed?mid=1_AJgprsIpva-wdRnWRd0aUDgvK3mD9E&ehbc=2E312F" width="640" height="480"></iframe>
       </div>
 

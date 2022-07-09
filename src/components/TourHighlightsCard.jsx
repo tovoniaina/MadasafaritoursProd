@@ -155,9 +155,10 @@ function TourHighlightsCard() {
             img: Indri,
             description: "The Indri, also called Babakoto, is a species of lemuriform primates belonging to the family Indriidae. With the diademed sifaka, the indri has the title of the largest living lemur. It is diurnal, arboreal and, like all lemurs, endemic to eastern Madagascar.",
             price: "From $800/pax",
-            location: 'East',
+            location: 'Itinerary',
             timer: "4 Days",
             learnMore: '/indri-encouter',
+            slug: '#route-indri-encouters'
         },
         {
             title: 'Eastern wonder',
@@ -167,6 +168,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "7 Days",
             learnMore: '/eastern-wonder',
+            slug: '#route-eastern-wonder'
         },
         {
             title: 'Diving Tour',
@@ -176,6 +178,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "9 Days",
             learnMore: '/diving-tour',
+            slug: '#route-diving-tour'
         },
         {
             title: 'Dry Deciduous Birding',
@@ -185,7 +188,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "11 Days",
             learnMore: '/dry-deciduous-birding',
-            quote: ""
+            slug: '#route-dry-deciduous-birding'
         },
         {
             title: 'Rain Forest Birding',
@@ -195,6 +198,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "10 Days",
             learnMore: '/rainforest-birding',
+            slug: '#route-rainforest-birding'
         },
         {
             title: 'Vanilla Cruise',
@@ -204,6 +208,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "14 Days",
             learnMore: '/vanilla-cruise',
+            slug: '#route-vanilla-cruise'
         },
         {
             title: 'Baobab Safari',
@@ -213,6 +218,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "7 Days",
             learnMore: '/safari',
+            slug: '#route-safari'
         },
         {
             title: 'Mada Northern Safari',
@@ -222,6 +228,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "9 Days",
             learnMore: '/mada-northern-safari',
+            slug: '#route-mada-northern-safari'
         },
         {
             title: 'Tana Surrounding',
@@ -231,6 +238,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "4 Days",
             learnMore: '/tana-surrounding',
+            slug: '#route-tana-surrounding'
         },
         {
             title: 'Southern Trekking',
@@ -240,6 +248,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "17 Days",
             learnMore: '/southern-trekking',
+            slug: '#route-southern-trekking'
         },
         {
             title: 'Mada Southern Safari',
@@ -249,6 +258,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "12 Days",
             learnMore: '/mada-southern-safari',
+            slug: '#route-mada-southern-safari'
         },
         {
             title: 'Post Wedding Safari',
@@ -258,6 +268,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "10 Days",
             learnMore: '/post-wedding-safari',
+            slug: '#route-post-wedding-safari'
         },
         {
             title: 'Malagasy Culture Discovery',
@@ -267,6 +278,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "10 Days",
             learnMore: '/malagasy-culture-discovery',
+            slug: '#route-malagasy-culture-discovery'
         },
         {
             title: 'River Trip',
@@ -276,6 +288,7 @@ function TourHighlightsCard() {
             location: 'Itinerary',
             timer: "10 Days",
             learnMore: '/river-trip',
+            slug: '#route-river-trip'
         }
 
     ]
@@ -776,7 +789,7 @@ function TourHighlightsCard() {
                                 </p>
 
                                 <div className='row infoPratique'>
-                                    <div className="col"><span className="badge badge-info place"> <MyLocationIcon /><a href={'Tour' + tour.learnMore + '#bottom'} > {tour.location} </a></span></div>
+                                    <div className="col"><span className="badge badge-info place"> <MyLocationIcon /><a href={'Tour' + tour.learnMore + tour.slug} > {tour.location} </a></span></div>
                                     <div className="col"> <span className="badge badge-info price"><AvTimerIcon /> {tour.timer}</span> </div>
                                     <div className="col"><span className="badge badge-info price"><MonetizationOnIcon /> {tour.price}</span></div>
                                 </div>

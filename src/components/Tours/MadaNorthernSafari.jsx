@@ -212,6 +212,10 @@ function MadaNorthernSafari() {
         <div className="col"> <BookModal /> </div>
       </div>
 
+      <div className='my-2' id='route-mada-northern-safari'>
+      <iframe title='Mada Northern Safari' src="https://www.google.com/maps/d/u/0/embed?mid=1_5RVsfMZQ_rHz_Ww-Z2xa4VWhfwFsjw&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+
         <div>
             <h3 className='text-center'>See too the related tours</h3>
             <hr />

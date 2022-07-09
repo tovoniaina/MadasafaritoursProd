@@ -213,12 +213,12 @@ function DivingTour() {
         <div className="col"> <BookModal /> </div>
       </div>
 
-      <div className='my-2'>
+      <div className='my-2' id='route-diving-tour'>
       <iframe title='Itinerary for Diving tour' src="https://www.google.com/maps/d/embed?mid=1el4_9oLyNKAqe4o0EhbQ3a1uhlvffck&ehbc=2E312F" width="640" height="480"></iframe>
       </div>
 
-      <div>
-            <h3 className='text-center'>See too the related tours</h3>
+         <div>
+            <h3 className='text-center' >See too the related tours</h3>
             <hr />
             <div className="row">
                 <div className="col text-center col-lg-4 col-md-4 col-sm-4"><Link className='related-tours' to="/Tour/post-wedding-safari">Post Wedding Safari</Link></div>

@@ -181,7 +181,7 @@ function BaobabSafari() {
         <div className="col"> <BookModal /> </div>
       </div>
       
-      <div className='my-2'>
+      <div className='my-2' id='route-safari'>
       <iframe title='Baobab Safari itinerary' src="https://www.google.com/maps/d/u/0/embed?mid=130hfSfQvGkqhnOxZ8viJpnObRCowYuA&ehbc=2E312F" width="640" height="480"></iframe>
       </div>
       <div>
