@@ -11,7 +11,7 @@ function TourCategory() {
       <img alt='kiraro' className='imageKiraro' src="https://mdst.s3.amazonaws.com/TourCategory/indri.png" />
     </div>
     <div className="contentBx">
-      <h2 className='NikeShoes'>Nike Shoes</h2>
+      <h2 className='NikeShoes'>Northern destination</h2>
       <div className="size">
         <h3 className='texth3'>Size :</h3>
         <span className='spanAttr'>7845254</span>

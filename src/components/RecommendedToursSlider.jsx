@@ -9,7 +9,7 @@ function RecommendedToursSlider() {
       <Helmet>
       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       </Helmet>
-      <div class="elfsight-app-f2b71d9c-537e-4661-b9d3-eaffb030b3f3"></div>
+      <div class="elfsight-app-1c36be3c-b92f-497c-a565-d681b7e150c6"></div>
     </div>
   )
 }
