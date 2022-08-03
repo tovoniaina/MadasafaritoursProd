@@ -16,7 +16,7 @@ function AboutUs() {
                 <div className="row">
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="hovereffect">
-                            <img className="img-responsive img-fluid" src={ImageSection1} alt="" />
+                            <img className="img-responsive img-fluid" src={ImageSection1} alt="img1" />
 
                         </div>
                     </div>
