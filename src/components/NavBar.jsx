@@ -51,6 +51,10 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
+                            <Link to="/blog" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Blog</Link>
+                        </li>
+
+                        <li className="nav-item">
 
                             <BookModal />
 

@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from '../src/pages/Home';
 import AboutUs from '../src/pages/AboutUs';
 import Faqs from '../src/pages/Faqs';
+import Blog from '../src/pages/Blog'
 import Madagascars from './pages/Madagascars';
 import GalleryPhoto from './components/GalleryPhoto'
 import Tour from '../src/pages/Tour';
@@ -33,6 +34,9 @@ import SouthernTrekking from './components/Tours/SouthernTrekking';
 import TanaSurrounding from './components/Tours/TanaSurrounding';
 import VanillaCruise from './components/Tours/VanillaCruise';
 import ScrollToTops from './components/ScrollToTop/ScrollToTops';
+import OnePost from './components/Blog/OnePost';
+// import AllPosts from './components/Blog/AllPosts';
+// import OnePost from './components/Blog/OnePost';
 
 function App() {
   return (
@@ -72,6 +76,12 @@ function App() {
           </Route>
           <Route exact path="Contact" element={<Contact />} />
           <Route exact path="term-of-condition" element={<TermOfCondition />} />
+          <Route exact path="blog" element={<Blog />} >
+            <Route exact path=":slug" element={<OnePost />} />
+          </Route>
+            
+
+
         </Routes>
 
 
