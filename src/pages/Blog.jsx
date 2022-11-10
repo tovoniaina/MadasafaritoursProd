@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-import AllPosts from '../components/Blog/AllPosts';
-import OnePost from '../components/Blog/OnePost';
+import { Outlet } from 'react-router-dom';
 
 export class Blog extends Component {
   render() {
     return (
      <main id='blog'>
-        <AllPosts/>
-        <OnePost />
-
+        <Outlet/>
      </main>
     )
   }

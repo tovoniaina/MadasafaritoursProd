@@ -35,10 +35,12 @@ import TanaSurrounding from './components/Tours/TanaSurrounding';
 import VanillaCruise from './components/Tours/VanillaCruise';
 import ScrollToTops from './components/ScrollToTop/ScrollToTops';
 import OnePost from './components/Blog/OnePost';
+import AllPosts from './components/Blog/AllPosts';
 // import AllPosts from './components/Blog/AllPosts';
 // import OnePost from './components/Blog/OnePost';
+import Breadcrumb from './components/Breadcrumbs';
 
-function App() {
+function App(props) {
   return (
 
     <div className="App">
@@ -48,16 +50,18 @@ function App() {
         <Navtop />
         <NavBar />
         <Slider />
+        <Breadcrumb />
+        
 
         <Routes>
           <Route path="*" element={<NoMatch />} />
 
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="AboutUs" element={<AboutUs />} />
-          <Route exact path="Faqs" element={<Faqs />} />
-          <Route exact path="Madagascars" element={<Madagascars />} />
-          <Route exact path="GalleryPhoto" element={<GalleryPhoto />} />
-          <Route path="Tour" element={<Tour />}>
+          <Route exact path="/" element={<Home {...props} />} />
+          <Route exact path="AboutUs" element={<AboutUs {...props} />} />
+          <Route exact path="Faqs" element={<Faqs {...props} />} />
+          <Route exact path="Madagascars" element={<Madagascars {...props} />} />
+          <Route exact path="GalleryPhoto" element={<GalleryPhoto {...props} />} />
+          <Route path="Tour" element={<Tour {...props} />}>
             <Route index element={<TourHighlightsCard />} />
             <Route path='safari' element={<BaobabSafari />} />
             <Route path='diving-tour' element={<DivingTour />} />
@@ -74,10 +78,12 @@ function App() {
             <Route path='tana-surrounding' element={<TanaSurrounding />} />
             <Route path='vanilla-cruise' element={<VanillaCruise />} />
           </Route>
-          <Route exact path="Contact" element={<Contact />} />
-          <Route exact path="term-of-condition" element={<TermOfCondition />} />
-          <Route exact path="blog" element={<Blog />} >
+          <Route exact path="Contact" element={<Contact {...props} />} />
+          <Route exact path="term-of-condition" element={<TermOfCondition {...props} />} />
+          <Route exact path="blog" element={<Blog {...props} />} >
+            <Route exact index element={<AllPosts />} />
             <Route exact path=":slug" element={<OnePost />} />
+
           </Route>
             
 

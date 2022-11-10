@@ -36,7 +36,7 @@ export default function OnePost() {
       .catch(console.error);
   }, [slug]);
 
-  if (!postData) return <div>Loading...</div>;
+  if (!postData) return <div>Loading... </div>;
 
   return (
     <div className="bg-gray-200 min-h-screen p-12">
@@ -54,9 +54,9 @@ export default function OnePost() {
                   className="w-10 h-10 rounded-full"
                   alt="Author is Kap"
                 />
-                <h4 className="flex items-center pl-2 text-2xl">
+                <h6 className="flex items-center pl-2 text-2xl">
                   {postData.name}
-                </h4>
+                </h6>
               </div>
             </div>
           </div>

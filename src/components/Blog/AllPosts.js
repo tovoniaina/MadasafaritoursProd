@@ -28,7 +28,9 @@ export default function AllPosts() {
   return (
     <div className="bg-green-100 min-h-screen p-12">
       <div className="container mx-auto">
-        <h1 className="text-5xl flex justify-center">Travelia Safari Blog Posts</h1>
+        <h1 className="text-5xl flex justify-center">
+          Travelia Safari Blog Posts
+        </h1>
         <h3 className="text-lg text-gray-600 flex justify-center mb-12">
           Welcome to Travelia Safari blog posts page!
         </h3>
