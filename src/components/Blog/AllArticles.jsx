@@ -16,7 +16,6 @@ import sanityClient from "../../client";
 import Grid from "@mui/material/Grid";
 import LocalOfferTwoToneIcon from "@mui/icons-material/LocalOfferTwoTone";
 import imageUrlBuilder from "@sanity/image-url";
-import Moment from "react-moment";
 import "moment-timezone";
 import moment from "moment-timezone";
 
