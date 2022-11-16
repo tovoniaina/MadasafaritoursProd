@@ -52,8 +52,8 @@ const useStyles = makeStyles(() => ({
   },
 
   mxAuto: {
-    marginRight: "100px",
-    marginLeft: "100px",
+    marginRight: "10%",
+    marginLeft: "10%",
     marginTop: "50px",
     marginBottom: "50px",
   },
