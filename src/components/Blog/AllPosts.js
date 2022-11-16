@@ -13,6 +13,10 @@ export default function AllPosts() {
         `*[_type == "post"]{
         title,
         slug,
+        categories{
+          title,
+          description
+        },
         mainImage{
         asset->{
           _id,
@@ -24,7 +28,7 @@ export default function AllPosts() {
       .then((data) => setAllPosts(data))
       .catch(console.error);
   }, []);
-
+console.log(allPostsData);
   return (
 
     // The whole Block
