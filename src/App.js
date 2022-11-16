@@ -31,7 +31,7 @@ import SouthernTrekking from "./components/Tours/SouthernTrekking";
 import TanaSurrounding from "./components/Tours/TanaSurrounding";
 import VanillaCruise from "./components/Tours/VanillaCruise";
 import OnePost from "./components/Blog/OnePost";
-import AllPosts from "./components/Blog/AllPosts";
+// import AllPosts from "./components/Blog/AllPosts";
 import MainLayout from "./components/MainLayout/MainLayout";
 import AllArticles from "./components/Blog/AllArticles";
 

@@ -14,7 +14,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import sanityClient from "../../client";
 import Grid from "@mui/material/Grid";
-import imageUrlBuilder from "@sanity/image-url";
+// import imageUrlBuilder from "@sanity/image-url";
 
 const useStyles = makeStyles(() => ({
   card: {
@@ -124,11 +124,11 @@ export const AllArticles = React.memo(function News3Card() {
   const mediaStyles = useCoverCardMediaStyles();
 
   const [allPostsData, setAllPosts] = useState(null);
-  const [postData, setPostData] = useState(null);
-  const builder = imageUrlBuilder(sanityClient);
-  function urlFor(source) {
-    return builder.image(source);
-  }
+  // const [postData, setPostData] = useState(null);
+  // const builder = imageUrlBuilder(sanityClient);
+  // function urlFor(source) {
+  //   return builder.image(source);
+  // }
 
   useEffect(() => {
     sanityClient
