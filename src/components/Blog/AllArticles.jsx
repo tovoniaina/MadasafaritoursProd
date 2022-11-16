@@ -14,12 +14,17 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import sanityClient from "../../client";
 import Grid from "@mui/material/Grid";
-// import imageUrlBuilder from "@sanity/image-url";
+import LocalOfferTwoToneIcon from "@mui/icons-material/LocalOfferTwoTone";
+import imageUrlBuilder from "@sanity/image-url";
+import Moment from "react-moment";
+import "moment-timezone";
+import moment from "moment-timezone";
 
 const useStyles = makeStyles(() => ({
   card: {
-    width: 415,
-    height: 400,
+    width: "100%",
+    height: "auto",
+    minWidth: "220px",
     position: "relative",
     boxShadow: "0 8px 24px 0 rgba(0,0,0,0.12)",
     overflow: "visible",
@@ -45,6 +50,13 @@ const useStyles = makeStyles(() => ({
       borderRadius: "1.5rem",
       backgroundColor: "rgba(0,0,0,0.08)",
     },
+  },
+
+  mxAuto: {
+    marginRight: "100px",
+    marginLeft: "100px",
+    marginTop: "50px",
+    marginBottom: "50px",
   },
   main: {
     overflow: "hidden",
@@ -86,9 +98,9 @@ const useStyles = makeStyles(() => ({
     fontSize: "1.5rem",
     fontWeight: 800,
     color: "#fff",
-    backgroundColor: 'hsla(211, 67%, 17%,0.4)',
+    backgroundColor: "hsla(211, 67%, 17%,0.4)",
     padding: "4px",
-    borderRadius: '6px',
+    borderRadius: "6px",
   },
   author: {
     zIndex: 1,
@@ -117,25 +129,26 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-
-
 export const AllArticles = React.memo(function News3Card() {
   const styles = useStyles();
   const mediaStyles = useCoverCardMediaStyles();
 
   const [allPostsData, setAllPosts] = useState(null);
   // const [postData, setPostData] = useState(null);
-  // const builder = imageUrlBuilder(sanityClient);
-  // function urlFor(source) {
-  //   return builder.image(source);
-  // }
+  const builder = imageUrlBuilder(sanityClient);
+  function urlFor(source) {
+    return builder.image(source);
+  }
 
   useEffect(() => {
     sanityClient
       .fetch(
         `*[_type == "post"]{
+        _id,
+        _createdAt,
         title,
         slug,
+        categories[]->{_id,title},
         mainImage{
         asset->{
           _id,
@@ -144,13 +157,13 @@ export const AllArticles = React.memo(function News3Card() {
       },
       body,
           "name": author->name,
-          "authorImage": author->image
+          "authorImage": author->image,
     }`
       )
       .then((data) => setAllPosts(data))
       .catch(console.error);
   }, []);
-
+  console.log(allPostsData);
   // useEffect(() => {
   //   sanityClient
   //     .fetch(`
@@ -173,9 +186,13 @@ export const AllArticles = React.memo(function News3Card() {
       </NoSsr>
 
       <div className="p12">
-        <div className="container mx-auto">
-          <Grid container spacing={4} justifyContent="start" alignItems="center">
-
+        <div className={styles.mxAuto}>
+          <Grid
+            container
+            spacing={4}
+            justifyContent="start"
+            alignItems="center"
+          >
             {allPostsData &&
               allPostsData.map((post, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
@@ -187,14 +204,22 @@ export const AllArticles = React.memo(function News3Card() {
                         position={"relative"}
                       >
                         <CardMedia
-                          
                           image={post.mainImage.asset.url}
                           //   src={post.mainImage.asset.url}
                           classes={mediaStyles}
                           // image={'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80'}
                         />
                         <div className={styles.content}>
-                          <div className={styles.tag}>Fashion</div>
+                          <div className={styles.tag}>
+                            {" "}
+                            {post.categories?.map((category) => (
+                              <span key={category._id}>
+                                {" "}
+                                <LocalOfferTwoToneIcon /> {category.title}{" "}
+                              </span>
+                            ))}{" "}
+                          </div>
+                          {/* <span className="label label-info"></span> */}
                           <Typography variant={"h2"} className={styles.title}>
                             {post.title}
                           </Typography>
@@ -213,12 +238,17 @@ export const AllArticles = React.memo(function News3Card() {
                       <Item>
                         <Avatar
                           className={styles.avatar}
-                          //   src={urlFor(postData.authorImage).url()}
+                          src={urlFor(post.authorImage).url()}
                         />
                       </Item>
                       <Info position={"middle"} useStyles={useNewsInfoStyles}>
-                        <InfoTitle>Nadine Petrolli</InfoTitle>
-                        <InfoSubtitle>Jul 20 | 2 Min Read</InfoSubtitle>
+                        <InfoTitle> {post.name} </InfoTitle>
+                        {post?._createdAt ? (
+                          <InfoSubtitle>
+                            {moment(post._createdAt).fromNow()}
+                            
+                          </InfoSubtitle>
+                        ) : null}
                       </Info>
                     </Row>
                     <div className={styles.shadow} />

@@ -7,6 +7,7 @@ import BookModal from './BookModal';
 import logoTop from "../images/travelia.png";
 import NestedMenuNavbar from './NestedMenuNavbar';
 import SegmentIcon from '@mui/icons-material/Segment';
+import AutoAwesomeTwoToneIcon from '@mui/icons-material/AutoAwesomeTwoTone';
 
 function NavBar() {
     return (
@@ -51,7 +52,7 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/blog" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link">Blog</Link>
+                            <Link to="/blog" data-toggle="collapse" data-target=".navbar-collapse" className="nav-link"><AutoAwesomeTwoToneIcon />Blog</Link>
                         </li>
 
                         <li className="nav-item">
