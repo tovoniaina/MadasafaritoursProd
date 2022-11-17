@@ -47,6 +47,11 @@ export default {
       title: 'Body',
       type: 'blockContent',
     },
+    {
+      name: 'readingTime',
+      title: 'Reading time',
+      type: 'number'
+    },
   ],
 
   preview: {

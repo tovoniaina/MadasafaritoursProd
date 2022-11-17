@@ -14,10 +14,12 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import sanityClient from "../../client";
 import Grid from "@mui/material/Grid";
-import LocalOfferTwoToneIcon from "@mui/icons-material/LocalOfferTwoTone";
+import FolderOpenTwoToneIcon from '@mui/icons-material/FolderOpenTwoTone';
 import imageUrlBuilder from "@sanity/image-url";
 import "moment-timezone";
 import moment from "moment-timezone";
+import ScheduleTwoToneIcon from '@mui/icons-material/ScheduleTwoTone';
+
 
 const useStyles = makeStyles(() => ({
   card: {
@@ -87,8 +89,8 @@ const useStyles = makeStyles(() => ({
     display: "inline-block",
     fontFamily: "'Sen', sans-serif",
     backgroundColor: "#ff5dac",
+    padding: "1px",
     borderRadius: "0.5rem",
-    padding: "2px 0.5rem",
     color: "#fff",
     marginBottom: "0.5rem",
   },
@@ -109,6 +111,7 @@ const useStyles = makeStyles(() => ({
     backgroundColor: "#0e2a47",
     color: "#fff",
   },
+
   shadow: {
     transition: "0.2s",
     position: "absolute",
@@ -147,6 +150,7 @@ export const AllArticles = React.memo(function News3Card() {
         _createdAt,
         title,
         slug,
+        readingTime,
         categories[]->{_id,title},
         mainImage{
         asset->{
@@ -162,22 +166,8 @@ export const AllArticles = React.memo(function News3Card() {
       .then((data) => setAllPosts(data))
       .catch(console.error);
   }, []);
-  console.log(allPostsData);
-  // useEffect(() => {
-  //   sanityClient
-  //     .fetch(`
-  //     *[_type == "posts" && $keyword in categories[]->slug.current] {
-  //       ...,
-  //       categories[] -> {
-  //               title,
-  //               slug
-  //       },
-  //     }
-  //     `)
-  //     .then((data) => setAllPosts(data))
-  //     .catch(console.error);
-  // }, []);
-
+   console.log(allPostsData);
+  
   return (
     <>
       <NoSsr>
@@ -194,7 +184,7 @@ export const AllArticles = React.memo(function News3Card() {
           >
             {allPostsData &&
               allPostsData.map((post, index) => (
-                <Grid item xs={12} sm={6} md={4} key={index}>
+                <Grid item xs={12} sm={12} md={4} key={index}>
                   <Card className={styles.card}>
                     <Link to={post.slug.current} key={post.slug.current}>
                       <Box
@@ -209,19 +199,21 @@ export const AllArticles = React.memo(function News3Card() {
                           // image={'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80'}
                         />
                         <div className={styles.content}>
+                        <Typography variant={"h3"} className={styles.title}>
+                            {post.title}
+                          </Typography>
+
                           <div className={styles.tag}>
                             {" "}
                             {post.categories?.map((category) => (
                               <span key={category._id}>
                                 {" "}
-                                <LocalOfferTwoToneIcon /> {category.title}{" "}
+                                <FolderOpenTwoToneIcon /> {category.title}{" "}
                               </span>
                             ))}{" "}
                           </div>
                           {/* <span className="label label-info"></span> */}
-                          <Typography variant={"h2"} className={styles.title}>
-                            {post.title}
-                          </Typography>
+                          
                         </div>
                       </Box>
                     </Link>
@@ -242,12 +234,8 @@ export const AllArticles = React.memo(function News3Card() {
                       </Item>
                       <Info position={"middle"} useStyles={useNewsInfoStyles}>
                         <InfoTitle> {post.name} </InfoTitle>
-                        {post?._createdAt ? (
-                          <InfoSubtitle>
-                            {moment(post._createdAt).fromNow()}
-                            
-                          </InfoSubtitle>
-                        ) : null}
+                        {post?._createdAt && post?.readingTime ? (<InfoSubtitle> {moment(post._createdAt).fromNow()} | <ScheduleTwoToneIcon fontSize="small" /> Reading time : {post?.readingTime} min </InfoSubtitle>) : null}
+                        {/* {post?.readingTime? (<InfoSubtitle>Reading time : {post.readingTime} min</InfoSubtitle>) : null } */}
                       </Info>
                     </Row>
                     <div className={styles.shadow} />
