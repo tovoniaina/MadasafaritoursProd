@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../../client";
 import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
+import "./Index.css";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -39,19 +40,17 @@ export default function OnePost() {
   if (!postData) return <div>Loading... </div>;
 
   return (
-    <div className="bg-white-200 min-h-screen p-12">
-      <div className="container shadow-lg mx-auto bg-green-100 rounded-lg">
-        <div className="relative">
-          <div className="absolute h-full w-full flex items-center justify-center p-8">
+    <div className="py-5">
+      <div className="container shadow-lg blockDetails rounded-lg py-3 px-3 ">
+        <div className="transparentCover ">
+          <div className="headBlog absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
             <div className="bg-white bg-opacity-75 rounded p-12">
-              <h2 className="text-3xl lg:text-6xl mb-4">
-                {postData.title}
-              </h2>
-              <div className="flex justify-center text-gray-800">
+              <h2 className="text-3xl lg:text-6xl mb-4">{postData.title}</h2>
+              <div className=" w-100  flex justify-center text-gray-800">
                 <img
                   src={urlFor(postData.authorImage).url()}
-                  className="saryBlog w-10 h-10 rounded-full"
+                  className="saryAuteur"
                   alt="Author is Kap"
                 />
                 <h6 className="flex items-center py-2 pl-2 text-xl">
@@ -61,10 +60,9 @@ export default function OnePost() {
             </div>
           </div>
           <img
-            className="saryBlog w-full object-cover rounded-t"
+            className=" rounded coverPicBlog"
             src={urlFor(postData.mainImage).url()}
             alt="author"
-            style={{ height: "400px" }}
           />
         </div>
         <div className="px-16 lg:px-24 py-8 lg:py-16 prose lg:prose-xl max-w-full">

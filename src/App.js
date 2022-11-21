@@ -35,6 +35,7 @@ import OnePost from "./components/Blog/OnePost";
 import MainLayout from "./components/MainLayout/MainLayout";
 import AllArticles from "./components/Blog/AllArticles";
 
+
 function App(props) {
   return (
     <div className="App">
@@ -104,7 +105,7 @@ function App(props) {
             </Route>
           </Route>
         </Routes>
-
+        
         <Footer />
       </Router>
 

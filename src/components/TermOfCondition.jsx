@@ -82,13 +82,13 @@ function TermOfCondition() {
         <h4><li>Hotels</li></h4>
         <p>We would like to acknowledge that hotel infrastructures may seem way different from western standard since some hotels might not have hot shower, mosquito nets, fan or whatsoever.
           <br />
-          However, Madagascar Safari would always strive to book the best hotel in the area where the guests are going. 
+          However, Travelia Safari would always strive to book the best hotel in the area where the guests are going. 
         </p>
         <h4><li>Travel Insurance</li></h4>
         <p>Madagascar Travelia Safari requires that all passengers on the tour are fully covered by comprehensive travel insurance. Traveler must take the highest possible cover and for all tours, be insured for the full duration of your time away from home.</p>
 
         <h4><li>Travel Documents</li></h4>
-        <p>It is the responsibility of each passenger to ensure that they are in possession of the correct travel documentation (passports/visas/health certificates) prior to departure. Madagascar Safari shall not accept responsibility for any consequences of any nature whatsoever, arising from the passenger failing to ensure that he/she has complied with the necessary health/passport/visa/re-entry permit requirements.</p>
+        <p>It is the responsibility of each passenger to ensure that they are in possession of the correct travel documentation (passports/visas/health certificates) prior to departure. Travelia Safari shall not accept responsibility for any consequences of any nature whatsoever, arising from the passenger failing to ensure that he/she has complied with the necessary health/passport/visa/re-entry permit requirements.</p>
         </ol>
         
     </div>

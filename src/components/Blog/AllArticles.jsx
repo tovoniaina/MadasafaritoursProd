@@ -20,7 +20,6 @@ import "moment-timezone";
 import moment from "moment-timezone";
 import ScheduleTwoToneIcon from '@mui/icons-material/ScheduleTwoTone';
 
-
 const useStyles = makeStyles(() => ({
   card: {
     width: "100%",
@@ -103,6 +102,10 @@ const useStyles = makeStyles(() => ({
     padding: "4px",
     borderRadius: "6px",
   },
+  allBlogTitle : {
+    textAlign: 'center',
+    padding: '4px',
+  },
   author: {
     zIndex: 1,
     position: "relative",
@@ -134,8 +137,8 @@ const useStyles = makeStyles(() => ({
 export const AllArticles = React.memo(function News3Card() {
   const styles = useStyles();
   const mediaStyles = useCoverCardMediaStyles();
-
   const [allPostsData, setAllPosts] = useState(null);
+  
   // const [postData, setPostData] = useState(null);
   const builder = imageUrlBuilder(sanityClient);
   function urlFor(source) {
@@ -166,8 +169,9 @@ export const AllArticles = React.memo(function News3Card() {
       .then((data) => setAllPosts(data))
       .catch(console.error);
   }, []);
-   console.log(allPostsData);
   
+  // const random = Math.floor(Math.random() * allPostsData.length); 
+  // console.log()
   return (
     <>
       <NoSsr>
@@ -175,7 +179,13 @@ export const AllArticles = React.memo(function News3Card() {
       </NoSsr>
 
       <div className="p12">
+      <div className={styles.allBlogTitle}>
+            <h1>Travelia Safari Blog Posts</h1>
+            <h6 className="text-secondary">Welcome to Travelia Safari Blog Posts page, feel free to read our posts <span role='img' aria-label='emojiface'>😊</span> </h6>
+          </div>
+     
         <div className={styles.mxAuto}>
+          
           <Grid
             container
             spacing={4}
@@ -212,7 +222,6 @@ export const AllArticles = React.memo(function News3Card() {
                               </span>
                             ))}{" "}
                           </div>
-                          {/* <span className="label label-info"></span> */}
                           
                         </div>
                       </Box>

@@ -1,9 +1,30 @@
-/* @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
-@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+.blockDetails{
+  background-color: rgba(209, 250, 229);
+}
 
+.headBlog{
+  position: absolute;
+  flex: auto;
+  align-items: center;
+  align-content: center;
+  background-size: cover !important;
+  
+}
 
-.prose img {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-} */
+.transparentCover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+}
+.saryAuteur{
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.coverPicBlog{
+  background-size: cover !important;
+  object-fit: contain;
+  width: 100%;
+}

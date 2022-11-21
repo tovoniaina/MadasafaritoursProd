@@ -16,7 +16,7 @@ const Breadcrumb = () => {
   const pathnames = pathname?.split("/")?.filter((x) => x)?? [];
 
   return (
-    <div className="container breadcrumb">
+    <div className="container breadcrumb py-2">
       <Breadcrumbs separator={ <NavigateNextIcon fontSize="small" /> } aria-label="breadcrumb" className="breadcrumb">
         {pathnames?.length ? (<Link to='/' > <HomeIcon /> </Link>) : ( <Typography className="breadcrumb"> <HomeIcon/> </Typography> )}    
         {pathnames.map((name, index) => {

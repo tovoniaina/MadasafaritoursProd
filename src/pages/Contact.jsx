@@ -5,11 +5,13 @@ import OpenStreetMap from "../components/OpenStreetMap"
 
 
 
+
 function Contact() {
     return(
         <main id='Qa'>
         <ContactForms />
         <OpenStreetMap />
+
 
     </main>
     )

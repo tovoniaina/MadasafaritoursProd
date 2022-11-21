@@ -13,8 +13,9 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StoreIcon from '@mui/icons-material/Store';
 import { Link } from "react-router-dom";
 import PaymentCard from '../images/paymentMethod/payment-cards.png'
-import NewsletterCute from './Newsletter/NewsletterCute';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+// import NewsletterForm from './MailchimpNewsletter/NewsletterForm';
+
 
 
 const Footer = () => {
@@ -60,11 +61,12 @@ const Footer = () => {
 
 
             <div className="legacy mt-4">
-              <Link to="/term-of-condition">Terms and Conditions</Link> <br />
+              <Link to="/term-of-condition"><ArrowRightIcon /> Terms and Conditions</Link> <br />
             </div>
 
 
-            <div className='my-2'> <NewsletterCute /></div>
+            {/* <div className='my-2'> <NewsletterForm /></div> */}
+
 
           </div>
 

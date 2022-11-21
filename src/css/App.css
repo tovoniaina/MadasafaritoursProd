@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-/* @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"); */
-/* @import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"); */
 
-/**********BLOG***********/
-/* .prose .saryBlog {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-} */
 
 
 :root{
@@ -29,12 +21,10 @@
   
 }
 
-/* #00253a
-#2e933c */
-
 .breadcrumb{
   font-family: var(--bodyFont) !important;
   text-transform: capitalize;
+  background-color: transparent;
 }
 .footers {
   display: flex;  
@@ -50,6 +40,83 @@
 .footers div {
   flex-grow: 1;
 }
+
+/****************NEWSLETTER BANNER****************/
+/* .SubscribeNewsletter{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.form__field {
+  width: 80%;
+  background: transparent;
+  color: var(--primary-white);
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(241, 240, 240, 0.1);
+  border: 1px solid var(--primary-white);
+  border-radius: 5px;
+  padding: 20px 16px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+@media screen and (min-width: 500px) {
+  .form__field {
+    width: 450px;
+  }
+}
+
+.form__field:hover {
+  background: #143a63;
+  box-shadow: 0 6px 10px 0 rgba(241, 240, 240, 0.1);
+}
+.form__field:focus {
+  outline: 0;
+  background: rgba(104, 122, 242, 0.05);
+ 
+}
+
+
+.btn--inside {
+  margin-left: -60px;
+  width: 120px;
+  background-color: var(--primary-grey) !important;
+  color: var(--primary-white) !important;
+  padding: 10px !important;
+  border: 1px solid var(--primary-white) !important;
+}
+
+.btn--inside:hover{
+  background-color: var(--primary-white) !important;
+  color: var(--primary-grey) !important;
+}
+
+.btn--primary {
+  background: #7f8ff4;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 36px;
+}
+.btn--primary:hover {
+  background: #6c7ff2;
+}
+.btn--primary:active {
+  background: #7f8ff4;
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+.btn--primary:focus {
+  background: #687af2;
+  outline: 0;
+}
+
+.errorMessage{
+  color: red;
+}
+.successMessage{
+  color: #26a712;
+} */
 
 /****************NAVTOP****************/
 .contact {
@@ -102,6 +169,11 @@ nav a.nav-link{
   cursor: pointer;
   font-size: 15px !important;
 }
+
+.NewsBlog{
+  color: #efcd43 !important;
+}
+
 nav ul li{
   text-transform: uppercase;
 }

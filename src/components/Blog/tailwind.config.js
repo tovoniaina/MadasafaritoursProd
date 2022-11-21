@@ -3,5 +3,5 @@ module.exports = {
     preflight: false,
  },
   prefix: 'tw-',
-  important: true,
+  important: false,
 }
