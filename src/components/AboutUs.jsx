@@ -17,7 +17,7 @@ export default function AboutUs() {
     useEffect(() => {
         sanityClient
           .fetch(
-            `*[_type == "picturesAboutUs"]{
+            `*[_type == "picturesAboutUs" && _id == 'f2a68683-6e96-488c-8cbb-6c1c529c7907']{
                 _id,
                 image{
                     asset->{
@@ -87,3 +87,4 @@ export default function AboutUs() {
         </div>
     )
 }
+

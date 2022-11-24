@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="mx-5">
         <div className="row py-3">
 
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
            <Link to="/"><img src={logofooter} alt="logo-Travelia Safari" className="logofooter" /></Link> 
             <p className="description-footer">Travelia Safari Bespoke & Luxury holidays throughout Madagascar. Book it now for your dream holiday</p>
 
@@ -36,7 +36,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <h5 className="contacts">Address & Contact</h5>
             <div className="contact-footer">
 
@@ -48,9 +48,6 @@ const Footer = () => {
               </div>
 
             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 col-sm-12">
             <h5>Follow us on:</h5>
             <div className="social-footer">
               <a href="https://web.facebook.com/traveliasafari" className="mx-2 social-footer"><FacebookIcon /></a>
@@ -66,11 +63,12 @@ const Footer = () => {
 
 
             {/* <div className='my-2'> <NewsletterForm /></div> */}
-
-
           </div>
+          
 
-          <div className="col-lg-3 col-md-6 col-sm-12">
+      
+
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <h5>Our tours</h5>
             <div className="row">
               <div className="col">
