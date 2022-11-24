@@ -36,9 +36,12 @@ import MainLayout from "./components/MainLayout/MainLayout";
 import AllArticles from "./components/Blog/AllArticles";
 
 
+
 function App(props) {
   return (
     <div className="App">
+      
+     
       <Router>
         <Routes>
           <Route path="*" element={<NoMatch />} />

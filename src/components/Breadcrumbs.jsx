@@ -12,7 +12,7 @@ const Breadcrumb = () => {
  
 
   const pathname = location?.pathname ?? '';
-  console.log(location)
+  // console.log(location)
   const pathnames = pathname?.split("/")?.filter((x) => x)?? [];
 
   return (

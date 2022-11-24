@@ -12872,6 +12872,11 @@ react-is@^17.0.1, react-is@^17.0.2:
   resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-js-banner@^0.6.0-beta3:
+  version "0.6.0-beta3"
+  resolved "https://registry.yarnpkg.com/react-js-banner/-/react-js-banner-0.6.0-beta3.tgz#f6f50f247b2f509a1e3a369860ce563dd8943ed5"
+  integrity sha512-GEbT9Ds8xDTwX27CbmjuJRaqHAV+T1k1HMKIM9VdWt5UuPYCw8sJI1uZ22K+pEQ5rZIz78BEyGWFkUpH7V9IXQ==
+
 react-lazy-load-image-component@^1.5.4:
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/react-lazy-load-image-component/-/react-lazy-load-image-component-1.5.4.tgz#e75b6520c972b6278a9811876716cdab56e401fb"

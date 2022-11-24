@@ -6,6 +6,7 @@ import Navtop from "../Navtop";
 import ScrollToTops from "../ScrollToTop/ScrollToTops";
 import Slider from "../Slider";
 
+
 const MainLayout = () => {
   return (
     <main>
