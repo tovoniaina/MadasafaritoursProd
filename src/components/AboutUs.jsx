@@ -30,7 +30,7 @@ export default function AboutUs() {
             .then((data) => setAllPosts(data))
             .catch(console.error);
     }, []);
-    console.log(allPostsData)
+    // console.log(allPostsData)
 
     return (
         <div className='container'>

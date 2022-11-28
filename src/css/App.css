@@ -18,7 +18,16 @@
   --primary-black: #010103;
   --primary-grey: #0e2a47;
 
-  
+  --travelia1 : #433A3A;
+  --travelia2 : #4C4C57;
+  --travelia3 : #595965;
+  --travelia4 : #AA9D8B;
+  --travelia5 : #FAE7CE;
+  --travelia6 : #EEDBC4;
+  --travelia7 : #D8C8B1;
+  --travelia8 : #F3C85A;
+  --travelia9 : #B8AA96;
+  --travelia10 : #D9B351;
 }
 
 
@@ -43,20 +52,20 @@
 }
 
 /****************NEWSLETTER BANNER****************/
-/* .SubscribeNewsletter{
+.SubscribeNewsletter{
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 .form__field {
-  width: 80%;
-  background: transparent;
-  color: var(--primary-white);
+  width: 100%;
+  background: var(--primary-white);
+  color: var(--primary-black);
   font: inherit;
-  box-shadow: 0 6px 10px 0 rgba(241, 240, 240, 0.1);
+  box-shadow: 5px 10px 10px 2px rgb(22, 21, 21);
   border: 1px solid var(--primary-white);
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 20px 16px;
   -webkit-transition: all .4s;
   transition: all .4s;
@@ -68,56 +77,31 @@
   }
 }
 
-.form__field:hover {
-  background: #143a63;
-  box-shadow: 0 6px 10px 0 rgba(241, 240, 240, 0.1);
-}
-.form__field:focus {
-  outline: 0;
-  background: rgba(104, 122, 242, 0.05);
- 
-}
 
-
-.btn--inside {
-  margin-left: -60px;
-  width: 120px;
-  background-color: var(--primary-grey) !important;
+.boutonx{
+  margin-left: -120px;
+  width: 150px;
+  background-color: #4a5cd1 !important;
   color: var(--primary-white) !important;
-  padding: 10px !important;
-  border: 1px solid var(--primary-white) !important;
+  padding: 10px !important; 
 }
 
-.btn--inside:hover{
-  background-color: var(--primary-white) !important;
-  color: var(--primary-grey) !important;
+
+.boutonx:hover{
+  background-color: #2032a1 !important;
 }
 
-.btn--primary {
-  background: #7f8ff4;
-  color: #fff;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
-  padding: 12px 36px;
-}
-.btn--primary:hover {
-  background: #6c7ff2;
-}
-.btn--primary:active {
-  background: #7f8ff4;
-  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
-}
-.btn--primary:focus {
-  background: #687af2;
-  outline: 0;
+
+.submit-feedback{
+  font: inherit !important;
 }
 
-.errorMessage{
+.errorMsg{
   color: red;
 }
 .successMessage{
   color: #26a712;
-} */
+}
 
 /****************NAVTOP****************/
 .contact {

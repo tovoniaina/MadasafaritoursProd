@@ -14,7 +14,7 @@ import StoreIcon from '@mui/icons-material/Store';
 import { Link } from "react-router-dom";
 import PaymentCard from '../images/paymentMethod/payment-cards.png'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-// import NewsletterForm from './MailchimpNewsletter/NewsletterForm';
+import NewsletterBanner from './MailchimpNewsletter/NewsletterBanner';
 
 
 
@@ -23,6 +23,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="mx-5">
+         
         <div className="row py-3">
 
           <div className="col-lg-4 col-md-6 col-sm-12">
@@ -62,7 +63,7 @@ const Footer = () => {
             </div>
 
 
-            {/* <div className='my-2'> <NewsletterForm /></div> */}
+           
           </div>
           
 
@@ -93,7 +94,7 @@ const Footer = () => {
           <ToastContainer />
         </div>
 
-
+<div className='my-2'> <NewsletterBanner /></div>
       </div>
       <div className="copyright text-center py-1">
         <p className="my-1">Copyright © <Link className="copyrightText" to="/">Travelia Safari</Link> {new Date().getFullYear()} - All rights reserved</p>
