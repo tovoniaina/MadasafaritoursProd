@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aboutus from "../components/AboutUs";
 import AboutUsTeam from "../components/AboutUsTeam";
+// import SubscribeForm from '../components/NewsletterMailchimpAPI/SubscribeForm';
 
 
 export class AboutUs extends Component {
@@ -9,6 +10,8 @@ export class AboutUs extends Component {
             <main id="AboutUs">
                 <Aboutus />
                 <AboutUsTeam />
+                {/* <SubscribeForm /> */}
+
                 
                 
                 

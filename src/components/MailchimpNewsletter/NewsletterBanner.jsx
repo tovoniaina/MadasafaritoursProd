@@ -95,9 +95,26 @@ const NewsletterBanner = () => {
     }
   };
 
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //       emailValue: '',
+  //       fNameValue: '',
+  //       lNameValue: '',
+  //   };
+  // }
+
+
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)} noValidate>
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        noValidate
+        action="https://smartpredict.us5.list-manage.com/subscribe/post"
+        method="POST"
+      >
+        <input type="hidden" name="u" value="f88c61744ec02e1f277979ea1" />
+        <input type="hidden" name="id" value="00d685e9f0" />
         <h5 className="text-center">Subscribe to our Newsletter</h5>
         <p className="text-center">
           Want to know we're up to? Sign up for the Newsletter and join our
@@ -107,8 +124,12 @@ const NewsletterBanner = () => {
         <div className="text-center SubscribeNewsletter">
           <input
             type="email"
-            name="email"
-            id="recipient-name"
+            name="EMAIL"
+            id="MERGE0"
+            // value={this.state.emailValue}
+            // onChange={(e) => {
+            //   this.setState({ emailValue: e.target.value });
+            // }}
             {...register("email", {
               required: true,
               pattern:
@@ -119,8 +140,15 @@ const NewsletterBanner = () => {
             placeholder="example@email.com"
           />
 
-          <button className="btn boutonx" type="submit" disabled={disabled}>
-            {" "}
+          <button 
+            className="btn boutonx" 
+            type="submit" 
+            value="Subscribe"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            disabled={disabled}
+            
+            >
             <SendIcon className="sendIcon" fontSize="small" />
             Subscribe
           </button>
