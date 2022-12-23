@@ -229,6 +229,9 @@ function RainForestBirding() {
       <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1800/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
+      <div className='my-2' id='route-rainforest-birding'>
+      <iframe title='Itinerary for Rain Forest Birding' src="https://www.google.com/maps/d/u/0/embed?mid=1z7wGr3AZ-n9r1JIRqCyYyeoFg8OedWw&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
 
       <div>
             <h3 className='text-center'>See too the related tours</h3>

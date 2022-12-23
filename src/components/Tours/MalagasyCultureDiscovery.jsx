@@ -93,9 +93,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">AMBOSITRA – ANTOETRA</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          After breakfast, we drive to Antoetra village where we start the trekking along the mountainous trails. The visit will be focused on some local traditional houses in hope to learn about their cultures and their daily life. Besides, when reaching Ifasina, home of the Zafimaniry tribe, this place will show you the value of their architectures, their beliefs and cultures. And then, walk back to your car taking you to your hotel.  <br /> Overnight: Sous le Soleil
           </p>
         </VerticalTimelineElement>
 
@@ -108,9 +108,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">ANTOETRA – RANOMAFANA</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          This morning, we set off to Ranomafana national park. Stop en route, offering amazing landscapes, and then a stop at Namorona waterfall. <br /> Overnight: Karibo Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -123,9 +123,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">RANOMAFANA – FIANARANTSOA</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          We explore the morning in search of endemic animals. Ranomafana is the only place where we can observe the Golden bamboo lemur, Greater bamboo lemur, Milne Edwards sifaka, and few species of reptiles, satanic leaf-tailed gecko, frogs, and of course birds like the Velvety asity, Crested ibis, and so forth. After the visit, lunch and then we depart to Fianarantsoa, capital of the Betsileo tribe. <br /> Overnight: Zomatel
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -137,9 +137,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">FIANARANTSOA – MANAKARA</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          Early morning transfer to the railway station taking us to Manakara. The landscape along this eastern patch is rewarding where you shall contemplate beautiful scenery of vanilla plantation, coffee plantation, banana plantation abounding all along this area. Besides, you will be learning a lot and get sound knowledge of local people, their daily life, culture and so forth. Arrival, you will be picked up and then transfer to your hotel.  <br /> Overnight: Parthenay Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -152,9 +152,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">MANAKARA – MANANJARY</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          We set off to Mananjary, settled along the seaside. We shall have stops en-route visiting some places and get in touch with the locals to learn more about their cultures. Arriving in Mananjary, this place offers lots of opportunities to learn about Malagasy traditions especially of this eastern tribe. <br /> Overnight: Sorafa Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -167,9 +167,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">MANANJARY – NOSY VARIKA</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          After breakfast, we embark on a boat heading to Nosy Varika which may take roughly 8 to 10 hours. We have lunch in a boat. The ride provides a good chance to experience rural Malagasy life, traditions, culture, visits of certain places, and so forth. Also, along the canal, birds abound and red fody tend to serenade travelers. <br /> Overnight: Le Petit Oasis
           </p>
         </VerticalTimelineElement>
 
@@ -182,9 +182,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">NOSY VARIKA – MAHANORO</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          As early as possible, leave Nosy Varika and then board on a boat taking you to Mahanoro. The ride is rewarding though a bit long and tiresome. However, the landscape along the canal is extraordinary where lots of birds including the Madagascar red fody, Herons, Terns, Madagascar coucal, etc. Besides, we have some stops along the canal including a visit at a vanilla plantation, the right moment to learn about how the local farmers grow vanilla. Also, other visits include a stop at a rural village, visiting a school, local traditional houses, etc. <br /> Overnight: Le Prestige Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -197,9 +197,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">MAHANORO – ANDASIBE</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          We depart as early as possible heading east toward Andasibe. The landscape is so stunning. So, stops along the road. We shall reach Andasibe early evening. <br /> Overnight: Andasibe Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -212,9 +212,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">ANDASIBE</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          We set off for a morning visit at Analamazoatra reserve, home of the biggest lemur, ‘Indri’. Besides, this reserve certainly grants lots of photo opportunities seeing various animals, birds, and reptiles like the Parson chameleon, the tiny ground chameleon, and other species of lemurs. Safari night walk in search of night active animals including mouse lemurs, fat-tailed dwarf lemurs, eastern bamboo lemurs, smallest chameleons, and so forth. <br /> Overnight: Andasibe Hotel
           </p>
         </VerticalTimelineElement>
 
@@ -227,9 +227,9 @@ function MalagasyCultureDiscovery() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">MANANDONA – AMBOSITRA</h3>
+          <h3 className="vertical-timeline-element-title">ANDASIBE – TANA</h3>
           <p className='text-justify'>
-          In the morning, we depart today heading to Ambositra, the capital of woodcarving. Visit some workshops and then you can go shopping at some shops. After lunch, we drive to Antoetra. <br /> Overnight: Sous le Soleil
+          Rise early this morning to the haunting calls of the indri for a final walk in Andasibe before starting the return journey to the capital with photo stops en-route. Arrive late afternoon at your hotel where you have the evening at leisure. <br /> Overnight: Chalet des Roses
           </p>
         </VerticalTimelineElement>
 
@@ -245,7 +245,7 @@ function MalagasyCultureDiscovery() {
         >
           <h3 className="vertical-timeline-element-title">DEPARTURE BACK HOME</h3>
           <p className='text-justify'>
-            City tour to explore the capital in order to learn a lot about its colorful culture, palaces, and a time to go shopping at the famous Digue market selling handicrafts, stones, woodcarvings, raffia, and so forth. Then, transfer to the airport for a flight taking you back home.
+          Transfer to the airport to catch a flight taking you back home. End of our service
           </p>
         </VerticalTimelineElement>
 
@@ -288,6 +288,10 @@ function MalagasyCultureDiscovery() {
       <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1900/pax</button> </div>
         <div className="col"> <BookModal /> </div>
 
+      </div>
+
+      <div className='my-2' id='route-malagasy-culture-discovery'>
+      <iframe title='Itinerary for Malagasy Culture Discovery' src="https://www.google.com/maps/d/u/0/embed?mid=1Mttmfm7MJOAhXpfn6u4TmSzp8SLUJ-4&ehbc=2E312F" width="640" height="480"></iframe>
       </div>
 
       <div>

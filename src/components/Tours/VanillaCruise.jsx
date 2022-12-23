@@ -282,6 +282,10 @@ function VanillaCruise() {
         <div className="col"> <BookModal /> </div>
       </div>
 
+      <div className='my-2' id='route-vanilla-cruise'>
+      <iframe title='Itinerary for Vanilla Cruise' src="https://www.google.com/maps/d/u/0/embed?mid=1PIL0cL5-gbrYgzzrM9bUvKGTauchSo4&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+
       <div>
             <h3 className='text-center'>See too the related tours</h3>
             <hr />
