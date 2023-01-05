@@ -99,7 +99,7 @@ const ContactForms = () => {
         <div>
           <h4 className='text-center'>Travelia Safari - Travel agency</h4>
           <p>
-            Madagascar Travelia Safari service representatives are available to answer your questions and take your reservations, Monday - Friday from 9 am - 6pm and Saturday from 9am - 2pm local time +GMT
+            Madagascar Travelia Safari service representatives are available to answer your questions and take your reservations, Monday - Friday from 9 am - 6pm and Saturday from 9am - 2pm local time GMT+3
             <br />
             Your travel agent may also be able to answer any questions and can make your reservations for you.
           </p>

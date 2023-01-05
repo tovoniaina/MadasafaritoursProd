@@ -216,7 +216,7 @@ function DivingTour() {
       <div className='my-2' id='route-diving-tour'>
       <iframe title='Itinerary for Diving tour' src="https://www.google.com/maps/d/embed?mid=1el4_9oLyNKAqe4o0EhbQ3a1uhlvffck&ehbc=2E312F" width="640" height="480"></iframe>
       </div>
-
+      
          <div>
             <h3 className='text-center' >See too the related tours</h3>
             <hr />

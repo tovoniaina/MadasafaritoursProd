@@ -45,7 +45,7 @@ export default function OnePost() {
         <div className="transparentCover ">
           <div className="headBlog absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
-            <div className="bg-white bg-opacity-75 rounded p-12">
+            <div className=" bandeauTransparent bg-white bg-opacity-75 rounded p-12">
               <h2 className="text-3xl lg:text-6xl mb-4">{postData.title}</h2>
               <div className=" w-100  flex justify-center text-gray-800">
                 <img
@@ -65,7 +65,7 @@ export default function OnePost() {
             alt="author"
           />
         </div>
-        <div className="px-16 lg:px-24 py-8 lg:py-16 prose lg:prose-xl max-w-full">
+        <div className="blogDescription">
           <BlockContent
             blocks={postData.body}
             projectId={sanityClient.clientConfig.projectId}
