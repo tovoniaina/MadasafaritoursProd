@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
-import {Button, Container, Header, Segment, Grid} from "semantic-ui-react"
-import {  FacebookShareButton, LinkedinShareButton, TwitterShareButton,WhatsappShareButton, FacebookMessengerIcon, } from "react-share";
+import React from 'react'
+import { Container, Segment} from "semantic-ui-react"
+import { FacebookShareButton, LinkedinShareButton, TwitterShareButton,WhatsappShareButton } from "react-share";
 import {FacebookIcon, LinkedinIcon, TwitterIcon, WhatsappIcon} from "react-share";
 
 function SocialMediaShare() {
