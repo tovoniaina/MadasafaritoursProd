@@ -11,7 +11,8 @@ function SocialMediaShare() {
             <Segment>
                 <FacebookShareButton
                     url={window.location.href}
-                    quote={'Let discover Travelia Safari Blog posts'}
+                    // url='https://www.traveliasafari.com/blog'
+                    description='Let discover Travelia Safari Blog posts'
                     hashtag='#Travelia_safari'
                     
                 >
@@ -20,7 +21,9 @@ function SocialMediaShare() {
 
                 <TwitterShareButton 
                     className='mx-2' 
+                    title='Let discover Travelia Safari Blog posts'
                     url={window.location.href}
+                    // url='https://www.traveliasafari.com/blog'
                     quote={'Let discover Travelia Safari Blog posts'}
                     hashtag='#Travelia_safari'
                     
@@ -30,8 +33,10 @@ function SocialMediaShare() {
 
                 <LinkedinShareButton 
                     // className='mx-2' 
-                    url={window.location.href}
-                    quote={'Let discover Travelia Safari Blog posts'}
+                     url={window.location.href}
+                    // url='https://www.traveliasafari.com/blog'
+                    title='Travelia Safari blog'
+                    summary='Let discover Travelia Safari Blog posts'
                     hashtag='#Travelia_safari'
                     
                 >
@@ -41,8 +46,8 @@ function SocialMediaShare() {
                 <WhatsappShareButton 
                     className='mx-2' 
                     url={window.location.href}
-                    quote={'Let discover Travelia Safari Blog posts'}
-                    hashtag='#Travelia_safari'
+                    title= "Let discover Travelia Safari Blog posts"
+                    separator= " :: "
                     
                 >
                     <WhatsappIcon size={40} logoFillColor = 'white' round={true}></WhatsappIcon>
