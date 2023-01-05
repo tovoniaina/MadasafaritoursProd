@@ -6,6 +6,7 @@ import sanityClient from "../../client";
 import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
 import "./Index.css";
+import SocialMediaShare from "./SocialMediaShare";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -43,17 +44,17 @@ export default function OnePost() {
     <div className="py-5">
       <div className="container shadow-lg blockDetails rounded-lg py-3 px-3 ">
         <div className="transparentCover ">
-          <div className="headBlog absolute h-full w-full flex items-center justify-center p-8">
+          <div className="headBlog badeauParent absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
-            <div className=" bandeauTransparent bg-white bg-opacity-75 rounded p-12">
-              <h2 className="text-3xl lg:text-6xl mb-4">{postData.title}</h2>
-              <div className=" w-100  flex justify-center text-gray-800">
+            <div className=" bandeauTransparent bg-white bg-opacity-75 rounded px-5 py-5">
+              <h2 className="text-3xl lg:text-6xl text-center mb-4">{postData.title}</h2>
+              <div className="blocAuthor">
                 <img
                   src={urlFor(postData.authorImage).url()}
                   className="saryAuteur"
                   alt="Author is Kap"
                 />
-                <h6 className="flex items-center py-2 pl-2 text-xl">
+                <h6 className="px-2">
                   {postData.name}
                 </h6>
               </div>
@@ -73,6 +74,8 @@ export default function OnePost() {
           />
         </div>
       </div>
+
+      <SocialMediaShare/>
     </div>
   );
 }

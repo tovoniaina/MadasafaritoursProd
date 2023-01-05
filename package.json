@@ -69,9 +69,13 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "^3.4.4",
     "react-scroll-to-top": "^1.0.8",
+    "react-share": "^4.4.1",
+    "react-simple-share": "^0.1.2",
     "react-toastify": "^8.2.0",
     "react-vertical-timeline-component": "^3.5.2",
     "sass": "^1.49.8",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
