@@ -14,7 +14,7 @@ function Navtop() {
                 <div className="row">
                     <div className="col-6 contact">
                         <a href="tel:+261347020820" className="mx-1 TextPhoneUs"> <span className='whatsappIcon'> <WhatsAppIcon className='whatsappIcon' />Phone</span></a>
-                        <a href="mailto:idealy371@gmail.com" className="mx-1"><MailIcon />Mail</a>
+                        <a href="mailto:hello@traveliasafari.com" className="mx-1"><MailIcon />Mail</a>
                     </div>
                     <div className="col-6 social">
                         <a href="https://web.facebook.com/traveliasafari" className="mx-1"><FacebookIcon /></a>

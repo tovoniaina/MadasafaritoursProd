@@ -19,7 +19,7 @@ function AboutUsTeam() {
             "linkedin": "https://www.linkedin.com/in/rabemanantsoa-tovoniaina-aristide-7a0454105/",
             "facebook": "https://web.facebook.com/tovoniana",
             "whatsapp": "tel:+261336381135",
-            "email": "mailto:idealy371@gmail.com",
+            "email": "mailto:hello@traveliasafari.com",
             "teamImage": img1
         },
 

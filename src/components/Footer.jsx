@@ -44,7 +44,7 @@ const Footer = () => {
               <div className="contact-list">
                 <a href="https://g.page/r/CedDYYYAub90EBA"> <StoreIcon />Travelia Safari S.A | License from the ministerial approval: 019-MINTOUR/SG/DGDT/DAIT/SAT-EDBM.18  </a> <br />
                 <a href="https://g.page/r/CYgYXrFlcvgfEBA"> <LocationOnIcon />IVM 104 VZ Antetezanaafovoany I - Antananarivo 101 </a> <br />
-                <a href="mailto:idealy371@gmail.com"> <MailIcon /> idealy371@gmail.com </a> <br />
+                <a href="mailto:hello@traveliasafari.com"> <MailIcon /> hello@traveliasafari.com </a> <br />
                 <a href="tel:+261 33 63 811 35"> <WhatsAppIcon /> +261 33 63 811 35</a> <br />
               </div>
 
