@@ -194,7 +194,7 @@ function EasternWonder() {
             </div>
             <hr />
         </div>
-
+        
     </div>
   )
 }
