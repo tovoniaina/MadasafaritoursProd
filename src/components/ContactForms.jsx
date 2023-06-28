@@ -154,9 +154,7 @@ const ContactForms = () => {
                         className='form-control formInput'
                         placeholder='Email address'
                       ></input>
-                      {errors.email && (
-                        <span className='errorMessage'>Please enter a valid email address</span>
-                      )}
+                      {errors.email && (<span className='errorMessage'>Please enter a valid email address</span>)}
                     </div>
 
                   </div>
@@ -179,9 +177,7 @@ const ContactForms = () => {
                         className='form-control formInput'
                         placeholder='Subject of your request'
                       ></input>
-                      {errors.subject && (
-                        <span className='errorMessage'>{errors.subject.message}</span>
-                      )}
+                      {errors.subject && (<span className='errorMessage'>{errors.subject.message}</span>)}
                     </div>
                   </div>
                   {/* Row 3 of form */}
