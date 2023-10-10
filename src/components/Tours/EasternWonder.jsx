@@ -22,7 +22,7 @@ function EasternWonder() {
     <div className='container itineraries'>
       <h1 className='text-center'>Eastern Wonder itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1330/pax</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1680/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
@@ -30,7 +30,7 @@ function EasternWonder() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 7 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1330/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1680/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -175,7 +175,7 @@ function EasternWonder() {
       </div>
 
       <div className="row mb-3">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> $1330/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> $1680/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 

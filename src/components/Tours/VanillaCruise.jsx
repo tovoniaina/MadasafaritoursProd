@@ -23,7 +23,7 @@ function VanillaCruise() {
     <div className='container itineraries'>
       <h1 className='text-center'>Vanilla Cruise itinerary</h1>
       <div className="row">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2660/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $3192/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
@@ -31,7 +31,7 @@ function VanillaCruise() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />NorthEast</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 14 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $2660/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $3192/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -278,7 +278,7 @@ function VanillaCruise() {
       </div>
 
       <div className="row mb-3">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2660/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $3192/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 

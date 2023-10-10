@@ -22,7 +22,7 @@ function SouthernTrekking() {
     <div className='container itineraries'>
       <h1 className='text-center'>Southern Trekking itinerary</h1>
       <div className="row">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $3060/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $3876/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
@@ -30,7 +30,7 @@ function SouthernTrekking() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />South</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 17 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $3060/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $3876/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -331,7 +331,7 @@ function SouthernTrekking() {
       </div>
 
       <div className="row mb-3">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $3060/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $3876/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 

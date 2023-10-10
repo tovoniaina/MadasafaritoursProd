@@ -23,7 +23,7 @@ function DryDeciduousBirding() {
     <div className='container itineraries'>
       <h1 className='text-center'>Dry Deciduous Birding itinerary</h1>
       <div className="row">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1980/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2640/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
@@ -31,7 +31,7 @@ function DryDeciduousBirding() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />West</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 11 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1980/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $2640/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -241,7 +241,7 @@ function DryDeciduousBirding() {
       </div>
 
       <div className="row mb-3">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1980/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2640/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
       

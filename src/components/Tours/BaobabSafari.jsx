@@ -21,7 +21,7 @@ function BaobabSafari() {
     <div className='container itineraries'>
       <h1 className='text-center'>Baobab Safari itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1400/pax</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1680/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
       
@@ -29,7 +29,7 @@ function BaobabSafari() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />West</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 7 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1400/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1680/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -177,7 +177,7 @@ function BaobabSafari() {
       </div>
 
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1400/pax</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1680/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
       

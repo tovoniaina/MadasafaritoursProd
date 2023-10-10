@@ -22,7 +22,7 @@ function RainForestBirding() {
     <div className='container itineraries'>
       <h1 className='text-center'>Rainforest Birding itinerary</h1>
       <div className="row">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1800/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2400/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
@@ -30,7 +30,7 @@ function RainForestBirding() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />East</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 10 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1800/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $2400/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -226,7 +226,7 @@ function RainForestBirding() {
       </div>
 
       <div className="row mb-3">
-      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1800/pax</button> </div>
+      <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2400/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
       <div className='my-2' id='route-rainforest-birding'>

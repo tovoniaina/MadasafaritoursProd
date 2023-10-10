@@ -23,7 +23,7 @@ function MadaNorthernSafari() {
     <div className='container itineraries'>
       <h1 className='text-center'>Mada Northern Safari itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1700/pax</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2160/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
@@ -31,7 +31,7 @@ function MadaNorthernSafari() {
       <div className='row text-center '>
         <div className="col"><span className="badge text-dark"> <MyLocationIcon />North</span></div>
         <div className="col"> <span className="badge text-dark"><AvTimerIcon /> 9 Days</span> </div>
-        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $1700/pax</span></div>
+        <div className="col"><span className="badge text-dark"><MonetizationOnIcon /> From $2160/pax</span></div>
         <div className="col"><span className="badge text-dark"><GroupsIcon /> 4 persons</span></div>
       </div>
       <hr />
@@ -208,7 +208,7 @@ function MadaNorthernSafari() {
       </div>
 
       <div className="row mb-3">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1700/pax</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $2160/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
 
