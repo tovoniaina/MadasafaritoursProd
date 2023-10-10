@@ -192,9 +192,9 @@ nav ul{
   background-image: url('../images/Navbar.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 25414;
+  /* z-index: 25414;
   position: -webkit-sticky !important;
-    position: sticky !important;
+    position: sticky !important; */
     top: 0 !important;
     padding: 10px !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.10) !important;
