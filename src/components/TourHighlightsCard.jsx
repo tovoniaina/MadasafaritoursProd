@@ -163,168 +163,153 @@ function TourHighlightsCard() {
   };
   const [showMore, setShowMore] = useState();
 
-  const tours = [
-    {
-      title: "Indri Encounters",
-      img: Indri,
-      description:
-        "The Indri, also called Babakoto, is a species of lemuriform primates belonging to the family Indriidae. With the diademed sifaka, the indri has the title of the largest living lemur. It is diurnal, arboreal and, like all lemurs, endemic to eastern Madagascar.",
-      price: "From $1000/pax",
-      location: "Itinerary",
-      timer: "4 Days",
-      learnMore: "/indri-encouter",
-      slug: "#route-indri-encouters",
-    },
-    {
-      title: "Eastern wonder",
-      img: EasternWonder,
-      description:
-        "The eastern part of Madagascar is known for its humid climate and the rains are very frequent. It still shelters the majority of the primary forests of Madagascar and not to forget the various species of lemurs which are almost endemic to Madagascar.",
-      price: "From $1680/pax",
-      location: "Itinerary",
-      timer: "7 Days",
-      learnMore: "/eastern-wonder",
-      slug: "#route-eastern-wonder",
-    },
-    {
-      title: "Diving Tour",
-      img: DivingTour,
-      description:
-        "Let yourself be carried away in the seaside resort of Madagascar, Nosy Be is a paradise island that offers a picturesque landscape for diving lovers, it is an ideal place to enjoy diving.",
-      price: "From $2160/pax",
-      location: "Itinerary",
-      timer: "9 Days",
-      learnMore: "/diving-tour",
-      slug: "#route-diving-tour",
-    },
-    {
-      title: "Dry Deciduous Birding",
-      img: DryDeciduousBirding,
-      description:
-        "The spiny and dry forest zones of Madagascar are home to a wide variety of endemic birds and lemurs while the reptile diversity is also excellent.",
-      price: "From $2640/pax",
-      location: "Itinerary",
-      timer: "11 Days",
-      learnMore: "/dry-deciduous-birding",
-      slug: "#route-dry-deciduous-birding",
-    },
-    {
-      title: "Rain Forest Birding",
-      img: RainForestBirding,
-      description:
-        "This birdwatching tour in Andasibe in the heart of the east the rainforest is a short tour but offers birders and photographs maximum satisfaction. The Andasibe Perinet Mantadia Ananalazaotra Rainforest and Primary Forest is a better bird habitat, home to 112 bird species that you can see there if we only talk about Kingfisher, Madagascar Crested Ibis, Helmeted, Nuthach Vanga, Madagascar Blue Coua, Red Fronted Coua, Madagascar Pigmy, Ground Roler, Scally Ground Roler",
-      price: "From $2400/pax",
-      location: "Itinerary",
-      timer: "10 Days",
-      learnMore: "/rainforest-birding",
-      slug: "#route-rainforest-birding",
-    },
-    {
-      title: "Vanilla Cruise",
-      img: VanillaCruise,
-      description:
-        "The Vanilla cruise allows you to enjoy the east coast of Madagascar by boat, you will discover a variety of landscapes typical of the east coast which is still home to the primary forest of Madagascar and we do not forget to visit several parks there",
-      price: "From $3192/pax",
-      location: "Itinerary",
-      timer: "14 Days",
-      learnMore: "/vanilla-cruise",
-      slug: "#route-vanilla-cruise",
-    },
-    {
-      title: "Baobab Safari",
-      img: BaobabSafari,
-      description:
-        "Let the wilderness of Morondava dazzle you! You will be amazed by the landscape and the Baobab Alley, not only that you will visit the Tsingy which is one of the most impressive Natural Geo-Structure you will see. Don’t hesitate anymore, we will wait you then.",
-      price: "From $1680/pax",
-      location: "Itinerary",
-      timer: "7 Days",
-      learnMore: "/safari",
-      slug: "#route-safari",
-    },
-    {
-      title: "Mada Northern Safari",
-      img: MadaNorthernSafari,
-      description:
-        "The North is full of mystery and Beautiful landscape with one of the clearest beach in Madagascar that is Diego Suarez Beach and Nosy Be, enjoy the local fresh seafood and the beautiful Beach. It’s normal that some celebrities have already made vacations at Nosy be, you will not be deceived!!",
-      price: "From $2160/pax",
-      location: "Itinerary",
-      timer: "9 Days",
-      learnMore: "/mada-northern-safari",
-      slug: "#route-mada-northern-safari",
-    },
-    {
-      title: "Tana Surrounding",
-      img: TanaSurrounding,
-      description:
-        "Antananarivo, the city of the Thousand, enjoy the Old architecture of the Queen Palace and the Malagasy version of the Liberty Statue the “Anjely Mainty”, Learn about this capital full of history!",
-      price: "From $1000/pax",
-      location: "Itinerary",
-      timer: "4 Days",
-      learnMore: "/tana-surrounding",
-      slug: "#route-tana-surrounding",
-    },
-    {
-      title: "Southern Trekking",
-      img: SouthernTrekking,
-      description:
-        "Discover the southern part of Madagascar with its great diversity in both culture and landscape, you will discover several national parks and get ready to trek.",
-      price: "From $3876/pax",
-      location: "Itinerary",
-      timer: "17 Days",
-      learnMore: "/southern-trekking",
-      slug: "#route-southern-trekking",
-    },
-    {
-      title: "Mada Southern Safari",
-      img: MadaSouthernSafari,
-      description:
-        "The Road to the South of Madagascar is full of Surprise, wether it is the luxurious Andasibe National Park or the city of Antsirabe which seems like an Old Picture from the Colonial Age. Let you be fascinated by the charm of Fianar and the Natural park you will see like Ranomafana and Ifaty.",
-      price: "From $2310/pax",
-      location: "Itinerary",
-      timer: "12 Days",
-      learnMore: "/mada-southern-safari",
-      slug: "#route-mada-southern-safari",
-    },
-    {
-      title: "Post Wedding Safari",
-      img: MarvellousHoneymoonSafari,
-      description:
-        "Congratulations! for your Honeymoon you will see most of the must see destination when you Travel to Madagascar, the Andasibe National park and the Full visit of Nosy Be, which have the most beautiful beach of the Island, you will not be deceived.",
-      price: "From $2420/pax",
-      location: "Itinerary",
-      timer: "10 Days",
-      learnMore: "/post-wedding-safari",
-      slug: "#route-post-wedding-safari",
-    },
-    {
-      title: "Malagasy Culture Discovery",
-      img: MalagasyCultureDiscovery,
-      description:
-        "Madagascar is fascinating due to its biodiversity but also by its cosmopolitan culture, with origins from both Asia and Africa. “The Great Island” will not fail to amaze you, and its welcoming and friendly people will accompany you into discovering its island through tradition and the know-how of its culture.",
-      price: "From $3192/pax",
-      location: "Itinerary",
-      timer: "10 Days",
-      learnMore: "/malagasy-culture-discovery",
-      slug: "#route-malagasy-culture-discovery",
-    },
-    {
-      title: "River Trip",
-      img: RiverTrip,
-      description:
-        "Embark on a boat to navigate the 400 km of successive rivers. The Pangalanes offer a total change of scenery, to live in the middle of a luxuriant vegetation containing a rich biodiversity. The locals and in particular the pirogues will accompany you in your journey to discover all the corners of the Pangalanes canal.",
-      price: "From $2400/pax",
-      location: "Itinerary",
-      timer: "10 Days",
-      learnMore: "/river-trip",
-      slug: "#route-river-trip",
-    },
-  ];
-  return (
-    <div className="Services my-5">
-      <Dialog open={open}>
-        <DialogTitle className="modalBookNow" id="staticBackdrop">
-          Booking form - Travelia Safari
-        </DialogTitle>
+    const tours = [
+        {
+            title: 'Indri Encounters',
+            img: Indri,
+            description: "The Indri, also called Babakoto, is a species of lemuriform primates belonging to the family Indriidae. With the diademed sifaka, the indri has the title of the largest living lemur. It is diurnal, arboreal and, like all lemurs, endemic to eastern Madagascar.",
+            price: "From $1000/pax",
+            location: 'Itinerary',
+            timer: "4 Days",
+            learnMore: '/indri-encouter',
+            slug: '#route-indri-encouters'
+        },
+        {
+            title: 'Eastern wonder',
+            img: EasternWonder,
+            description: "The eastern part of Madagascar is known for its humid climate and the rains are very frequent. It still shelters the majority of the primary forests of Madagascar and not to forget the various species of lemurs which are almost endemic to Madagascar.",
+            price: "From $1680/pax",
+            location: 'Itinerary',
+            timer: "7 Days",
+            learnMore: '/eastern-wonder',
+            slug: '#route-eastern-wonder'
+        },
+        {
+            title: 'Diving Tour',
+            img: DivingTour,
+            description: "Let yourself be carried away in the seaside resort of Madagascar, Nosy Be is a paradise island that offers a picturesque landscape for diving lovers, it is an ideal place to enjoy diving.",
+            price: "From $2160/pax",
+            location: 'Itinerary',
+            timer: "9 Days",
+            learnMore: '/diving-tour',
+            slug: '#route-diving-tour'
+        },
+        {
+            title: 'Dry Deciduous Birding',
+            img: DryDeciduousBirding,
+            description: "The spiny and dry forest zones of Madagascar are home to a wide variety of endemic birds and lemurs while the reptile diversity is also excellent.",
+            price: "From $2640/pax",
+            location: 'Itinerary',
+            timer: "11 Days",
+            learnMore: '/dry-deciduous-birding',
+            slug: '#route-dry-deciduous-birding'
+        },
+        {
+            title: 'Rain Forest Birding',
+            img: RainForestBirding,
+            description: "This birdwatching tour in Andasibe in the heart of the east the rainforest is a short tour but offers birders and photographs maximum satisfaction. The Andasibe Perinet Mantadia Ananalazaotra Rainforest and Primary Forest is a better bird habitat, home to 112 bird species that you can see there if we only talk about Kingfisher, Madagascar Crested Ibis, Helmeted, Nuthach Vanga, Madagascar Blue Coua, Red Fronted Coua, Madagascar Pigmy, Ground Roler, Scally Ground Roler",
+            price: "From $2400/pax",
+            location: 'Itinerary',
+            timer: "10 Days",
+            learnMore: '/rainforest-birding',
+            slug: '#route-rainforest-birding'
+        },
+        {
+            title: 'Vanilla Cruise',
+            img: VanillaCruise,
+            description: "The Vanilla cruise allows you to enjoy the east coast of Madagascar by boat, you will discover a variety of landscapes typical of the east coast which is still home to the primary forest of Madagascar and we do not forget to visit several parks there",
+            price: "From $3192/pax",
+            location: 'Itinerary',
+            timer: "14 Days",
+            learnMore: '/vanilla-cruise',
+            slug: '#route-vanilla-cruise'
+        },
+        {
+            title: 'Baobab Safari',
+            img: BaobabSafari,
+            description: "Let the wilderness of Morondava dazzle you! You will be amazed by the landscape and the Baobab Alley, not only that you will visit the Tsingy which is one of the most impressive Natural Geo-Structure you will see. Don’t hesitate anymore, we will wait you then.",
+            price: "From $1680/pax",
+            location: 'Itinerary',
+            timer: "7 Days",
+            learnMore: '/safari',
+            slug: '#route-safari'
+        },
+        {
+            title: 'Mada Northern Safari',
+            img: MadaNorthernSafari,
+            description: "The North is full of mystery and Beautiful landscape with one of the clearest beach in Madagascar that is Diego Suarez Beach and Nosy Be, enjoy the local fresh seafood and the beautiful Beach. It’s normal that some celebrities have already made vacations at Nosy be, you will not be deceived!!",
+            price: "From $2160/pax",
+            location: 'Itinerary',
+            timer: "9 Days",
+            learnMore: '/mada-northern-safari',
+            slug: '#route-mada-northern-safari'
+        },
+        {
+            title: 'Tana Surrounding',
+            img: TanaSurrounding,
+            description: "Antananarivo, the city of the Thousand, enjoy the Old architecture of the Queen Palace and the Malagasy version of the Liberty Statue the “Anjely Mainty”, Learn about this capital full of history!",
+            price: "From $1000/pax",
+            location: 'Itinerary',
+            timer: "4 Days",
+            learnMore: '/tana-surrounding',
+            slug: '#route-tana-surrounding'
+        },
+        {
+            title: 'Southern Trekking',
+            img: SouthernTrekking,
+            description: "Discover the southern part of Madagascar with its great diversity in both culture and landscape, you will discover several national parks and get ready to trek.",
+            price: "From $3876/pax",
+            location: 'Itinerary',
+            timer: "17 Days",
+            learnMore: '/southern-trekking',
+            slug: '#route-southern-trekking'
+        },
+        {
+            title: 'Mada Southern Safari',
+            img: MadaSouthernSafari,
+            description: "The Road to the South of Madagascar is full of Surprise, wether it is the luxurious Andasibe National Park or the city of Antsirabe which seems like an Old Picture from the Colonial Age. Let you be fascinated by the charm of Fianar and the Natural park you will see like Ranomafana and Ifaty.",
+            price: "From $2310/pax",
+            location: 'Itinerary',
+            timer: "12 Days",
+            learnMore: '/mada-southern-safari',
+            slug: '#route-mada-southern-safari'
+        },
+        {
+            title: 'Post Wedding Safari',
+            img: MarvellousHoneymoonSafari,
+            description: "Congratulations! for your Honeymoon you will see most of the must see destination when you Travel to Madagascar, the Andasibe National park and the Full visit of Nosy Be, which have the most beautiful beach of the Island, you will not be deceived.",
+            price: "From $2420/pax",
+            location: 'Itinerary',
+            timer: "10 Days",
+            learnMore: '/post-wedding-safari',
+            slug: '#route-post-wedding-safari'
+        },
+        {
+            title: 'Malagasy Culture Discovery',
+            img: MalagasyCultureDiscovery,
+            description: "Madagascar is fascinating due to its biodiversity but also by its cosmopolitan culture, with origins from both Asia and Africa. “The Great Island” will not fail to amaze you, and its welcoming and friendly people will accompany you into discovering its island through tradition and the know-how of its culture.",
+            price: "From $3192/pax",
+            location: 'Itinerary',
+            timer: "14 Days",
+            learnMore: '/malagasy-culture-discovery',
+            slug: '#route-malagasy-culture-discovery'
+        },
+        {
+            title: 'River Trip',
+            img: RiverTrip,
+            description: "Embark on a boat to navigate the 400 km of successive rivers. The Pangalanes offer a total change of scenery, to live in the middle of a luxuriant vegetation containing a rich biodiversity. The locals and in particular the pirogues will accompany you in your journey to discover all the corners of the Pangalanes canal.",
+            price: "From $2400/pax",
+            location: 'Itinerary',
+            timer: "10 Days",
+            learnMore: '/river-trip',
+            slug: '#route-river-trip'
+        }
+
+    ]
+    return (
+
+        <div className="Services my-5">
+            <Dialog open={open}>
 
         <DialogContent className="my-3">
           <DialogContentText className="dialogBookModal">

@@ -214,24 +214,21 @@ function RecommendedTour() {
       badge: "Recommended",
     },
 
-    {
-      title: "Malagasy Culture Discovery",
-      img: MalagasyCultureDiscovery,
-      description:
-        "Madagascar is fascinating due to its biodiversity but also by its cosmopolitan culture, with origins from both Asia and Africa. “The Great Island” will not fail to amaze you, and its welcoming and friendly people will accompany you into discovering its island through tradition and the know-how of its culture.",
-      price: "From $3192/pax",
-      location: "Southeast",
-      timer: "10 Days",
-      learnMore: "/malagasy-culture-discovery",
-      badge: "Recommended",
-    },
-  ];
-  return (
-    <div className="Services my-5">
-      <Dialog open={open}>
-        <DialogTitle className="modalBookNow" id="staticBackdrop">
-          Booking form - Travelia Safari
-        </DialogTitle>
+        {
+            title: 'Malagasy Culture Discovery',
+            img: MalagasyCultureDiscovery,
+            description: "Madagascar is fascinating due to its biodiversity but also by its cosmopolitan culture, with origins from both Asia and Africa. “The Great Island” will not fail to amaze you, and its welcoming and friendly people will accompany you into discovering its island through tradition and the know-how of its culture.",
+            price: "From $3192/pax",
+            location: 'Southeast',
+            timer: "14 Days",
+            learnMore: '/malagasy-culture-discovery',
+            badge: 'Recommended'
+        }
+    ]
+    return (
+        <div className="Services my-5">
+
+            <Dialog open={open}>
 
         <DialogContent className="my-3">
           <DialogContentText className="dialogBookModal">
