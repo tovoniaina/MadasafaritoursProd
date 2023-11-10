@@ -35,6 +35,27 @@ const Footer = () => {
               <img src={PaymentCard} alt="paymentmethod" className="payment-method" />
             </div>
 
+        {/* Start of TourRadar Reviews Widget */}
+<div dangerouslySetInnerHTML={{ __html: `
+  <script language="JavaScript" src="//www.tourradar.com/include/js/reviews_widget.js?family=bg&type=3"></script>
+  <link href="//www.tourradar.com/include/css/reviews_widget_op.css" rel="stylesheet" type="text/css">
+  <div class="badge3-tr">
+    <div class="info-tr">
+      <a href="//www.tourradar.com/o/travelia-safari" target="_blank" class="badge-link-tr">
+        <div class="name-tr">Travelia Safari</div>
+      </a>
+      <iframe id="frame" src="//www.tourradar.com/iframes/reviews_widget_bg/18142/3" width="128" height="12" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <a href="//www.tourradar.com/operators-list/" target="_blank" class="badge-link-tr">
+      <div class="footer-tr">
+        <img class="checkmark-tr" src="//www.tourradar.com/images/responsive/widgets/checkmark.png" />
+        Trusted Partner
+        <img class="logo-tr" src="//www.tourradar.com/images/responsive/widgets/logo.png" />
+      </div>
+    </a>
+  </div>
+` }} />
+
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-12">
