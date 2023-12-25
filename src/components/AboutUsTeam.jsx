@@ -59,8 +59,7 @@ function AboutUsTeam() {
           <div className="col-lg-12 col-md-12 col-sm-12">
             <h3 className="text-center">Our amazing Team</h3>
             <p className="text-center">
-              Lorem ipsum dolor sit amet consfectetur, adipisicing elit. Vel,
-              quibusdam. Ducimus soluta officisa iste eaque!
+            Meet the incredible minds behind Travelia Safari. Our team is a vibrant mix of travel enthusiasts, local experts, and creative thinkers, all dedicated to crafting unforgettable experiences in Madagascar. With a passion for exploration and a commitment to excellence, we're here to turn your travel dreams into reality. Discover the magic of Madagascar with our amazing team by your side.
             </p>
           </div>
         </div>
