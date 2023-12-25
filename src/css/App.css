@@ -115,10 +115,10 @@
 
 
 /****************NAVBAR****************/
-.logo{
+/* .logo{
   width: 200px;
   height: 90px;
-}
+} */
 
 .nestedMenu{
   color: var(--primary-white) !important;
@@ -311,12 +311,14 @@ html, body {
 }
 
 .logofooter{
-  height: 90px;
-  width: 200px;
+  margin-top: 15px;
+  height: 60px;
+  width: 250px;
   
 }
 
 .description-footer{
+  margin-top: 15px;
   text-align: justify;
   align-items: flex-end;
 }

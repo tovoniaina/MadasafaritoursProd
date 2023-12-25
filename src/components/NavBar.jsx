@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 import BookModal from './BookModal';
-import logoTop from "../images/travelia.png";
+import logoTop from "../images/travelia-safari.png";
 import NestedMenuNavbar from './NestedMenuNavbar';
 import SegmentIcon from '@mui/icons-material/Segment';
 import AutoAwesomeTwoToneIcon from '@mui/icons-material/AutoAwesomeTwoTone';
@@ -17,7 +17,7 @@ function NavBar() {
 
             <div className="container">
                 <Link className='navbar-brand' to="/">
-                    <img src={logoTop} alt="logo travelia safari" className='logo' />
+                    <img src={logoTop} alt="logo travelia safari" className='logofooter' />
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <SegmentIcon fontSize='large' className="faBarsMd" style={{ color: "var(--primary-white)" }} />

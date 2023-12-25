@@ -2,7 +2,7 @@ import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import '../css/ContactForm.css'
-import logofooter from "../images/travelia.png";
+import logofooter from "../images/travelia-safari.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
