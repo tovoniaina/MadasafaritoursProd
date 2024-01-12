@@ -228,7 +228,7 @@ function TourHighlightsCard() {
             title: 'Baobab Safari',
             img: BaobabSafari,
             description: "Let the wilderness of Morondava dazzle you! You will be amazed by the landscape and the Baobab Alley, not only that you will visit the Tsingy which is one of the most impressive Natural Geo-Structure you will see. Don’t hesitate anymore, we will wait you then.",
-            price: "From $1680/pax",
+            price: "From $1920/pax",
             location: 'Itinerary',
             timer: "7 Days",
             learnMore: '/safari',

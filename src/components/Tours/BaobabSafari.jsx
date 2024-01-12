@@ -21,7 +21,7 @@ function BaobabSafari() {
     <div className='container itineraries'>
       <h1 className='text-center'>Baobab Safari itinerary</h1>
       <div className="row">
-        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1680/pax</button> </div>
+        <div className="col price-itinerary"><button className='PriceTours btn '><MonetizationOnIcon /> Price $1920/pax</button> </div>
         <div className="col"> <BookModal /> </div>
       </div>
       
@@ -105,15 +105,32 @@ function BaobabSafari() {
           iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
           icon={<DirectionsCarIcon />}
         >
-          <h3 className="vertical-timeline-element-title">TSINGY – MORONDAVA</h3>
+          <h3 className="vertical-timeline-element-title">Bekopaka (visit to petit Tsingy + Gorge of Manambolo river)</h3>
           <p className='text-justify'>
-            After breakfast, we depart back to Morondava. There will be stops en-route including the ‘amorous baobab’, the Baobab Alley where you can have a nice photo at sunset time. Baobabs are distinctive trees adapted to thrive in harsh conditions. <br /> Overnight: Chez Maggie
+          Visiting a petit Tsingy and descending the Manambolo river in Bekopaka is an exciting adventure that offers stunning views of the unique landscape. Visitors can explore the limestone formations of the petit Tsingy and observe the diverse flora and fauna of the area. The descent of the Manambolo river provides an opportunity to view the towering cliffs that line the river and catch a glimpse of the wildlife that calls the river home. Activities to do include wildlife viewing, and enjoying the breathtaking scenery, visit 2 different caves and the vazimba tombs <br /> Overnight: Orchidée de Bemaraha Hotel
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Day 6"
+          dateClassName = "dayCounter"
+          contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
+          contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
+          iconStyle={{ background: 'var(--primary-grey)', color: '#fff' }}
+          icon={<DirectionsCarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">BEKOPAKA – BAOBAB ALLEY - MORONDAVA</h3>
+          <p className='text-justify'>
+            After breakfast, we depart back to Morondava. There will be stops en-route including the ‘amorous baobab’, the Baobab Alley where you can have a nice photo at sunset time. Baobabs are distinctive trees adapted to thrive in harsh conditions. <br /> Overnight: Chez Maggie
+          </p>
+        </VerticalTimelineElement>
+
+        
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Day 7"
           dateClassName = "dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
@@ -128,7 +145,7 @@ function BaobabSafari() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Day 7"
+          date="Day 8"
           dateClassName = "dayCounter"
           contentStyle={{ background: 'var(--primary-grey)', color: 'var(--primary-white)', border: '2px solid var(--primary-grey)' }}
           contentArrowStyle={{ borderRight: '7px solid  var(--primary-grey)' }}
