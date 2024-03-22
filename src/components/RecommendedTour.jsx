@@ -920,11 +920,11 @@ function RecommendedTour() {
                   </div>
 
                   <div className="button-action">
-                    <button type="button" className="learnMoreBtn">
-                      <Link to={`/Tour${tour.learnMore}`}>
-                        Learn more <Send />
+                    {/* <button type="a" className="learnMoreBtn" > */}
+                      <Link to={`/Tour${tour.learnMore}`} className="learnMoreButton">
+                        Learn dfdf more <Send />
                       </Link>
-                    </button>
+                    {/* </button> */}
                     <button
                       className="RequestQuoteBtn"
                       variant="contained"
